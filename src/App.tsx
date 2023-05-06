@@ -127,9 +127,9 @@ const App = () => (
         <p>
           An important aspect can be taken from these definitions: that burnout
           only occurs in the context of employment within an organisation. This
-          is important because it highlight the role of employers and workplaces
-          are necessary factors for burnout. Burnout is a consequence of a
-          malfunctioning system.
+          is important because it highlights the role of employers and
+          workplaces as necessary factors for burnout. Burnout is a consequence
+          of a malfunctioning system.
         </p>
         <br />
         <p>
@@ -151,11 +151,10 @@ const App = () => (
       <p>
         Many associate burnout with the feeling of being exhausted, not having
         the energy to accomplish basic tasks. But exhaustion is but one of the
-        facets of burnout. Maslach’s research uncovered three basic dimensions
-        from the burnout experience.{" "}
+        facets of burnout.
       </p>
-      <div className="flex my-12 items-center">
-        <div className="w-fit mr-8">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ExhaustionColSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Exhaustion
@@ -172,8 +171,8 @@ const App = () => (
         </p>
       </div>
 
-      <div className="flex my-12 items-center">
-        <div className="w-fit mr-8">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <CynicismColSVG />
           <h4 className="bg-red-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Cynicism
@@ -191,8 +190,8 @@ const App = () => (
           </div>
         </p>
       </div>
-      <div className="flex my-12 items-center">
-        <div className="w-fit mr-8">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <InefficacyColSVG />
           <h4 className="bg-amber-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Inefficacy
@@ -219,6 +218,7 @@ const App = () => (
         text
       </p>
     </Parallax>
+    <footer></footer>
   </>
 );
 
