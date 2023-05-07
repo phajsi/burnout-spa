@@ -7,6 +7,7 @@ import {
   InefficacyColSVG,
   BurnoutLogoSVG,
 } from "../assets/";
+import FreudenbergCol1SVG from "../assets/FreudenbergCol1SVG";
 
 const styles = {
   centerCSS:
@@ -54,11 +55,21 @@ const Burnout = () => (
         </p>
       </div>
     </Parallax>
-    <Parallax speed={10}>
-      <div className="flex mt-8 justify-center items-center h-96">
-        <FreudenbergSVG />
+    {/* Freudenberg cool effect */}
+    <div className="w-52 h-72 m-12 mx-auto">
+      <div className="relative flex justify-center">
+        <Parallax speed={12}>
+          <div className={`${styles.centerCSS}` + " -z-10 mt-10"}>
+            <FreudenbergCol1SVG />
+          </div>
+        </Parallax>
+        <Parallax speed={8}>
+          <div className={`${styles.centerCSS}` + " z-10"}>
+            <FreudenbergSVG />
+          </div>
+        </Parallax>
       </div>
-    </Parallax>
+    </div>
     <Parallax speed={-4}>
       <div className="mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
         <p>
