@@ -6,6 +6,9 @@ import {
   CynicismColSVG,
   InefficacyColSVG,
   BurnoutLogoSVG,
+  GitHubIcon,
+  LinkedInIcon,
+  LinkIcon,
 } from "../assets/";
 import FreudenbergCol1SVG from "../assets/FreudenbergCol1SVG";
 
@@ -15,7 +18,7 @@ const styles = {
 };
 
 const Burnout = () => (
-  <>
+  <div className="">
     <header className="flex h-screen relative justify-center ">
       <Parallax speed={2}>
         <div className={"z-10 bg-cyan-900 h-32 w-80" + `${styles.centerCSS}`} />
@@ -39,7 +42,7 @@ const Burnout = () => (
     </header>
 
     <Parallax speed={-4}>
-      <div className=" mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
+      <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <p>
           In the 1960s and 1970s, a movement originated in the US to provide
           free medical treatment to individuals with no health insurance, the
@@ -71,7 +74,7 @@ const Burnout = () => (
       </div>
     </div>
     <Parallax speed={-4}>
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
+      <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <p>
           A psychologist named Herbert Freudenberg, who worked in these clinics,
           observed that the workers were becoming depressed, apathetic, and
@@ -80,6 +83,7 @@ const Burnout = () => (
           in the movement. Freudenberg later wrote several academic papers on
           this phenomenon.
         </p>
+        <br />
         <p>
           Hi there! You might have come across this page because you personally
           experienced burnout, are uncertain if how you’re feeling constitutes
@@ -99,7 +103,7 @@ const Burnout = () => (
       </div>
     </Parallax>
     <Parallax speed={-4}>
-      <div className=" mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
+      <div className=" mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <p>
           Only recently has the World Health Organisation, WHO, added burnout to
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
@@ -139,8 +143,8 @@ const Burnout = () => (
           An important aspect can be taken from these definitions: that burnout
           only occurs in the context of employment within an organisation. This
           is important because it highlights the role of employers and
-          workplaces as necessary factors for burnout. Burnout is a consequence
-          of a malfunctioning system.
+          workplaces as necessary factors for burnout. Burnout being a
+          consequence of a malfunctioning system.
         </p>
         <br />
         <p>
@@ -150,15 +154,31 @@ const Burnout = () => (
           burnt out people, not only the individuals must be helped, but the
           workplace as well.
         </p>
+
+        <br />
+        <p>
+          To not only focus on the negative, it is interesting to note that job
+          engagement, defined as
+          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-cyan-800">
+            <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-neutral-200">
+              an energetic state of involvement with personally fulfilling
+              activities that enhance one's sense of professional efficacy
+            </p>
+          </blockquote>
+          is considered as being the opposite state of burnout. Having
+          engagement as a desired outcome in the workplace in the back of our
+          minds, helps us think about the factors in the workplace that we
+          should strive for, and that gives us energy and enjoyment.
+        </p>
       </div>
     </Parallax>
     <Parallax speed={-2}>
-      <div className="my-12 mx-auto w-3/4 text-neutral-200 font-bold capitalize text-2xl">
+      <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3>Burnout Dimensions </h3>
       </div>
     </Parallax>
 
-    <div className="mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <p>
         Many associate burnout with the feeling of being exhausted, not having
         the energy to accomplish basic tasks. But exhaustion is but one of the
@@ -222,14 +242,75 @@ const Burnout = () => (
     </div>
 
     <Parallax speed={-2}>
-      <div className="my-12 mx-auto w-3/4 text-neutral-200 font-bold capitalize text-2xl">
-        <h3>Consequences </h3>
+      <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
+        <h3>Why is Burnout Bad? </h3>
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 place-items-center">
-        text
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Burnout acts as a mediator of both work and personal health outcomes.
       </p>
+      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+        Health
+      </h4>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        The exhaustion dimension of burnout, being the closest related to stress
+        is also the one most predictive of stress-related health outcomes.
+        Exhaustion has been found to correlate with stress symptoms like{" "}
+        <b className="text-lg">headaches</b>,{" "}
+        <b className="text-lg">chronic fatigue</b>,{" "}
+        <b className="text-lg">gastrointestinal disorders</b>,{" "}
+        <b className="text-lg">muscle tension</b>,{" "}
+        <b className="text-lg">hypertension</b>,{" "}
+        <b className="text-lg">cold/flu episodes</b> and{" "}
+        <b className="text-lg">changes in sleep patterns</b>. Workload and
+        exhaustion has also been found to correlate with{" "}
+        <b className="text-lg">incidences of workplace injuries</b>, and burnout
+        has been linked to unhealthy lifestyles like{" "}
+        <b className="text-lg">smoking, alcohol and drug use</b>.{" "}
+      </p>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Mental health wise, burnout has been found to be predictive of{" "}
+        <b className="text-lg">depression and anxiety</b>. For example, a
+        Finnish study on burnout found that 90 percent of the those with severe
+        burnout reported having physical or mental diseases like musculoskeletal
+        pain and depression as the most common problems. Other research has also
+        found burnout predictive of the emergence of{" "}
+        <b className="text-lg">cardiovascular problems, type 2 diabetes</b> and
+        a links between burnout and{" "}
+        <b className="text-lg">inflammation biomarkers</b>.
+      </p>
+      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+        Work
+      </h4>
+      <p className="mx-auto text-cyan-100 my-4 mb-40 w-3/4 lg:w-2/4 place-items-center"></p>
     </Parallax>
-  </>
+    <footer className="w-full p-4 bg-slate-950 ">
+      <div className="w-3/4 lg:w-2/4 m-auto flex sm:justify-end justify-center">
+        <div className="group flex relative">
+          <button
+            type="button"
+            className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
+          >
+            <LinkIcon />
+          </button>
+          <span className="whitespace-nowrap group-hover:opacity-100 transition-opacity bg-gray-800 px-6 py-1 font-mono text-lg text-white rounded-lg absolute left-1/2 -translate-x-1/2 -translate-y-16 opacity-0 m-4 mx-auto">
+            Links & References
+          </span>
+        </div>
+        <button
+          type="button"
+          className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
+        >
+          <LinkedInIcon />
+        </button>
+        <button
+          type="button"
+          className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
+        >
+          <GitHubIcon />
+        </button>
+      </div>
+    </footer>
+  </div>
 );
 
 export default Burnout;

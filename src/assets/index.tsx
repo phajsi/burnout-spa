@@ -4,3 +4,6 @@ export { default as CynicismColSVG } from "./CynicismColSVG";
 export { default as InefficacyColSVG } from "./InefficacyColSVG";
 export { default as BurnoutLogoSVG } from "./BurnoutLogoSVG";
 export { default as BurnoutLogoIconSVG } from "./BurnoutLogoIconSVG";
+export { default as GitHubIcon } from "./GitHubIcon";
+export { default as LinkedInIcon } from "./LinkedInIcon";
+export { default as LinkIcon } from "./LinkIcon";
