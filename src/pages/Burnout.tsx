@@ -6,26 +6,25 @@ import {
   CynicismColSVG,
   InefficacyColSVG,
   BurnoutLogoSVG,
-  GitHubIcon,
-  LinkedInIcon,
-  LinkIcon,
 } from "../assets/";
 import FreudenbergCol1SVG from "../assets/FreudenbergCol1SVG";
+import Footer from "../components/Footer";
 
 const styles = {
-  centerCSS:
+  center:
     " absolute top-2/3 right-0 translate-x-1/2 translate-y-1/2 text-center ",
+  bold: "text-neutral-200 text-lg",
 };
 
 const Burnout = () => (
   <div className="">
     <header className="flex h-screen relative justify-center ">
       <Parallax speed={2}>
-        <div className={"z-10 bg-cyan-900 h-32 w-80" + `${styles.centerCSS}`} />
+        <div className={"z-10 bg-cyan-900 h-32 w-80" + `${styles.center}`} />
       </Parallax>
       <Parallax speed={30}>
         {/*  Add svg element inside div */}
-        <div className={"z-0 translate-y-48" + `${styles.centerCSS}`}>
+        <div className={"z-0 translate-y-48" + `${styles.center}`}>
           <BurnoutLogoSVG />
         </div>
       </Parallax>
@@ -33,7 +32,7 @@ const Burnout = () => (
         <h1
           className={
             "text-neutral-200 font-bold capitalize w-max text-2xl sm:text-4xl font-mono underline z-20" +
-            `${styles.centerCSS}`
+            `${styles.center}`
           }
         >
           Burnout in Tech
@@ -62,12 +61,12 @@ const Burnout = () => (
     <div className="w-52 h-72 m-12 mx-auto">
       <div className="relative flex justify-center">
         <Parallax speed={12}>
-          <div className={`${styles.centerCSS}` + " -z-10 mt-10"}>
+          <div className={`${styles.center}` + " -z-10 mt-10"}>
             <FreudenbergCol1SVG />
           </div>
         </Parallax>
         <Parallax speed={8}>
-          <div className={`${styles.centerCSS}` + " z-10"}>
+          <div className={`${styles.center}` + " z-10"}>
             <FreudenbergSVG />
           </div>
         </Parallax>
@@ -255,61 +254,86 @@ const Burnout = () => (
         The exhaustion dimension of burnout, being the closest related to stress
         is also the one most predictive of stress-related health outcomes.
         Exhaustion has been found to correlate with stress symptoms like{" "}
-        <b className="text-lg">headaches</b>,{" "}
-        <b className="text-lg">chronic fatigue</b>,{" "}
-        <b className="text-lg">gastrointestinal disorders</b>,{" "}
-        <b className="text-lg">muscle tension</b>,{" "}
-        <b className="text-lg">hypertension</b>,{" "}
-        <b className="text-lg">cold/flu episodes</b> and{" "}
-        <b className="text-lg">changes in sleep patterns</b>. Workload and
-        exhaustion has also been found to correlate with{" "}
-        <b className="text-lg">incidences of workplace injuries</b>, and burnout
-        has been linked to unhealthy lifestyles like{" "}
-        <b className="text-lg">smoking, alcohol and drug use</b>.{" "}
+        <b className={`${styles.bold}`}>headaches</b>,{" "}
+        <b className={`${styles.bold}`}>chronic fatigue</b>,{" "}
+        <b className={`${styles.bold}`}>gastrointestinal disorders</b>,{" "}
+        <b className={`${styles.bold}`}>muscle tension</b>,{" "}
+        <b className={`${styles.bold}`}>hypertension</b>,{" "}
+        <b className={`${styles.bold}`}>cold/flu episodes</b> and{" "}
+        <b className={`${styles.bold}`}>changes in sleep patterns</b>. Workload
+        and exhaustion has also been found to correlate with{" "}
+        <b className={`${styles.bold}`}>incidences of workplace injuries</b>,
+        and burnout has been linked to unhealthy lifestyles like{" "}
+        <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
       </p>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         Mental health wise, burnout has been found to be predictive of{" "}
-        <b className="text-lg">depression and anxiety</b>. For example, a
-        Finnish study on burnout found that 90 percent of the those with severe
-        burnout reported having physical or mental diseases like musculoskeletal
-        pain and depression as the most common problems. Other research has also
-        found burnout predictive of the emergence of{" "}
-        <b className="text-lg">cardiovascular problems, type 2 diabetes</b> and
-        a links between burnout and{" "}
-        <b className="text-lg">inflammation biomarkers</b>.
+        <b className={`${styles.bold}`}>depression and anxiety</b>. For example,
+        a Finnish study on burnout found that 90 percent of the those with
+        severe burnout reported having physical or mental diseases like
+        musculoskeletal pain and depression as the most common problems. Other
+        research has also found burnout predictive of the emergence of{" "}
+        <b className={`${styles.bold}`}>
+          cardiovascular problems, type 2 diabetes
+        </b>{" "}
+        and a links between burnout and{" "}
+        <b className={`${styles.bold}`}>inflammation biomarkers</b>.
       </p>
       <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
         Work
       </h4>
-      <p className="mx-auto text-cyan-100 my-4 mb-40 w-3/4 lg:w-2/4 place-items-center"></p>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Burnout is linked to various adverse reactions to work, including job
+        dissatisfaction, low commitment to the organization, absenteeism,
+        intention to quit the job, and employee turnover. Those experiencing
+        burnout can also have a negative impact on their colleagues by causing
+        personal conflicts or disrupting job tasks. Poor job performance is one
+        of the most significant consequences of burnout in the workplace, which
+        could have severe consequences in certain professions, even leading to
+        fatal outcomes.{" "}
+      </p>{" "}
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        It is important to note that employee engagement, the opposite of
+        burnout, is incredibly powerful and important for organisations
+        thriving.
+      </p>{" "}
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Research into high performing organisations in software development has
+        shown that employee engagement and satisfaction are indicative of
+        employee loyalty and identity, they can help reduce the likelihood of
+        burnout while driving key organizational outcomes such as profitability,
+        productivity, and market share. In fact, employees in high-performing
+        teams were twice as likely to recommend their organization to a friend
+        as a great place to work.
+      </p>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Moreover, employee engagement doesn't just benefit the workers; it can
+        drive business outcomes as well. Research has found significant
+        correlations between engagement and how well organizations collect and
+        utilize customer feedback, as well as the ability of teams to visualize
+        and understand the development process from start to finish. Engagement
+        is also linked to how much employees align with their workplace's values
+        and goals, and how much effort they're willing to put in to ensure the
+        organization's success.
+      </p>
     </Parallax>
-    <footer className="w-full p-4 bg-slate-950 ">
-      <div className="w-3/4 lg:w-2/4 m-auto flex sm:justify-end justify-center">
-        <div className="group flex relative">
-          <button
-            type="button"
-            className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
-          >
-            <LinkIcon />
-          </button>
-          <span className="whitespace-nowrap group-hover:opacity-100 transition-opacity bg-gray-800 px-6 py-1 font-mono text-lg text-white rounded-lg absolute left-1/2 -translate-x-1/2 -translate-y-16 opacity-0 m-4 mx-auto">
-            Links & References
-          </span>
-        </div>
-        <button
-          type="button"
-          className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
-        >
-          <LinkedInIcon />
-        </button>
-        <button
-          type="button"
-          className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
-        >
-          <GitHubIcon />
-        </button>
+    <Parallax speed={-4}>
+      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <h2> Areas of Worklife Balance </h2>
       </div>
-    </footer>
+    </Parallax>
+    <Parallax>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices,
+        ante a sagittis tempor, elit nunc pretium diam, sed commodo augue velit
+        eu elit. Duis malesuada vel mauris sit amet cursus. Aenean tempus elit
+        nec justo tempor ultrices. Duis et condimentum dolor, vitae iaculis
+        odio. Vivamus in velit urna. Suspendisse maximus est urna, quis feugiat
+        massa dignissim id. Suspendisse non massa aliquet, vehicula ex a, rutrum
+        justo. Aliquam quis orci in libero efficitur lobortis.
+      </p>
+    </Parallax>
+    <Footer />
   </div>
 );
 
