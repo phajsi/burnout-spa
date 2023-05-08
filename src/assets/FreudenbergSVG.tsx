@@ -1,4 +1,4 @@
-const FreudenbergSVG: any = () => {
+const FreudenbergSVG = () => {
   return (
     <svg
       width="176"

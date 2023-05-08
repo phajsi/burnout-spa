@@ -1,4 +1,4 @@
-const ExhaustionColSVG: any = () => {
+const ExhaustionColSVG = () => {
   return (
     <svg
       width="100"

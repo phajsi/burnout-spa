@@ -6,15 +6,18 @@ import {
   CynicismColSVG,
   InefficacyColSVG,
   BurnoutLogoSVG,
+  FreudenbergCol1SVG,
+  ControlSVG,
+  PhisycalHealthSVG,
+  MentalHealthSVG,
+  LifestyleSVG,
+  RewardSVG,
+  CommunitySVG,
+  FairnessSVG,
+  ValuesSVG,
+  WorkloadSVG,
 } from "../assets/";
-import FreudenbergCol1SVG from "../assets/FreudenbergCol1SVG";
 import Footer from "../components/Footer";
-import ControlSVG from "../assets/ControlSVG";
-import RewardSVG from "../assets/RewardSVG";
-import CommunitySVG from "../assets/CommunitySVG";
-import FairnessSVG from "../assets/FairnessSVG";
-import ValuesSVG from "../assets/ValuesSVG";
-import WorkloadSVG from "../assets/WorkloadSVG";
 
 const styles = {
   center:
@@ -46,6 +49,7 @@ const Burnout = () => (
       </Parallax>
     </header>
 
+    {/* INTRO */}
     <Parallax speed={-4}>
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <p>
@@ -102,6 +106,8 @@ const Burnout = () => (
         </p>
       </div>
     </Parallax>
+
+    {/* Part 1: WHAT IS BURNOUT */}
     <Parallax speed={-2}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
         <h2> What is Burnout? </h2>
@@ -177,6 +183,8 @@ const Burnout = () => (
         </p>
       </div>
     </Parallax>
+
+    {/*  Part 1.1 - DIMENSIONS */}
     <Parallax speed={-2}>
       <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3>Burnout Dimensions </h3>
@@ -246,6 +254,7 @@ const Burnout = () => (
       </div>
     </div>
 
+    {/* Part 1.2 - CONSEQUENCES */}
     <Parallax speed={-2}>
       <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3>Why is Burnout Bad? </h3>
@@ -285,6 +294,13 @@ const Burnout = () => (
         and a links between burnout and{" "}
         <b className={`${styles.bold}`}>inflammation biomarkers</b>.
       </p>
+      <Parallax speed={4}>
+        <div className="mx-auto my-12 w-3/4 lg:w-2/4 flex justify-evenly">
+          <PhisycalHealthSVG />
+          <MentalHealthSVG />
+          <LifestyleSVG />
+        </div>
+      </Parallax>
       <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
         Work
       </h4>
@@ -323,6 +339,8 @@ const Burnout = () => (
         organization's success.
       </p>
     </Parallax>
+
+    {/* Part 2 - AREAS OF WORKLIFE BALANCE */}
     <Parallax speed={0}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
         <h2> Areas of Worklife Balance </h2>
@@ -412,21 +430,15 @@ const Burnout = () => (
           </h4>
         </div>
         <p>
-          Lorem{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            exhaustion.
-          </span> */}{" "}
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adi
-          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
-          </div> */}
+          It is important to feel that the rewards we receive, whether they are
+          monetary, social, or intrinsic, match our expectations. Research has
+          found that inadequate rewards can make people more susceptible to
+          burnout. Lack of recognition from those around us are associated with
+          feelings of inefficacy, and if we feel neglected by the organization's
+          reward system, we may feel disconnected with it’s values. On the other
+          hand, acknowledging and rewarding good work has been identified as a
+          direct, effective and inexpensive way to prevent burnout and increase
+          engagement.
         </p>
       </div>
     </div>

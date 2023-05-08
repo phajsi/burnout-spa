@@ -1,4 +1,4 @@
-const BurnoutLogoIconSVG: any = () => {
+const BurnoutLogoIconSVG = () => {
   return (
     <svg
       width="32"
