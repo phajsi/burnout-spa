@@ -19,7 +19,7 @@ import WorkloadSVG from "../assets/WorkloadSVG";
 const styles = {
   center:
     " absolute top-2/3 right-0 translate-x-1/2 translate-y-1/2 text-center ",
-  bold: "text-neutral-200 text-lg",
+  bold: "text-neutral-200",
 };
 
 const Burnout = () => (
@@ -289,14 +289,14 @@ const Burnout = () => (
         Work
       </h4>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Burnout is linked to various adverse reactions to work, including job
-        dissatisfaction, low commitment to the organization, absenteeism,
-        intention to quit the job, and employee turnover. Those experiencing
-        burnout can also have a negative impact on their colleagues by causing
-        personal conflicts or disrupting job tasks. Poor job performance is one
-        of the most significant consequences of burnout in the workplace, which
-        could have severe consequences in certain professions, even leading to
-        fatal outcomes.{" "}
+        Burnout is associated with several forms of negative responses to work,
+        including job dissatisfaction, low commitment to the organization,
+        absenteeism, intention to quit the job, and employee turnover. Those
+        experiencing burnout can also have a negative impact on their colleagues
+        by causing personal conflicts or disrupting job tasks. Poor job
+        performance is one of the most significant consequences of burnout in
+        the workplace, which could have severe consequences in certain
+        professions, even leading to fatal outcomes.{" "}
       </p>{" "}
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         It is important to note that employee engagement, the opposite of
@@ -351,7 +351,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <WorkloadSVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Workload
           </h4>
         </div>
@@ -364,7 +364,8 @@ const Burnout = () => (
           It's not just the amount of work that matters, but also the quality of
           the work. Doing work that is outside the scope of one's job can be
           particularly draining. Work overload can deplete a person's energy,
-          and without time to recover, the exhaustion can continue.
+          but with the chance to recover, the energy can be recharged keeping
+          exhaustion at bay, without time to recover the exhaustion continues.
           {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
             Typical feelings of inefficacy are feeling that there's no future,
             feeling stuck.{" "}
@@ -378,27 +379,26 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ControlSVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Control
           </h4>
         </div>
-        <p>
-          Lorem{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            exhaustion.
-          </span> */}{" "}
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adi
-          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
-          </div> */}
-        </p>
+        <div>
+          <p>
+            It is vital for job satisfaction and commitment that workers have
+            the ability to influence decisions on how they perform their tasks,
+            exercise professional autonomy, and access necessary resources to do
+            their job effectively. Problematic aspects of job control arises
+            when there is role conflict and role ambiguity.
+          </p>
+          <br />
+          <p>
+            In situations when workload increases, having greater clarity on
+            what is expected, more control and access to resources on how to
+            carry out tasks, can help balance out the increasing job demands and
+            prevent exhaustion.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -407,7 +407,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <RewardSVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Reward
           </h4>
         </div>
@@ -436,7 +436,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <CommunitySVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Community
           </h4>
         </div>
@@ -465,7 +465,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <FairnessSVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Fairness
           </h4>
         </div>
@@ -494,7 +494,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ValuesSVG />
-          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Values
           </h4>
         </div>
@@ -517,6 +517,50 @@ const Burnout = () => (
         </p>
       </div>
     </div>
+    <Parallax speed={0}>
+      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <h2> Person vs Organizational Characteristics</h2>
+      </div>
+    </Parallax>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+
+    <Parallax speed={0}>
+      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <h2> Job demands in tech</h2>
+      </div>
+    </Parallax>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+
+    <Parallax speed={0}>
+      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <h2> Leadership styles</h2>
+      </div>
+    </Parallax>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
 
     <Footer />
   </div>
