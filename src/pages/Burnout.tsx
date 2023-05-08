@@ -283,22 +283,59 @@ const Burnout = () => (
       </p>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         Mental health wise, burnout has been found to be predictive of{" "}
-        <b className={`${styles.bold}`}>depression and anxiety</b>. For example,
-        a Finnish study on burnout found that 90 percent of the those with
-        severe burnout reported having physical or mental diseases like
-        musculoskeletal pain and depression as the most common problems. Other
-        research has also found burnout predictive of the emergence of{" "}
+        <b className={`${styles.bold}`}>depression and anxiety</b>. A Finnish
+        study on burnout found that 90 percent of the those with severe burnout
+        reported having physical or mental diseases like{" "}
+        <b className={`${styles.bold}`}>
+          {" "}
+          musculoskeletal pain and depression{" "}
+        </b>
+        as the most common problems. Other research has also found burnout
+        predictive of the emergence of{" "}
         <b className={`${styles.bold}`}>
           cardiovascular problems, type 2 diabetes
         </b>{" "}
         and a links between burnout and{" "}
         <b className={`${styles.bold}`}>inflammation biomarkers</b>.
       </p>
-      <Parallax speed={4}>
+      <Parallax speed={10}>
         <div className="mx-auto my-12 w-3/4 lg:w-2/4 flex justify-evenly">
-          <PhisycalHealthSVG />
-          <MentalHealthSVG />
-          <LifestyleSVG />
+          <div className="group">
+            <div className="">
+              <PhisycalHealthSVG />{" "}
+            </div>
+            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-base text-xs whitespace-nowrap">
+              <li>- headaches</li>
+              <li>- chronic fatigue</li>
+              <li>- gastrointestinal issues</li>
+              <li>- muscle tension</li>
+              <li>- hypertension</li>
+              <li>- cold/flu episodes</li>
+              <li>- sleep changes</li>
+              <li>- workplace injuries</li>
+              <li>- musculoskeletal pain</li>
+              <li>- cardiovascular problems</li>
+              <li>- type 2 diabetes</li>
+              <li>- inflammation biomarkers</li>
+            </ul>
+          </div>
+          <div className="group">
+            <div className="">
+              <MentalHealthSVG />
+            </div>
+            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-base text-xs whitespace-nowrap">
+              <li>- depression</li>
+              <li>- anxiety</li>
+            </ul>
+          </div>
+          <div className="group">
+            <LifestyleSVG />
+            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-base text-xs whitespace-nowrap">
+              <li>- smoking</li>
+              <li>- alcohol use</li>
+              <li>- drug use</li>
+            </ul>
+          </div>
         </div>
       </Parallax>
       <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
@@ -306,14 +343,24 @@ const Burnout = () => (
       </h4>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         Burnout is associated with several forms of negative responses to work,
-        including job dissatisfaction, low commitment to the organization,
-        absenteeism, intention to quit the job, and employee turnover. Those
-        experiencing burnout can also have a negative impact on their colleagues
-        by causing personal conflicts or disrupting job tasks. Poor job
-        performance is one of the most significant consequences of burnout in
-        the workplace, which could have severe consequences in certain
-        professions, even leading to fatal outcomes.{" "}
-      </p>{" "}
+        including{" "}
+        <b className={`${styles.bold}`}>
+          job dissatisfaction, low commitment to the organization, absenteeism,
+          intention to quit the job, and employee turnover
+        </b>
+        . Those experiencing burnout can also have a{" "}
+        <b className={`${styles.bold}`}>
+          negative impact on their colleagues by causing personal conflicts or
+          disrupting job tasks
+        </b>
+        . <b className={`${styles.bold}`}>Poor job performance </b>is one of the
+        most significant consequences of burnout in the workplace, which could
+        have severe consequences in certain professions, even leading to fatal
+        outcomes.{" "}
+      </p>
+      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+        Job Engagement
+      </h4>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         It is important to note that employee engagement, the opposite of
         burnout, is incredibly powerful and important for organisations
@@ -452,23 +499,25 @@ const Burnout = () => (
             Community
           </h4>
         </div>
-        <p>
-          Lorem{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            exhaustion.
-          </span> */}{" "}
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adi
-          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
-          </div> */}
-        </p>
+        <div>
+          <p>
+            The social interactions in the workplace, conflicts, mutual support,
+            closeness and teamwork, all affect the social aspect of work.
+            <br />
+            Two types of support at work have been identified: informal support
+            from coworkers, which is closely related to feelings of efficacy,
+            and supervisor support, which is linked to exhaustion, reflecting
+            the impact that supervisors have on workload. Social support in
+            general is associated with higher engagement.
+          </p>
+          <br />
+          <p>
+            In addition, a sense of community in the workplace is important as
+            well, as it has been found to alleviate feelings of inequality.
+            Conversely, if workplace relationships become toxic, burnout is
+            likely to occur.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -482,21 +531,14 @@ const Burnout = () => (
           </h4>
         </div>
         <p>
-          Lorem{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            exhaustion.
-          </span> */}{" "}
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adi
-          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
-          </div> */}
+          Fairness shares qualities with community and reward. The extent to
+          which the workplaces decisions are perceived as fair and equitable are
+          important. Research has shown that people are more concerned with the
+          fairness of the process, when decisions are made. The experience of
+          injustice is strongly associated with the exhaustion and cynicism
+          dimensions, and those who experience it feel alienated from the
+          community. On the contrary, for decisions to be fair people need to
+          present their arguments and be treated with respect and politeness.
         </p>
       </div>
     </div>
@@ -511,21 +553,13 @@ const Burnout = () => (
           </h4>
         </div>
         <p>
-          Lorem{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            exhaustion.
-          </span> */}{" "}
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adi
-          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
-          </div> */}
+          Values are the ideals and motivation between people and their
+          workplace. Value conflicts can be making a trade-off between work you
+          wnat to do, and the actual work; it can be having to do things on the
+          job that don’t go with their own values or being caught between
+          conflicting values in a workplace. Research has found that value
+          conflicts and work overload are the two most relevant factors for
+          employees experience of burnout.
         </p>
       </div>
     </div>
