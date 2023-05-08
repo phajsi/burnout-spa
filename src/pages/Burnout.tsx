@@ -9,6 +9,12 @@ import {
 } from "../assets/";
 import FreudenbergCol1SVG from "../assets/FreudenbergCol1SVG";
 import Footer from "../components/Footer";
+import ControlSVG from "../assets/ControlSVG";
+import RewardSVG from "../assets/RewardSVG";
+import CommunitySVG from "../assets/CommunitySVG";
+import FairnessSVG from "../assets/FairnessSVG";
+import ValuesSVG from "../assets/ValuesSVG";
+import WorkloadSVG from "../assets/WorkloadSVG";
 
 const styles = {
   center:
@@ -127,7 +133,7 @@ const Burnout = () => (
             </p>
           </blockquote>{" "}
           Her work led to the identification of three burnout dimensions:{" "}
-          <span className="bg-teal-800 p-2 rounded-md leading-10">
+          <span className="bg-sky-800 p-2 rounded-md leading-10">
             Exhaustion
           </span>
           ,{" "}
@@ -186,7 +192,7 @@ const Burnout = () => (
       <div className="md:flex my-12 items-center">
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ExhaustionColSVG />
-          <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+          <h4 className="bg-sky-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
             Exhaustion
           </h4>
         </div>
@@ -194,7 +200,7 @@ const Burnout = () => (
           Exhaustion represents the individual dimension of burnout. It relates
           to the feeling of being stressed at work, and of being overextended
           and depleted of emotional, mental and physical resources.
-          <div className="border-2 rounded-md p-2 my-2 border-teal-800 bg-[#417E7A]">
+          <div className="border-2 rounded-md p-2 my-2 border-sky-800 bg-[#397A9D]">
             Typical signs of exhaustion are not being able to think straight,
             feeling fed up with work and just wanting to go home.
           </div>
@@ -317,22 +323,201 @@ const Burnout = () => (
         organization's success.
       </p>
     </Parallax>
-    <Parallax speed={-4}>
+    <Parallax speed={0}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
         <h2> Areas of Worklife Balance </h2>
       </div>
     </Parallax>
-    <Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices,
-        ante a sagittis tempor, elit nunc pretium diam, sed commodo augue velit
-        eu elit. Duis malesuada vel mauris sit amet cursus. Aenean tempus elit
-        nec justo tempor ultrices. Duis et condimentum dolor, vitae iaculis
-        odio. Vivamus in velit urna. Suspendisse maximus est urna, quis feugiat
-        massa dignissim id. Suspendisse non massa aliquet, vehicula ex a, rutrum
-        justo. Aliquam quis orci in libero efficitur lobortis.
-      </p>
-    </Parallax>
+    {/*  <Parallax speed={4}>
+      <div className="mx-auto my-8 w-3/4 lg:w-2/4 flex justify-between">
+        <WorkloadSVG />
+
+        <ControlSVG />
+        <RewardSVG />
+        <CommunitySVG />
+        <FairnessSVG />
+        <ValuesSVG />
+      </div>
+    </Parallax> */}
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Six key domains in worklife have been identified as situational predictors
+      of burnout. The key idea is that finding a good fit between the person and
+      their job is essential. This model identifies areas of work that can
+      impact a person's job satisfaction and engagement, or lead to burnout.
+    </p>
+
+    {/* WORKLOAD */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <WorkloadSVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Workload
+          </h4>
+        </div>
+        <p>
+          Having too much to do in too little time and with limited resources
+          can lead to{" "}
+          <span className="bg-sky-800 p-1 rounded-md leading-8">
+            exhaustion.
+          </span>{" "}
+          It's not just the amount of work that matters, but also the quality of
+          the work. Doing work that is outside the scope of one's job can be
+          particularly draining. Work overload can deplete a person's energy,
+          and without time to recover, the exhaustion can continue.
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
+    {/* CONTROL */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <ControlSVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Control
+          </h4>
+        </div>
+        <p>
+          Lorem{" "}
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
+            exhaustion.
+          </span> */}{" "}
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adi
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
+    {/* REWARD */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <RewardSVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Reward
+          </h4>
+        </div>
+        <p>
+          Lorem{" "}
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
+            exhaustion.
+          </span> */}{" "}
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adi
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
+    {/* COMMUNITY */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <CommunitySVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Community
+          </h4>
+        </div>
+        <p>
+          Lorem{" "}
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
+            exhaustion.
+          </span> */}{" "}
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adi
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
+    {/* FAIRNESS */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <FairnessSVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Fairness
+          </h4>
+        </div>
+        <p>
+          Lorem{" "}
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
+            exhaustion.
+          </span> */}{" "}
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adi
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
+    {/* VALUES */}
+    <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      <div className="md:flex my-12 items-center">
+        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <ValuesSVG />
+          <h4 className="bg-green-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+            Values
+          </h4>
+        </div>
+        <p>
+          Lorem{" "}
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
+            exhaustion.
+          </span> */}{" "}
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adi
+          {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+            Typical feelings of inefficacy are feeling that there's no future,
+            feeling stuck.{" "}
+          </div> */}
+        </p>
+      </div>
+    </div>
+
     <Footer />
   </div>
 );
