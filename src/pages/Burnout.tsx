@@ -119,8 +119,8 @@ const Burnout = () => (
           Only recently has the World Health Organisation, WHO, added burnout to
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
           WHO defines burnout as:
-          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50">
-            <p className="text-xl italic font-medium leading-relaxed text-gray-900">
+          <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
+            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
               a syndrome resulting from chronic workplace stress that has not
               been successfully managed
             </p>
@@ -132,8 +132,8 @@ const Burnout = () => (
           occupational burnout since the 70’s. The basis of her work laid the
           foundation for the WHO’s recognition of burnout as a workplace
           syndrome. Maslach defines burnout as:
-          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50">
-            <p className="text-xl italic font-medium leading-relaxed text-gray-900">
+          <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
+            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
               a psychological syndrome that involves a prolonged response to
               chronic situational stressors on the job
             </p>
