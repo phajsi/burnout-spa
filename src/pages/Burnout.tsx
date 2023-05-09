@@ -23,6 +23,7 @@ const styles = {
   center:
     " absolute top-2/3 right-0 translate-x-1/2 translate-y-1/2 text-center ",
   bold: "text-neutral-200",
+  icon_text_responsivity: "sm:flex my-24 items-center sm:my-12",
 };
 
 const Burnout = () => (
@@ -197,61 +198,69 @@ const Burnout = () => (
         the energy to accomplish basic tasks. But exhaustion is but one of the
         facets of burnout.
       </p>
-      <div className="md:flex my-12 items-center">
-        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
-          <ExhaustionColSVG />
-          <h4 className="bg-sky-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
-            Exhaustion
-          </h4>
-        </div>
-        <p>
-          Exhaustion represents the individual dimension of burnout. It relates
-          to the feeling of being stressed at work, and of being overextended
-          and depleted of emotional, mental and physical resources.
-          <div className="border-2 rounded-md p-2 my-2 border-sky-800 bg-[#397A9D]">
-            Typical signs of exhaustion are not being able to think straight,
-            feeling fed up with work and just wanting to go home.
-          </div>
-        </p>
-      </div>
 
-      <div className="md:flex my-12 items-center">
-        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
-          <CynicismColSVG />
-          <h4 className="bg-red-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
-            Cynicism
-          </h4>
-        </div>
-        <p>
-          The component of cynicism or depersonalisation represents the
-          interpersonal dimension of burnout. It involves detachment from
-          various aspects of the job, often resulting in a negative or apathetic
-          attitude.{" "}
-          <div className="border-2 rounded-md p-2 my-2 border-red-800 bg-[#AD4949]">
-            Typical feelings of cynicism are negativity or hostility towards the
-            work and coworkers, only doing the bare minimum. Not seeing the
-            value in the work anymore.
+      <Parallax speed={8}>
+        <div className={`${styles.icon_text_responsivity}`}>
+          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <ExhaustionColSVG />
+            <h4 className="bg-sky-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+              Exhaustion
+            </h4>
           </div>
-        </p>
-      </div>
-      <div className="md:flex my-12 items-center">
-        <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
-          <InefficacyColSVG />
-          <h4 className="bg-amber-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
-            Inefficacy
-          </h4>
+          <p>
+            Exhaustion represents the individual dimension of burnout. It
+            relates to the feeling of being stressed at work, and of being
+            overextended and depleted of emotional, mental and physical
+            resources.
+            <div className="border-2 rounded-md p-2 my-2 border-sky-800 bg-[#397A9D]">
+              Typical signs of exhaustion are not being able to think straight,
+              feeling fed up with work and just wanting to go home.
+            </div>
+          </p>
         </div>
-        <p>
-          The inefficacy component of burnout represents the self-evaluation
-          dimension. It refers to feelings of incompetence and a lack of
-          achievement and productivity in one’s work. It can also exacerbate
-          feelings of Imposter Syndrome.
-          <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-            Typical feelings of inefficacy are feeling that there's no future,
-            feeling stuck.{" "}
+      </Parallax>
+
+      <Parallax speed={8}>
+        <div className={`${styles.icon_text_responsivity}`}>
+          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <CynicismColSVG />
+            <h4 className="bg-red-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+              Cynicism
+            </h4>
           </div>
-        </p>
-      </div>
+          <p>
+            The component of cynicism or depersonalisation represents the
+            interpersonal dimension of burnout. It involves detachment from
+            various aspects of the job, often resulting in a negative or
+            apathetic attitude.{" "}
+            <div className="border-2 rounded-md p-2 my-2 border-red-800 bg-[#AD4949]">
+              Typical feelings of cynicism are negativity or hostility towards
+              the work and coworkers, only doing the bare minimum. Not seeing
+              the value in the work anymore.
+            </div>
+          </p>
+        </div>
+      </Parallax>
+      <Parallax speed={8}>
+        <div className={`${styles.icon_text_responsivity}`}>
+          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <InefficacyColSVG />
+            <h4 className="bg-amber-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
+              Inefficacy
+            </h4>
+          </div>
+          <p>
+            The inefficacy component of burnout represents the self-evaluation
+            dimension. It refers to feelings of incompetence and a lack of
+            achievement and productivity in one’s work. It can also exacerbate
+            feelings of Imposter Syndrome.
+            <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
+              Typical feelings of inefficacy are feeling that there's no future,
+              feeling stuck.{" "}
+            </div>
+          </p>
+        </div>
+      </Parallax>
     </div>
 
     {/* Part 1.2 - CONSEQUENCES */}
@@ -413,7 +422,7 @@ const Burnout = () => (
 
     {/* WORKLOAD */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <WorkloadSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
@@ -441,7 +450,7 @@ const Burnout = () => (
 
     {/* CONTROL */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ControlSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
@@ -469,7 +478,7 @@ const Burnout = () => (
 
     {/* REWARD */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <RewardSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
@@ -492,7 +501,7 @@ const Burnout = () => (
 
     {/* COMMUNITY */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <CommunitySVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
@@ -523,7 +532,7 @@ const Burnout = () => (
 
     {/* FAIRNESS */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <FairnessSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
@@ -545,7 +554,7 @@ const Burnout = () => (
 
     {/* VALUES */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-      <div className="md:flex my-12 items-center">
+      <div className={`${styles.icon_text_responsivity}`}>
         <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
           <ValuesSVG />
           <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
