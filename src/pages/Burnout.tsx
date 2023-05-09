@@ -119,8 +119,8 @@ const Burnout = () => (
           Only recently has the World Health Organisation, WHO, added burnout to
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
           WHO defines burnout as:
-          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-neutral-200">
+          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50">
+            <p className="text-xl italic font-medium leading-relaxed text-gray-900">
               a syndrome resulting from chronic workplace stress that has not
               been successfully managed
             </p>
@@ -132,8 +132,8 @@ const Burnout = () => (
           occupational burnout since the 70’s. The basis of her work laid the
           foundation for the WHO’s recognition of burnout as a workplace
           syndrome. Maslach defines burnout as:
-          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-neutral-200">
+          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50">
+            <p className="text-xl italic font-medium leading-relaxed text-gray-900">
               a psychological syndrome that involves a prolonged response to
               chronic situational stressors on the job
             </p>
@@ -563,8 +563,17 @@ const Burnout = () => (
         </p>
       </div>
     </div>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
     <Parallax speed={0}>
-      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+      <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit text-center">
         <h2> Person vs Organizational Characteristics</h2>
       </div>
     </Parallax>
