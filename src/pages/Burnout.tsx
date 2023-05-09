@@ -16,6 +16,7 @@ import {
   FairnessSVG,
   ValuesSVG,
   WorkloadSVG,
+  WorkSVG,
 } from "../assets/";
 import Footer from "../components/Footer";
 
@@ -49,7 +50,6 @@ const Burnout = () => (
         </h1>
       </Parallax>
     </header>
-
     {/* INTRO */}
     <Parallax speed={-4}>
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
@@ -107,7 +107,6 @@ const Burnout = () => (
         </p>
       </div>
     </Parallax>
-
     {/* Part 1: WHAT IS BURNOUT */}
     <Parallax speed={-2}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
@@ -184,14 +183,12 @@ const Burnout = () => (
         </p>
       </div>
     </Parallax>
-
     {/*  Part 1.1 - DIMENSIONS */}
     <Parallax speed={-2}>
       <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3>Burnout Dimensions </h3>
       </div>
     </Parallax>
-
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <p>
         Many associate burnout with the feeling of being exhausted, not having
@@ -220,7 +217,7 @@ const Burnout = () => (
         </div>
       </Parallax>
 
-      <Parallax speed={8}>
+      <Parallax speed={6}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
             <CynicismColSVG />
@@ -241,7 +238,7 @@ const Burnout = () => (
           </p>
         </div>
       </Parallax>
-      <Parallax speed={8}>
+      <Parallax speed={4}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
             <InefficacyColSVG />
@@ -262,58 +259,75 @@ const Burnout = () => (
         </div>
       </Parallax>
     </div>
-
     {/* Part 1.2 - CONSEQUENCES */}
     <Parallax speed={-2}>
       <div className="my-12 mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3>Why is Burnout Bad? </h3>
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Burnout acts as a mediator of both work and personal health outcomes.
-      </p>
-      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
-        Health
-      </h4>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        The exhaustion dimension of burnout, being the closest related to stress
-        is also the one most predictive of stress-related health outcomes.
-        Exhaustion has been found to correlate with stress symptoms like{" "}
-        <b className={`${styles.bold}`}>headaches</b>,{" "}
-        <b className={`${styles.bold}`}>chronic fatigue</b>,{" "}
-        <b className={`${styles.bold}`}>gastrointestinal disorders</b>,{" "}
-        <b className={`${styles.bold}`}>muscle tension</b>,{" "}
-        <b className={`${styles.bold}`}>hypertension</b>,{" "}
-        <b className={`${styles.bold}`}>cold/flu episodes</b> and{" "}
-        <b className={`${styles.bold}`}>changes in sleep patterns</b>. Workload
-        and exhaustion has also been found to correlate with{" "}
-        <b className={`${styles.bold}`}>incidences of workplace injuries</b>,
-        and burnout has been linked to unhealthy lifestyles like{" "}
-        <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
-      </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Mental health wise, burnout has been found to be predictive of{" "}
-        <b className={`${styles.bold}`}>depression and anxiety</b>. A Finnish
-        study on burnout found that 90 percent of the those with severe burnout
-        reported having physical or mental diseases like{" "}
-        <b className={`${styles.bold}`}>
-          {" "}
-          musculoskeletal pain and depression{" "}
-        </b>
-        as the most common problems. Other research has also found burnout
-        predictive of the emergence of{" "}
-        <b className={`${styles.bold}`}>
-          cardiovascular problems, type 2 diabetes
-        </b>{" "}
-        and a links between burnout and{" "}
-        <b className={`${styles.bold}`}>inflammation biomarkers</b>.
-      </p>
-      <Parallax speed={10}>
-        <div className="mx-auto my-12 w-3/4 lg:w-2/4 flex justify-evenly">
-          <div className="group">
-            <div className="">
-              <PhisycalHealthSVG />{" "}
-            </div>
-            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-base text-xs whitespace-nowrap">
+    </Parallax>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Burnout acts as a mediator of both work and personal health outcomes.
+    </p>
+    <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+      Health
+    </h4>
+    <p className="mx-auto text-cyan-100 mb-4 w-3/4 lg:w-2/4 place-items-center">
+      The exhaustion dimension of burnout, being the closest related to stress
+      is also the one most predictive of stress-related health outcomes.
+      Exhaustion has been found to correlate with stress symptoms like{" "}
+      <b className={`${styles.bold}`}>headaches</b>,{" "}
+      <b className={`${styles.bold}`}>chronic fatigue</b>,{" "}
+      <b className={`${styles.bold}`}>gastrointestinal disorders</b>,{" "}
+      <b className={`${styles.bold}`}>muscle tension</b>,{" "}
+      <b className={`${styles.bold}`}>hypertension</b>,{" "}
+      <b className={`${styles.bold}`}>cold/flu episodes</b> and{" "}
+      <b className={`${styles.bold}`}>changes in sleep patterns</b>. Workload
+      and exhaustion has also been found to correlate with{" "}
+      <b className={`${styles.bold}`}>incidences of workplace injuries</b>, and
+      burnout has been linked to unhealthy lifestyles like{" "}
+      <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
+    </p>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Mental health wise, burnout has been found to be predictive of{" "}
+      <b className={`${styles.bold}`}>depression and anxiety</b>. A Finnish
+      study on burnout found that 90 percent of the those with severe burnout
+      reported having physical or mental diseases like{" "}
+      <b className={`${styles.bold}`}> musculoskeletal pain and depression </b>
+      as the most common problems. Other research has also found burnout
+      predictive of the emergence of{" "}
+      <b className={`${styles.bold}`}>
+        cardiovascular problems, type 2 diabetes
+      </b>{" "}
+      and a links between burnout and{" "}
+      <b className={`${styles.bold}`}>inflammation biomarkers</b>.
+    </p>
+    <Parallax speed={10}>
+      <div className="mx-auto mt-12 w-3/4 lg:w-2/4 flex justify-between">
+        <div className="group">
+          <LifestyleSVG />
+          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-sm text-xs whitespace-nowrap">
+            <li>- smoking</li>
+            <li>- alcohol use</li>
+            <li>- drug use</li>
+          </ul>
+        </div>
+
+        <div className="group">
+          <div className="">
+            <MentalHealthSVG />
+          </div>
+          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-sm text-xs whitespace-nowrap">
+            <li>- depression</li>
+            <li>- anxiety</li>
+          </ul>
+        </div>
+
+        <div className="group">
+          <div className="sm:mx-12">
+            <PhisycalHealthSVG />{" "}
+          </div>
+          <div className="">
+            <ul className="group-hover:opacity-100 opacity-0 transition-all active:opacity-100 mt-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-sm text-xs whitespace-nowrap w-fit">
               <li>- headaches</li>
               <li>- chronic fatigue</li>
               <li>- gastrointestinal issues</li>
@@ -328,74 +342,58 @@ const Burnout = () => (
               <li>- inflammation biomarkers</li>
             </ul>
           </div>
-          <div className="group">
-            <div className="">
-              <MentalHealthSVG />
-            </div>
-            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-base text-xs whitespace-nowrap">
-              <li>- depression</li>
-              <li>- anxiety</li>
-            </ul>
-          </div>
-          <div className="group">
-            <LifestyleSVG />
-            <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 my-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-base text-xs whitespace-nowrap">
-              <li>- smoking</li>
-              <li>- alcohol use</li>
-              <li>- drug use</li>
-            </ul>
-          </div>
         </div>
-      </Parallax>
-      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
-        Work
-      </h4>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Burnout is associated with several forms of negative responses to work,
-        including{" "}
-        <b className={`${styles.bold}`}>
-          job dissatisfaction, low commitment to the organization, absenteeism,
-          intention to quit the job, and employee turnover
-        </b>
-        . Those experiencing burnout can also have a{" "}
-        <b className={`${styles.bold}`}>
-          negative impact on their colleagues by causing personal conflicts or
-          disrupting job tasks
-        </b>
-        . <b className={`${styles.bold}`}>Poor job performance </b>is one of the
-        most significant consequences of burnout in the workplace, which could
-        have severe consequences in certain professions, even leading to fatal
-        outcomes.{" "}
-      </p>
-      <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
-        Job Engagement
-      </h4>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        It is important to note that employee engagement, the opposite of
-        burnout, is incredibly powerful and important for organisations
-        thriving.
-      </p>{" "}
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Research into high performing organisations in software development has
-        shown that employee engagement and satisfaction are indicative of
-        employee loyalty and identity, they can help reduce the likelihood of
-        burnout while driving key organizational outcomes such as profitability,
-        productivity, and market share. In fact, employees in high-performing
-        teams were twice as likely to recommend their organization to a friend
-        as a great place to work.
-      </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Moreover, employee engagement doesn't just benefit the workers; it can
-        drive business outcomes as well. Research has found significant
-        correlations between engagement and how well organizations collect and
-        utilize customer feedback, as well as the ability of teams to visualize
-        and understand the development process from start to finish. Engagement
-        is also linked to how much employees align with their workplace's values
-        and goals, and how much effort they're willing to put in to ensure the
-        organization's success.
-      </p>
+      </div>
     </Parallax>
-
+    <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+      Work
+    </h4>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Burnout is associated with several forms of negative responses to work,
+      including{" "}
+      <b className={`${styles.bold}`}>
+        job dissatisfaction, low commitment to the organization, absenteeism,
+        intention to quit the job, and employee turnover
+      </b>
+      . Those experiencing burnout can also have a{" "}
+      <b className={`${styles.bold}`}>
+        negative impact on their colleagues by causing personal conflicts or
+        disrupting job tasks
+      </b>
+      . <b className={`${styles.bold}`}>Poor job performance </b>is one of the
+      most significant consequences of burnout in the workplace, which could
+      have severe consequences in certain professions, even leading to fatal
+      outcomes.{" "}
+    </p>
+    <div className="mx-auto w-fit my-4">
+      <WorkSVG />
+    </div>
+    <h4 className="mx-auto w-3/4 lg:w-2/4 text-neutral-200 font-bold capitalize text-xl">
+      Job Engagement
+    </h4>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      It is important to note that employee engagement, the opposite of burnout,
+      is incredibly powerful and important for organisations thriving.
+    </p>{" "}
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Research into high performing organisations in software development has
+      shown that employee engagement and satisfaction are indicative of employee
+      loyalty and identity, they can help reduce the likelihood of burnout while
+      driving key organizational outcomes such as profitability, productivity,
+      and market share. In fact, employees in high-performing teams were twice
+      as likely to recommend their organization to a friend as a great place to
+      work.
+    </p>
+    <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+      Moreover, employee engagement doesn't just benefit the workers; it can
+      drive business outcomes as well. Research has found significant
+      correlations between engagement and how well organizations collect and
+      utilize customer feedback, as well as the ability of teams to visualize
+      and understand the development process from start to finish. Engagement is
+      also linked to how much employees align with their workplace's values and
+      goals, and how much effort they're willing to put in to ensure the
+      organization's success.
+    </p>
     {/* Part 2 - AREAS OF WORKLIFE BALANCE */}
     <Parallax speed={0}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
@@ -419,7 +417,6 @@ const Burnout = () => (
       their job is essential. This model identifies areas of work that can
       impact a person's job satisfaction and engagement, or lead to burnout.
     </p>
-
     {/* WORKLOAD */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -447,7 +444,6 @@ const Burnout = () => (
         </p>
       </div>
     </div>
-
     {/* CONTROL */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -475,7 +471,6 @@ const Burnout = () => (
         </div>
       </div>
     </div>
-
     {/* REWARD */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -498,7 +493,6 @@ const Burnout = () => (
         </p>
       </div>
     </div>
-
     {/* COMMUNITY */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -529,7 +523,6 @@ const Burnout = () => (
         </div>
       </div>
     </div>
-
     {/* FAIRNESS */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -551,7 +544,6 @@ const Burnout = () => (
         </p>
       </div>
     </div>
-
     {/* VALUES */}
     <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
       <div className={`${styles.icon_text_responsivity}`}>
@@ -595,7 +587,6 @@ const Burnout = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-
     <Parallax speed={0}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
         <h2> Job demands in tech</h2>
@@ -610,7 +601,6 @@ const Burnout = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-
     <Parallax speed={0}>
       <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
         <h2> Leadership styles</h2>
@@ -625,7 +615,6 @@ const Burnout = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-
     <Footer />
   </div>
 );

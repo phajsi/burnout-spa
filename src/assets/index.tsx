@@ -15,6 +15,7 @@ export { default as LinkIcon } from "./LinkIcon";
 export { default as PhisycalHealthSVG } from "./PhysicalHealthSVG";
 export { default as MentalHealthSVG } from "./MentalHealthSVG";
 export { default as LifestyleSVG } from "./LifestyleSVG";
+export { default as WorkSVG } from "./WorkSVG";
 
 export { default as ControlSVG } from "./ControlSVG";
 export { default as RewardSVG } from "./RewardSVG";
