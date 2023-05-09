@@ -170,8 +170,8 @@ const Burnout = () => (
         <p>
           To not only focus on the negative, it is interesting to note that job
           engagement, defined as
-          <blockquote className="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-neutral-200">
+          <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
+            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
               an energetic state of involvement with personally fulfilling
               activities that enhance one's sense of professional efficacy
             </p>
