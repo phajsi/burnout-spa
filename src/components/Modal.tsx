@@ -16,7 +16,9 @@ const Modal = (props: Props) => {
           <div className="relative rounded-lg shadow ">
             {/*    <!-- Modal header --> */}
             <div className="sticky top-0 flex items-start justify-between p-4 border-b rounded-t border-gray-100 bg-cyan-900 shadow-md">
-              <h3 className="text-xl font-semibold text-white">Lorem Ipsum</h3>
+              <h3 className="text-xl font-semibold text-white">
+                Links & References
+              </h3>
               <button
                 type="button"
                 className="text-gray-400 bg-cyan-950 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-cyan-800 hover:text-white"

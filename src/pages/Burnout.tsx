@@ -24,6 +24,7 @@ import {
 } from "../assets/";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
+import JobPersonSVG from "../assets/JobPersonSVG";
 
 const styles = {
   center:
@@ -43,7 +44,6 @@ const Burnout = () => {
   return (
     <div>
       {open && <Modal openModal={() => setOpen(false)} />}
-
       <header className="flex h-screen relative justify-center ">
         <Parallax speed={2}>
           <div className={"z-10 bg-cyan-900 h-32 w-80" + `${styles.center}`} />
@@ -135,7 +135,7 @@ const Burnout = () => {
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
           WHO defines burnout as:
           <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
+            <p className="text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200">
               a syndrome resulting from chronic workplace stress that has not
               been successfully managed
             </p>
@@ -145,11 +145,11 @@ const Burnout = () => {
         <div className="w-52 h-72 m-12 mx-auto">
           <div className="relative flex justify-center">
             <Parallax speed={10}>
-              <div className={`${styles.center}` + " -z-10 mt-11"}>
+              <div className={`${styles.center}` + " -z-10 mt-12"}>
                 <MaslachColSVG />
               </div>
             </Parallax>
-            <Parallax speed={8}>
+            <Parallax speed={7}>
               <div className={`${styles.center}` + " z-10"}>
                 <MaslachSVG />
               </div>
@@ -164,13 +164,13 @@ const Burnout = () => {
           foundation for the WHO’s recognition of burnout as a workplace
           syndrome. Maslach defines burnout as:
           <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
+            <p className="text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200">
               a psychological syndrome that involves a prolonged response to
               chronic situational stressors on the job
             </p>
           </blockquote>{" "}
           Her work led to the identification of three burnout dimensions:{" "}
-          <span className="bg-sky-800 p-2 rounded-md leading-10">
+          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
             Exhaustion
           </span>
           ,{" "}
@@ -178,8 +178,7 @@ const Burnout = () => {
           and{" "}
           <span className="bg-amber-800 p-2 rounded-md leading-10">
             Inefficacy
-          </span>
-          .
+          </span> */}
         </p>
 
         <div className="w-fit m-auto my-8">
@@ -187,11 +186,10 @@ const Burnout = () => {
         </div>
 
         <p>
-          An important aspect can be taken from these definitions: that burnout
-          only occurs in the context of employment within an organisation. This
-          is important because it highlights the role of employers and
-          workplaces as necessary factors for burnout. Burnout being a
-          consequence of a malfunctioning system.
+          A key aspect emerges from the burnout definitions: burnout occurs
+          exclusively in the workplace setting, highlighting the role of
+          employers and organizations as necessary factors for burnout. Burnout
+          being the consequence of a malfunctioning system.
         </p>
         <br />
         <p>
@@ -207,7 +205,7 @@ const Burnout = () => {
           To not only focus on the negative, it is interesting to note that job
           engagement, defined as
           <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
-            <p className="text-xl italic font-medium leading-relaxed text-neutral-200">
+            <p className="text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200">
               an energetic state of involvement with personally fulfilling
               activities that enhance one's sense of professional efficacy
             </p>
@@ -364,22 +362,20 @@ const Burnout = () => {
             <div className="sm:mx-12">
               <PhisycalHealthSVG />{" "}
             </div>
-            <div className="">
-              <ul className="group-hover:opacity-100 opacity-0 transition-all active:opacity-100 mt-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-sm text-xs whitespace-nowrap w-fit">
-                <li>- headaches</li>
-                <li>- chronic fatigue</li>
-                <li>- gastrointestinal issues</li>
-                <li>- muscle tension</li>
-                <li>- hypertension</li>
-                <li>- cold/flu episodes</li>
-                <li>- sleep changes</li>
-                <li>- workplace injuries</li>
-                <li>- musculoskeletal pain</li>
-                <li>- cardiovascular problems</li>
-                <li>- type 2 diabetes</li>
-                <li>- inflammation biomarkers</li>
-              </ul>
-            </div>
+            <ul className="w-fit mx-auto group-hover:opacity-100 opacity-0 transition-all active:opacity-100 mt-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-sm text-xs whitespace-nowrap">
+              <li>- headaches</li>
+              <li>- chronic fatigue</li>
+              <li>- gastrointestinal issues</li>
+              <li>- muscle tension</li>
+              <li>- hypertension</li>
+              <li>- cold/flu episodes</li>
+              <li>- sleep changes</li>
+              <li>- workplace injuries</li>
+              <li>- musculoskeletal pain</li>
+              <li>- cardiovascular problems</li>
+              <li>- type 2 diabetes</li>
+              <li>- inflammation biomarkers</li>
+            </ul>
           </div>
         </div>
       </Parallax>
@@ -404,9 +400,11 @@ const Burnout = () => {
         outcomes.{" "}
       </p>
       <Parallax speed={10}>
-        <div className="mx-auto w-fit my-4 group">
-          <WorkSVG />
-          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap">
+        <div className="mx-auto w-3/4 lg:w-2/4 my-4 group align-center">
+          <div className="w-fit m-auto">
+            <WorkSVG />
+          </div>
+          <ul className="w-fit m-auto group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap">
             <li>- job dissatisfaction</li>
             <li>- low commitment</li>
             <li>- absenteeism</li>
@@ -644,27 +642,40 @@ const Burnout = () => {
         </div>
       </div>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        While it may be difficult to get all worklife dimensions in perfect
+        shape, it is neither necessary. These areas should be considered entry
+        points for creating a better workplace. The organization can still be a
+        good place to work even if it does not excel in all aspects. However, to
+        prevent burnout, certain dimensions must be strong and well functioning.{" "}
       </p>
       <Parallax speed={0}>
         <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit text-center">
-          <h2> Person vs Organizational Characteristics</h2>
+          <h2> Personal Characteristics</h2>
         </div>
       </Parallax>
+      <div className="w-fit m-auto mb-8">
+        <JobPersonSVG />
+      </div>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        We have established that the work environment plays an important role in
+        the development of burnout. However, certain personal characteristics
+        have also been found to correlate with burnout.
+      </p>{" "}
+      <br />{" "}
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        {" "}
+        <b className={"$´styles.bold´"}>Age</b> is one of those variables, as
+        younger employees tend to have higher rates of burnout compared to those
+        over 30 or 40 years old. Gender has not been identified as a strong
+        predictor of burnout, but males tend to score slightly higher on
+        cynicism, while females tend to score higher on exhaustion. In terms of{" "}
+        <b className={"$´styles.bold´"}>personality traits</b>, individuals with
+        Type A behavior tend to have higher rates of burnout, and people high on
+        neuroticism, which is a trait from the Big Five personality dimensions,
+        has also been closely linked to burnout. A person's{" "}
+        <b className={"$´styles.bold´"}> home life </b> is also important in
+        their susceptibility to burnout. As those experiencing stress in their
+        personal life are more vulnerable to developing burnout.
       </p>
       <Parallax speed={0}>
         <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
@@ -680,7 +691,6 @@ const Burnout = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-
       <Footer openModal={() => setOpen(true)} />
     </div>
   );
