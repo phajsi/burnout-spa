@@ -233,7 +233,7 @@ const Burnout = () => {
 
         <Parallax speed={8}>
           <div className={`${styles.icon_text_responsivity}`}>
-            <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
               <ExhaustionColSVG />
               <h4 className="bg-sky-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
                 Exhaustion
@@ -254,7 +254,7 @@ const Burnout = () => {
 
         <Parallax speed={6}>
           <div className={`${styles.icon_text_responsivity}`}>
-            <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
               <CynicismColSVG />
               <h4 className="bg-red-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
                 Cynicism
@@ -275,7 +275,7 @@ const Burnout = () => {
         </Parallax>
         <Parallax speed={4}>
           <div className={`${styles.icon_text_responsivity}`}>
-            <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+            <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
               <InefficacyColSVG />
               <h4 className="bg-amber-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
                 Inefficacy
@@ -406,7 +406,7 @@ const Burnout = () => {
       <Parallax speed={10}>
         <div className="mx-auto w-fit my-4 group">
           <WorkSVG />
-          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#422006] p-2 sm:text-sm text-xs whitespace-nowrap">
+          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap">
             <li>- job dissatisfaction</li>
             <li>- low commitment</li>
             <li>- absenteeism</li>
@@ -477,7 +477,7 @@ const Burnout = () => {
       {/* WORKLOAD */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <WorkloadSVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Workload
@@ -505,7 +505,7 @@ const Burnout = () => {
       {/* CONTROL */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <ControlSVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Control
@@ -532,7 +532,7 @@ const Burnout = () => {
       {/* REWARD */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <RewardSVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Reward
@@ -558,7 +558,7 @@ const Burnout = () => {
       {/* COMMUNITY */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <CommunitySVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Community
@@ -593,7 +593,7 @@ const Burnout = () => {
       {/* FAIRNESS */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <FairnessSVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Fairness
@@ -621,7 +621,7 @@ const Burnout = () => {
       {/* VALUES */}
       <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         <div className={`${styles.icon_text_responsivity}`}>
-          <div className="w-fit md:mr-8 m-auto my-4 md:my-0">
+          <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <ValuesSVG />
             <h4 className="bg-teal-800 mt-4 mx-auto p-2 rounded-md leading-4 w-min">
               Values
