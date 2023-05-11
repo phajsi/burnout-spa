@@ -9,7 +9,7 @@ const Modal = (props: Props) => {
       <div
         id="defaultModal"
         aria-hidden="true"
-        className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden  sm:inset-0 h-[calc(100%-1rem)] max-h-full"
+        className="fixed top-0 left-0 right-0 z-50 m-4 p-4 overflow-x-hidden  sm:inset-0 h-[calc(100%-1rem)] max-h-full"
       >
         <div className="relative flex mx-auto w-full max-w-2xl max-h-full overflow-y-scroll bg-cyan-900 border-grey-100 border-2 rounded-md scrollbar scrollbar-thumb-cyan-950 scrollbar-track-gray-400">
           {/*   <!-- Modal content --> */}

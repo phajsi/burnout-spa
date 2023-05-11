@@ -25,6 +25,7 @@ import {
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 import JobPersonSVG from "../assets/JobPersonSVG";
+import AwsSVG from "../assets/AwsSVG";
 
 const styles = {
   center:
@@ -99,33 +100,37 @@ const Burnout = () => {
           </Parallax>
         </div>
       </div>
-      <Parallax speed={-4}>
-        <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
-          <p>
-            A psychologist named Herbert Freudenberg, who worked in these
-            clinics, observed that the workers were becoming depressed,
-            apathetic, and agitated, leading to the popularization of the term{" "}
-            <cite>burnout syndrome</cite> within the community of workers
-            involved in the movement. Freudenberg later wrote several academic
-            papers on this phenomenon.
-          </p>
-          <br />
-          <p>
-            Hi there! You might have come across this page because you
+      <div className="mx-auto text-cyan-100 my-4 mb-12 w-3/4 lg:w-2/4 place-items-center">
+        <p>
+          A psychologist named Herbert Freudenberg, who worked in these clinics,
+          observed that the workers were becoming depressed, apathetic, and
+          agitated, leading to the popularization of the term{" "}
+          <cite>burnout syndrome</cite> within the community of workers involved
+          in the movement. Freudenberg later wrote several academic papers on
+          this phenomenon.
+        </p>
+      </div>
+      {/*  <hr className="mx-auto my-8 w-3/4 lg:w-2/4 border-cyan-200" /> */}
+      <div className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
+        <p>
+          {" "}
+          <b className={`${styles.bold}`}>
+            Hi there! You might have come across this page because you have
             personally experienced burnout, are uncertain if how you’re feeling
             constitutes burnout or want to help someone that is suffering from
             burnout. You might even want to learn how to best prevent it.
-          </p>
-          <br />
-          <p>
-            I’ll do my best to share what I have discovered in my research, and
-            hopefully you’ll understand burnout a little bit better 😊
-          </p>
-        </div>
-      </Parallax>
+          </b>
+        </p>
+
+        <br />
+        <p>
+          I’ll do my best to share what I have discovered in my research, and
+          hopefully you’ll understand burnout a little bit better 😊
+        </p>
+      </div>
       {/* Part 1: WHAT IS BURNOUT */}
       <Parallax speed={-2}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
           <h2> What is Burnout? </h2>
         </div>
       </Parallax>
@@ -133,7 +138,7 @@ const Burnout = () => {
         <p>
           Only recently has the World Health Organisation, WHO, added burnout to
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
-          WHO defines burnout as:
+          WHO defines burnout as
           <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
             <p className="text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200">
               a syndrome resulting from chronic workplace stress that has not
@@ -158,27 +163,19 @@ const Burnout = () => {
         </div>
 
         <p>
-          One cannot talk about burnout without mentioning Christina Maslach, a
-          pioneer researcher who has devoted her life to researching
+          One cannot talk about burnout without mentioning Christina Maslach,
+          the pioneer researcher who has devoted her life to researching
           occupational burnout since the 70’s. The basis of her work laid the
           foundation for the WHO’s recognition of burnout as a workplace
-          syndrome. Maslach defines burnout as:
+          syndrome. Maslach defines burnout as
           <blockquote className="p-4 my-4 border-l-4 border-gray-500 bg-cyan-800">
             <p className="text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200">
               a psychological syndrome that involves a prolonged response to
               chronic situational stressors on the job
             </p>
           </blockquote>{" "}
-          Her work led to the identification of three burnout dimensions:{" "}
-          {/* <span className="bg-sky-800 p-2 rounded-md leading-10">
-            Exhaustion
-          </span>
-          ,{" "}
-          <span className="bg-red-800 p-2 rounded-md leading-10">Cynicism</span>{" "}
-          and{" "}
-          <span className="bg-amber-800 p-2 rounded-md leading-10">
-            Inefficacy
-          </span> */}
+          Her work led to the identification of the following three burnout
+          dimensions:
         </p>
 
         <div className="w-fit m-auto my-8">
@@ -186,10 +183,10 @@ const Burnout = () => {
         </div>
 
         <p>
-          A key aspect emerges from the burnout definitions: burnout occurs
-          exclusively in the workplace setting, highlighting the role of
-          employers and organizations as necessary factors for burnout. Burnout
-          being the consequence of a malfunctioning system.
+          One important point that arises from the definitions of burnout is
+          that it only manifests in the workplace setting, highlighting the role
+          of employers and organizations as essential factors in its
+          development. Burnout being the consequence of a malfunctioning system.
         </p>
         <br />
         <p>
@@ -338,7 +335,7 @@ const Burnout = () => {
         <b className={`${styles.bold}`}>inflammation biomarkers</b>.
       </p>
       <Parallax speed={10}>
-        <div className="mx-auto mt-12 w-3/4 lg:w-2/4 flex justify-between">
+        <div className="mx-2 sm:mx-auto mt-12 sm:w-3/4 lg:w-2/4 flex justify-between">
           <div className="group">
             <LifestyleSVG />
             <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-sm text-xs whitespace-nowrap">
@@ -400,11 +397,11 @@ const Burnout = () => {
         outcomes.{" "}
       </p>
       <Parallax speed={10}>
-        <div className="mx-auto w-3/4 lg:w-2/4 my-4 group align-center">
-          <div className="w-fit m-auto">
+        <div className="w-fit mx-auto my-4 group align-center">
+          <div className="w-fit mx-auto">
             <WorkSVG />
           </div>
-          <ul className="w-fit m-auto group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap">
+          <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap">
             <li>- job dissatisfaction</li>
             <li>- low commitment</li>
             <li>- absenteeism</li>
@@ -450,21 +447,15 @@ const Burnout = () => {
       </p>
       {/* Part 2 - AREAS OF WORKLIFE BALANCE */}
       <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
           <h2> Areas of Worklife Scale </h2>
         </div>
       </Parallax>
-      {/*  <Parallax speed={4}>
-    <div className="mx-auto my-8 w-3/4 lg:w-2/4 flex justify-between">
-      <WorkloadSVG />
-
-      <ControlSVG />
-      <RewardSVG />
-      <CommunitySVG />
-      <FairnessSVG />
-      <ValuesSVG />
-    </div>
-  </Parallax> */}
+      <Parallax speed={4}>
+        <div className="w-fit m-auto my-8">
+          <AwsSVG />
+        </div>
+      </Parallax>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 lg:w-2/4 place-items-center">
         Maslach's research resulted in the identification of six key domains in
         worklife, as situational predictors of burnout. The key idea is that
@@ -649,7 +640,7 @@ const Burnout = () => {
         prevent burnout, certain dimensions must be strong and well functioning.{" "}
       </p>
       <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit text-center">
+        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit text-center">
           <h2> Personal Characteristics</h2>
         </div>
       </Parallax>
@@ -670,15 +661,16 @@ const Burnout = () => {
         predictor of burnout, but males tend to score slightly higher on
         cynicism, while females tend to score higher on exhaustion. In terms of{" "}
         <b className={"$´styles.bold´"}>personality traits</b>, individuals with
-        Type A behavior tend to have higher rates of burnout, and people high on
-        neuroticism, which is a trait from the Big Five personality dimensions,
-        has also been closely linked to burnout. A person's{" "}
+        Type A behavior (competitive, impatient and aggressive) tend to have
+        higher rates of burnout, and people high on neuroticism, which is a
+        trait from the Big Five personality dimensions, has also been closely
+        linked to burnout. A person's{" "}
         <b className={"$´styles.bold´"}> home life </b> is also important in
         their susceptibility to burnout. As those experiencing stress in their
         personal life are more vulnerable to developing burnout.
       </p>
       <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl w-fit">
+        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
           <h2> Job demands in tech</h2>
         </div>
       </Parallax>
