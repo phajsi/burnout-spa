@@ -47,7 +47,7 @@ const Burnout = () => {
       {open && <Modal openModal={() => setOpen(false)} />}
       <header className="flex h-screen relative justify-center ">
         <Parallax speed={2}>
-          <div className={"z-10 bg-cyan-900 h-32 w-80" + `${styles.center}`} />
+          <div className={"z-10 bg-cyan-800 h-32 w-80" + `${styles.center}`} />
         </Parallax>
         <Parallax speed={30}>
           {/*  Add svg element inside div */}
