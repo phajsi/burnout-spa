@@ -706,11 +706,11 @@ const Burnout = () => {
             </h4>
           </div>
           <p>
-            Fairness shares qualities with community and reward. The extent to
-            which the workplaces decisions are perceived as fair and equitable
-            are important. Research has shown that people are more concerned
-            with the fairness of the process, when decisions are made. The
-            experience of injustice is strongly associated with the{" "}
+            The concept of fairness is closely linked to those of community and
+            reward. The perception of fairness and equity in the decision-making
+            process is important. Studies suggest that people value the fairness
+            of the process when decisions are made. Feelings of injustice are
+            strongly linked to the
             <span className="bg-sky-800 p-1 rounded-md leading-8">
               exhaustion
             </span>{" "}
@@ -718,9 +718,10 @@ const Burnout = () => {
             <span className="bg-red-800 p-1 rounded-md leading-8">
               cynicism
             </span>{" "}
-            dimensions, and those who experience it feel alienated from the
-            community. On the contrary, for decisions to be fair people need to
-            present their arguments and be treated with respect and politeness.
+            dimensions, leading individuals to feel detached from the community.
+            Conversely, when people are treated with respect and politeness and
+            given a chance to present their arguments, they perceive decisions
+            as fair, leading to a sense of community and preventing burnout.
           </p>
         </div>
       </div>
@@ -735,16 +736,18 @@ const Burnout = () => {
           </div>
           <div>
             <p>
-              Values are the ideals and motivation between people and their
-              workplace. Value conflicts can be making a trade-off between work
-              you want to do, and the actual work; it can be having to do things
-              on the job that don’t go with their own values or being caught
-              between conflicting values in a workplace.
+              Values refer to the ideals and motivations that guide individuals
+              in their workplace. Value conflicts can arise when individuals are
+              forced to choose between work they desire to do and the actual
+              work, or when they are required to perform tasks that do not align
+              with their own values. Individuals may also find themselves caught
+              in the middle of conflicting values within their workplace.
             </p>
             <br />
             <p>
-              Research has found that value conflicts and work overload are the
-              two most relevant factors for employees experience of burnout.
+              Studies have revealed that value conflicts and work overload are
+              the two primary factors that contribute to employees experiencing
+              burnout.
             </p>
           </div>
         </div>
@@ -883,10 +886,21 @@ const Burnout = () => {
         Organizational performance
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        The research conducted by Forsgren revealed that the implementation of
-        Lean management and continuous delivery practices has a positive impact
-        on software delivery performance, leading to an improvement in overall
-        organizational performance.
+        Research shows that the implementation of Lean management and continuous
+        delivery practices has a positive impact on software delivery
+        performance, leading to an improvement in overall organizational
+        performance.
+      </p>
+      <Parallax speed={0}>
+        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit text-center">
+          <h2 id="third_header"> Leaders and Managers </h2>
+        </div>
+      </Parallax>
+      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+        Research shows that the implementation of Lean management and continuous
+        delivery practices has a positive impact on software delivery
+        performance, leading to an improvement in overall organizational
+        performance.
       </p>
       <Footer openModal={() => setOpen(true)} />
     </div>
