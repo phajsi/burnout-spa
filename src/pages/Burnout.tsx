@@ -222,7 +222,7 @@ const Burnout = () => {
           </li>
           <li className="group flex items-center justify-end h-10 ">
             <a
-              href="#first_header"
+              href="#fourth_header"
               className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
             >
               Job Demands In Tech
@@ -822,10 +822,7 @@ const Burnout = () => {
       <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3 id="fourth_header_sub_1">Making work sustainable </h3>
       </div>
-      <h3
-        id="fourth_header_sub_1"
-        className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize"
-      >
+      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Organizational culture
       </h3>
       <br />
@@ -838,10 +835,7 @@ const Burnout = () => {
         shared sense of purpose, in that way transforming the culture into a
         generative one.
       </p>
-      <h3
-        id="fourth_header_sub_1"
-        className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize"
-      >
+      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Deployments
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
@@ -861,29 +855,20 @@ const Burnout = () => {
         code releases make them feel, there was a 50/50 response of satisfaction
         vs fear or anxiety.
       </p>
-      <h3
-        id="fourth_header_sub_1"
-        className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize"
-      >
+      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Leaders
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
         Lower levels of burnout were reported by teams with effective leadrs.
         Leaders who limit work in process and eliminate roadblocks for the team.
       </p>
-      <h3
-        id="fourth_header_sub_1"
-        className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize"
-      >
+      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         DevOps
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
         Lorem
       </p>{" "}
-      <h3
-        id="fourth_header_sub_1"
-        className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize"
-      >
+      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Organizational performance
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
