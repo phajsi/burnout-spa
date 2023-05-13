@@ -823,6 +823,11 @@ const Burnout = () => {
       <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
         <h3 id="fourth_header_sub_1">Making work sustainable </h3>
       </div>
+      <p className="mx-auto text-cyan-100 mb-4 w-3/4 md:w-2/4 place-items-center">
+        Factors within organizations that strongly correlate with high levels of
+        burnout were identified in the research, with suggestions for how to
+        address these problems.
+      </p>
       <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Organizational culture
       </h3>
@@ -860,20 +865,28 @@ const Burnout = () => {
         Leaders
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Lower levels of burnout were reported by teams with effective leadrs.
-        Leaders who limit work in process and eliminate roadblocks for the team.
+        Teams with effective leaders reported lower levels of burnout. These
+        leaders are known for limiting work in process and removing roadblocks
+        that hinders the team's progress.
       </p>
       <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
-        DevOps
+        Skills Development
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Lorem
+        Organizations that prioritize the development of their teams' skills and
+        abilities have better outcomes. Invest in training and providing
+        adequate support and resources for acquiring new skills, are vital for
+        the succesull adoption of DevOps practices that improve software
+        delivery and performance.
       </p>{" "}
       <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
         Organizational performance
       </h3>
       <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Lorem
+        The research conducted by Forsgren revealed that the implementation of
+        Lean management and continuous delivery practices has a positive impact
+        on software delivery performance, leading to an improvement in overall
+        organizational performance.
       </p>
       <Footer openModal={() => setOpen(true)} />
     </div>
