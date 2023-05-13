@@ -135,7 +135,7 @@ const Burnout = () => {
           <li className="group flex items-center justify-end h-10 ">
             <a
               href="#intro"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-60 transition-opacity top"
+              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity top"
             >
               Intro
             </a>
@@ -157,7 +157,7 @@ const Burnout = () => {
           <li className="group flex items-center justify-end h-10 ">
             <a
               href="#first_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-60 transition-opacity top"
+              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity top"
             >
               What is Burnout?
             </a>
@@ -179,7 +179,7 @@ const Burnout = () => {
           <li className="group flex items-center justify-end h-10 ">
             <a
               href="#second_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-60 transition-opacity"
+              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
             >
               Areas Of Worklife Scale
             </a>
@@ -201,7 +201,7 @@ const Burnout = () => {
           <li className="group flex items-center justify-end h-10 ">
             <a
               href="#third_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-60 transition-opacity"
+              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
             >
               Personal Characteristics
             </a>
@@ -223,7 +223,7 @@ const Burnout = () => {
           <li className="group flex items-center justify-end h-10 ">
             <a
               href="#first_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-60 transition-opacity"
+              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
             >
               Job Demands In Tech
             </a>
