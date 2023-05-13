@@ -263,6 +263,7 @@ const Burnout = () => {
           </blockquote>
         </p>
 
+        {/* Maslach cool effect */}
         <div className="w-52 h-72 m-12 mx-auto">
           <div className="relative flex justify-center">
             <Parallax speed={10}>
