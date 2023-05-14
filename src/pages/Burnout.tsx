@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import {
   FreudenbergSVG,
@@ -26,6 +26,7 @@ import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 import JobPersonSVG from "../assets/JobPersonSVG";
 import AwsSVG from "../assets/AwsSVG";
+import Navigation from "../components/Navigation";
 
 const styles = {
   center:
@@ -130,120 +131,7 @@ const Burnout = () => {
         <br />
       </div>
       {/* Navigation */}
-      <div className="hidden md:fixed md:flex md:items-center md:right-0 md:my-auto md:inset-y-0 md:w-fit md:max-h-max md:h-fit md:py-4 md:px-10">
-        <ul className="text-neutral-200 font-normal md:leading-10 text-sm md:text-base ml-auto">
-          <li className="group flex items-center justify-end h-10 ">
-            <a
-              href="#intro"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity top"
-            >
-              Intro
-            </a>
-            <svg
-              width="7"
-              height="3"
-              viewBox="0 0 7 3"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.5 1.5H1.5"
-                stroke="#ECFEFF"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </li>
-          <li className="group flex items-center justify-end h-10 ">
-            <a
-              href="#first_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity top"
-            >
-              What is Burnout?
-            </a>
-            <svg
-              width="7"
-              height="3"
-              viewBox="0 0 7 3"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.5 1.5H1.5"
-                stroke="#ECFEFF"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </li>
-          <li className="group flex items-center justify-end h-10 ">
-            <a
-              href="#second_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
-            >
-              Areas Of Worklife Scale
-            </a>
-            <svg
-              width="7"
-              height="3"
-              viewBox="0 0 7 3"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.5 1.5H1.5"
-                stroke="#ECFEFF"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </li>
-          <li className="group flex items-center justify-end h-10 ">
-            <a
-              href="#third_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
-            >
-              Personal Characteristics
-            </a>
-            <svg
-              width="7"
-              height="3"
-              viewBox="0 0 7 3"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.5 1.5H1.5"
-                stroke="#ECFEFF"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </li>
-          <li className="group flex items-center justify-end h-10 ">
-            <a
-              href="#fourth_header"
-              className="mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity"
-            >
-              Job Demands In Tech
-            </a>
-            <svg
-              width="7"
-              height="3"
-              viewBox="0 0 7 3"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.5 1.5H1.5"
-                stroke="#ECFEFF"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </li>
-        </ul>
-      </div>
+      <Navigation />
       {/* Part 1: WHAT IS BURNOUT */}
       <Parallax speed={-2}>
         <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
