@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import {
-  FreudenbergSVG,
   ExhaustionColSVG,
   CynicismColSVG,
   InefficacyColSVG,
   BurnoutLogoSVG,
-  FreudenbergCol1SVG,
   ControlSVG,
   PhisycalHealthSVG,
   MentalHealthSVG,
@@ -48,11 +46,11 @@ const Burnout = () => {
       {open && <Modal openModal={() => setOpen(false)} />}
       <header className="flex h-screen relative justify-center ">
         <Parallax speed={2}>
-          <div className={"z-10 bg-cyan-800 h-32 w-80" + `${styles.center}`} />
+          <div className={`z-10 bg-cyan-800 h-32 w-80 ${styles.center}`} />
         </Parallax>
         <Parallax speed={30}>
           {/*  Add svg element inside div */}
-          <div className={"z-0 translate-y-48" + `${styles.center}`}>
+          <div className={`z-0 translate-y-48 ${styles.center}`}>
             <BurnoutLogoSVG />
           </div>
         </Parallax>
@@ -69,40 +67,21 @@ const Burnout = () => {
         </Parallax>
       </header>
       {/* INTRO */}
-      <Parallax speed={-4}>
-        <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-          <p>
-            In the 1960s and 1970s, a movement originated in the US to provide
-            free medical treatment to individuals with no health insurance, the
-            Free Clinic Movement.
-          </p>
-          <br />
-          <p>
-            These clinics were run by volunteers, a mix of nurses, doctors, and
-            students, who worked after their regular workday ended. Due to the
-            prevalence of drug-related issues during that time, the clinics
-            often treated drug related illnesses, and at the time, the term
-            "burnout" was used to describe the physical effects of chronic drug
-            use.
-          </p>
-        </div>
-      </Parallax>
-      {/* Freudenberg cool effect */}
-      <div className="w-52 h-72 m-12 mx-auto">
-        <div className="relative flex justify-center">
-          <Parallax speed={12}>
-            <div className={`${styles.center}` + " -z-10 mt-10"}>
-              <FreudenbergCol1SVG />
-            </div>
-          </Parallax>
-          <Parallax speed={8}>
-            <div className={`${styles.center}` + " z-10"}>
-              <FreudenbergSVG />
-            </div>
-          </Parallax>
-        </div>
-      </div>
-      <div className="mx-auto text-cyan-100 my-4 mb-12 w-3/4 md:w-2/4 place-items-center">
+      <div className="relative z-10 mx-auto text-cyan-100 my-8 w-3/4 md:w-2/4 place-items-center">
+        <p>
+          In the 1960s and 1970s, a movement originated in the US to provide
+          free medical treatment to individuals with no health insurance, the
+          Free Clinic Movement.
+        </p>
+        <br />
+        <p>
+          These clinics were run by volunteers, a mix of nurses, doctors, and
+          students, who worked after their regular workday ended. Due to the
+          prevalence of drug-related issues during that time, the clinics often
+          treated drug related illnesses, and at the time, the term "burnout"
+          was used to describe the physical effects of chronic drug use.
+        </p>
+        <br />
         <p>
           A psychologist named Herbert Freudenberg, who worked in these clinics,
           observed that the workers were becoming depressed, apathetic, and
@@ -112,14 +91,14 @@ const Burnout = () => {
           this phenomenon.
         </p>
       </div>
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className="mx-auto text-cyan-100 my-8 py-2 w-3/4 md:w-2/4 place-items-center">
         <p>
-          {" "}
           <b className={`${styles.bold}`}>
-            Hi there! You might have come across this page because you have
-            personally experienced burnout, are uncertain if how you’re feeling
-            constitutes burnout or want to help someone that is suffering from
-            burnout. You might even want to learn how to best prevent it.
+            Hi there! <br /> You might have come across this page because you
+            have personally experienced burnout, are uncertain if how you’re
+            feeling constitutes burnout or want to help someone that is
+            suffering from burnout. You might even want to learn how to best
+            prevent it.
           </b>
         </p>
 
@@ -155,12 +134,12 @@ const Burnout = () => {
         <div className="w-52 h-72 m-12 mx-auto">
           <div className="relative flex justify-center">
             <Parallax speed={10}>
-              <div className={`${styles.center}` + " -z-10 mt-12"}>
+              <div className={`${styles.center} -z-10 mt-12`}>
                 <MaslachColSVG />
               </div>
             </Parallax>
             <Parallax speed={7}>
-              <div className={`${styles.center}` + " z-10"}>
+              <div className={`${styles.center} z-10`}>
                 <MaslachSVG />
               </div>
             </Parallax>
