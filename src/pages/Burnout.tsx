@@ -93,6 +93,8 @@ const Burnout = () => {
           this phenomenon.
         </p>
       </div>
+      <hr className="w-48 sm:w-72 h-1 mx-auto bg-neutral-300 border-0 rounded my-10 "></hr>
+
       <div className={`${styles.content_container}`}>
         <p>
           <b className={`${styles.bold}`}>
