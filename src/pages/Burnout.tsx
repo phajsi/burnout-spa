@@ -69,7 +69,8 @@ const Burnout = () => {
         </Parallax>
       </header>
       {/* INTRO */}
-      <div className={`${styles.content_container} relative z-10`}>
+
+      <div className={`${styles.content_container} relative z-10 mt-12`}>
         <p>
           In the 1960s and 1970s, a movement originated in the US to provide
           free medical treatment to individuals with no health insurance, the
