@@ -697,6 +697,7 @@ const Burnout = () => {
           </b>{" "}
           were found to contribute to these positive outcomes.
         </p>
+        <br />
         <p>
           The core principles of Lean management involve granting employees the
           necessary time and resources to improve their work and creating an
@@ -781,17 +782,7 @@ const Burnout = () => {
           organizational performance.
         </p>
       </div>
-      <h2 id="third_header" className={`${styles.h2}`}>
-        Leaders and Managers
-      </h2>
-      <div className={`${styles.content_container}`}>
-        <p>
-          Research shows that the implementation of Lean management and
-          continuous delivery practices has a positive impact on software
-          delivery performance, leading to an improvement in overall
-          organizational performance.
-        </p>
-      </div>
+
       <Footer openModal={() => setOpen(true)} />
     </>
   );
