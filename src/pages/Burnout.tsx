@@ -31,6 +31,11 @@ const styles = {
     " absolute top-2/3 right-0 translate-x-1/2 translate-y-1/2 text-center ",
   bold: "text-neutral-200",
   icon_text_responsivity: "sm:flex my-24 items-center sm:my-12",
+  h2: "mt-20 mb-8 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit",
+  content_container:
+    "text-cyan-100 mx-4 mb-4 sm:w-3/4 sm:mx-auto md:w-2/4 place-items-center",
+  sub_header_container:
+    "sm:mx-auto w-fit mx-4 md:w-2/4 text-neutral-200 font-bold capitalize leading-8",
 };
 
 const Burnout = () => {
@@ -42,9 +47,9 @@ const Burnout = () => {
   }, [open]);
 
   return (
-    <div className="h-screen">
+    <>
       {open && <Modal openModal={() => setOpen(false)} />}
-      <header className="flex h-screen relative justify-center ">
+      <header className="flex h-screen relative justify-center">
         <Parallax speed={2}>
           <div className={`z-10 bg-cyan-800 h-32 w-80 ${styles.center}`} />
         </Parallax>
@@ -57,17 +62,14 @@ const Burnout = () => {
         <Parallax speed={-10}>
           <h1
             id="intro"
-            className={
-              "text-neutral-200 font-bold capitalize w-max text-2xl sm:text-4xl font-mono underline z-20" +
-              `${styles.center}`
-            }
+            className={`${styles.center} text-neutral-200 font-bold capitalize w-max text-2xl sm:text-4xl font-mono underline z-20`}
           >
             Burnout in Tech
           </h1>
         </Parallax>
       </header>
       {/* INTRO */}
-      <div className="relative z-10 mx-auto text-cyan-100 my-8 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container} relative z-10`}>
         <p>
           In the 1960s and 1970s, a movement originated in the US to provide
           free medical treatment to individuals with no health insurance, the
@@ -91,7 +93,7 @@ const Burnout = () => {
           this phenomenon.
         </p>
       </div>
-      <div className="mx-auto text-cyan-100 my-8 py-2 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <p>
           <b className={`${styles.bold}`}>
             Hi there! <br /> You might have come across this page because you
@@ -101,7 +103,6 @@ const Burnout = () => {
             prevent it.
           </b>
         </p>
-
         <br />
         <p>
           I’ll do my best to share what I have discovered in my research, and
@@ -112,12 +113,11 @@ const Burnout = () => {
       {/* Navigation */}
       <Navigation />
       {/* Part 1: WHAT IS BURNOUT */}
-      <Parallax speed={-2}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
-          <h2 id="first_header"> What is Burnout? </h2>
-        </div>
-      </Parallax>
-      <div className=" mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <h2 id="first_header" className={`${styles.h2}`}>
+        {" "}
+        What is Burnout?{" "}
+      </h2>
+      <div className={`${styles.content_container}`}>
         <p>
           Only recently has the World Health Organisation, WHO, added burnout to
           it’s characterisation system for illnesses, the ICD-11, in 2019. The
@@ -198,12 +198,13 @@ const Burnout = () => {
         </p>
       </div>
       {/*  Part 1.1 - DIMENSIONS */}
-      <Parallax speed={-2}>
-        <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
-          <h3 id="first_header_sub_1">Burnout Dimensions </h3>
-        </div>
-      </Parallax>
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <h3
+        id="first_header_sub_1"
+        className={`${styles.sub_header_container} mt-8 mb-4 text-2xl`}
+      >
+        Burnout Dimensions{" "}
+      </h3>
+      <div className={`${styles.content_container}`}>
         <p>
           Many associate burnout with the feeling of being exhausted, not having
           the energy to accomplish basic tasks. But exhaustion is but one of the
@@ -274,50 +275,54 @@ const Burnout = () => {
         </Parallax>
       </div>
       {/* Part 1.2 - CONSEQUENCES */}
-      <Parallax speed={-2}>
-        <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
-          <h3 id="first_header_sub_2">Why is Burnout Bad? </h3>
-        </div>
-      </Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Burnout acts as a mediator of both work and personal health outcomes.
-      </p>
-      <h4 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-xl">
-        Health
-      </h4>
-      <p className="mx-auto text-cyan-100 mb-4 w-3/4 md:w-2/4 place-items-center">
-        The exhaustion dimension of burnout, being the closest related to stress
-        is also the one most predictive of stress-related health outcomes.
-        Exhaustion has been found to correlate with stress symptoms like{" "}
-        <b className={`${styles.bold}`}>headaches</b>,{" "}
-        <b className={`${styles.bold}`}>chronic fatigue</b>,{" "}
-        <b className={`${styles.bold}`}>gastrointestinal disorders</b>,{" "}
-        <b className={`${styles.bold}`}>muscle tension</b>,{" "}
-        <b className={`${styles.bold}`}>hypertension</b>,{" "}
-        <b className={`${styles.bold}`}>cold/flu episodes</b> and{" "}
-        <b className={`${styles.bold}`}>changes in sleep patterns</b>. Workload
-        and exhaustion has also been found to correlate with{" "}
-        <b className={`${styles.bold}`}>incidences of workplace injuries</b>,
-        and burnout has been linked to unhealthy lifestyles like{" "}
-        <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
-      </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Mental health wise, burnout has been found to be predictive of{" "}
-        <b className={`${styles.bold}`}>depression and anxiety</b>. A Finnish
-        study on burnout found that 90 percent of the those with severe burnout
-        reported having physical or mental diseases like{" "}
-        <b className={`${styles.bold}`}>
-          {" "}
-          musculoskeletal pain and depression{" "}
-        </b>
-        as the most common problems. Other research has also found burnout
-        predictive of the emergence of{" "}
-        <b className={`${styles.bold}`}>
-          cardiovascular problems, type 2 diabetes
-        </b>{" "}
-        and a links between burnout and{" "}
-        <b className={`${styles.bold}`}>inflammation biomarkers</b>.
-      </p>
+      <h3
+        id="first_header_sub_2"
+        className={`${styles.sub_header_container} mt-8 mb-4 text-2xl`}
+      >
+        Why is Burnout Bad?{" "}
+      </h3>
+      <div className={`${styles.content_container}`}>
+        <p>
+          Burnout acts as a mediator of both work and personal health outcomes.
+        </p>
+      </div>
+      <h4 className={`${styles.sub_header_container} text-xl`}>Health</h4>
+      <div className={`${styles.content_container}`}>
+        <p>
+          The exhaustion dimension of burnout, being the closest related to
+          stress is also the one most predictive of stress-related health
+          outcomes. Exhaustion has been found to correlate with stress symptoms
+          like <b className={`${styles.bold}`}>headaches</b>,{" "}
+          <b className={`${styles.bold}`}>chronic fatigue</b>,{" "}
+          <b className={`${styles.bold}`}>gastrointestinal disorders</b>,{" "}
+          <b className={`${styles.bold}`}>muscle tension</b>,{" "}
+          <b className={`${styles.bold}`}>hypertension</b>,{" "}
+          <b className={`${styles.bold}`}>cold/flu episodes</b> and{" "}
+          <b className={`${styles.bold}`}>changes in sleep patterns</b>.
+          Workload and exhaustion has also been found to correlate with{" "}
+          <b className={`${styles.bold}`}>incidences of workplace injuries</b>,
+          and burnout has been linked to unhealthy lifestyles like{" "}
+          <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
+        </p>
+        <br />
+        <p>
+          Mental health wise, burnout has been found to be predictive of{" "}
+          <b className={`${styles.bold}`}>depression and anxiety</b>. A Finnish
+          study on burnout found that 90 percent of the those with severe
+          burnout reported having physical or mental diseases like{" "}
+          <b className={`${styles.bold}`}>
+            {" "}
+            musculoskeletal pain and depression{" "}
+          </b>
+          as the most common problems. Other research has also found burnout
+          predictive of the emergence of{" "}
+          <b className={`${styles.bold}`}>
+            cardiovascular problems, type 2 diabetes
+          </b>{" "}
+          and a links between burnout and{" "}
+          <b className={`${styles.bold}`}>inflammation biomarkers</b>.
+        </p>
+      </div>
       <Parallax speed={10}>
         <div className="mx-2 sm:mx-auto mt-12 sm:w-3/4 md:w-2/4 flex justify-between">
           <div className="group">
@@ -330,7 +335,7 @@ const Burnout = () => {
           </div>
 
           <div className="group">
-            <div className="">
+            <div>
               <MentalHealthSVG />
             </div>
             <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-sm text-xs whitespace-nowrap">
@@ -360,10 +365,8 @@ const Burnout = () => {
           </div>
         </div>
       </Parallax>
-      <h4 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-xl">
-        Work
-      </h4>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <h4 className={`${styles.sub_header_container} text-xl`}>Work</h4>
+      <p className={`${styles.content_container}`}>
         Burnout is associated with several forms of negative responses to work,
         including{" "}
         <b className={`${styles.bold}`}>
@@ -397,12 +400,13 @@ const Burnout = () => {
           </ul>
         </div>
       </Parallax>
-      <Parallax speed={-2}>
-        <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
-          <h3 id="first_header_sub_3">Job Engagement</h3>
-        </div>
-      </Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <h3
+        id="first_header_sub_3"
+        className={`${styles.sub_header_container} mt-8 mb-4 text-2xl`}
+      >
+        Job Engagement
+      </h3>
+      <p className={`${styles.content_container}`}>
         It is important to note that employee engagement, the opposite of
         burnout, is incredibly powerful and important for organisations
         thriving.
@@ -410,7 +414,7 @@ const Burnout = () => {
       <div className="w-fit mx-auto my-4">
         <EngagedSVG />{" "}
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <p className={`${styles.content_container}`}>
         Research into high performing organisations in software development has
         shown that employee engagement and satisfaction are indicative of
         employee loyalty and identity, they can help reduce the likelihood of
@@ -419,7 +423,7 @@ const Burnout = () => {
         teams were twice as likely to recommend their organization to a friend
         as a great place to work.
       </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <p className={`${styles.content_container}`}>
         Moreover, employee engagement doesn't just benefit the workers; it can
         drive business outcomes as well. Research has found significant
         correlations between engagement and how well organizations collect and
@@ -430,17 +434,16 @@ const Burnout = () => {
         organization's success.
       </p>
       {/* Part 2 - AREAS OF WORKLIFE BALANCE */}
-      <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
-          <h2 id="second_header"> Areas of Worklife Scale </h2>
-        </div>
-      </Parallax>
+      <h2 id="second_header" className={`${styles.h2}`}>
+        {" "}
+        Areas of Worklife Scale{" "}
+      </h2>
       <Parallax speed={4}>
         <div className="w-fit m-auto my-8">
           <AwsSVG />
         </div>
       </Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <p className={`${styles.content_container}`}>
         Maslach's research resulted in the identification of six key domains in
         worklife, as situational predictors of burnout. The key idea is that
         finding a good fit between the person and their job is essential. This
@@ -448,7 +451,7 @@ const Burnout = () => {
         satisfaction and engagement, or lead to burnout.
       </p>
       {/* WORKLOAD */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <WorkloadSVG />
@@ -476,7 +479,7 @@ const Burnout = () => {
         </div>
       </div>
       {/* CONTROL */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <ControlSVG />
@@ -503,7 +506,7 @@ const Burnout = () => {
         </div>
       </div>
       {/* REWARD */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <RewardSVG />
@@ -529,7 +532,7 @@ const Burnout = () => {
         </div>
       </div>
       {/* COMMUNITY */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <CommunitySVG />
@@ -564,7 +567,7 @@ const Burnout = () => {
         </div>
       </div>
       {/* FAIRNESS */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <FairnessSVG />
@@ -593,7 +596,7 @@ const Burnout = () => {
         </div>
       </div>
       {/* VALUES */}
-      <div className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
+      <div className={`${styles.content_container}`}>
         <div className={`${styles.icon_text_responsivity}`}>
           <div className="w-fit sm:mr-8 m-auto my-4 md:my-0">
             <ValuesSVG />
@@ -619,158 +622,175 @@ const Burnout = () => {
           </div>
         </div>
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        While it may be difficult to get all worklife dimensions in perfect
-        shape, it is neither necessary. These areas should be considered entry
-        points for creating a better workplace. The organization can still be a
-        good place to work even if it does not excel in all aspects. However, to
-        prevent burnout, certain dimensions must be strong and well functioning.{" "}
-      </p>
-      <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit text-center">
-          <h2 id="third_header"> Personal Characteristics</h2>
-        </div>
-      </Parallax>
+      <div className={`${styles.content_container}`}>
+        <p>
+          While it may be difficult to get all worklife dimensions in perfect
+          shape, it is neither necessary. These areas should be considered entry
+          points for creating a better workplace. The organization can still be
+          a good place to work even if it does not excel in all aspects.
+          However, to prevent burnout, certain dimensions must be strong and
+          well functioning.{" "}
+        </p>
+      </div>
+      <h2 id="third_header" className={`${styles.h2}`}>
+        Personal Characteristics
+      </h2>
       <div className="w-fit m-auto mb-8">
         <JobPersonSVG />
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        We have established that the work environment plays an important role in
-        the development of burnout. However, certain personal characteristics
-        have also been found to correlate with burnout.
-      </p>{" "}
-      <br />{" "}
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        {" "}
-        <b className={"$´styles.bold´"}>Age</b> is one of those variables, as
-        younger employees tend to have higher rates of burnout compared to those
-        over 30 or 40 years old. Gender has not been identified as a strong
-        predictor of burnout, but males tend to score slightly higher on
-        cynicism, while females tend to score higher on exhaustion. In terms of{" "}
-        <b className={"$´styles.bold´"}>personality traits</b>, individuals with
-        Type A behavior (competitive, impatient and aggressive) tend to have
-        higher rates of burnout, and people high on neuroticism, which is a
-        trait from the Big Five personality dimensions, has also been closely
-        linked to burnout. A person's{" "}
-        <b className={"$´styles.bold´"}> home life </b> is also important in
-        their susceptibility to burnout. As those experiencing stress in their
-        personal life are more vulnerable to developing burnout.
-      </p>
-      <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit">
-          <h2 id="fourth_header"> Job demands in tech</h2>
-        </div>
-      </Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Nicole Forsgren, Jez Humble, and Gene Kim, Kim is known for authoring
-        The Phoenix Project, conducted a study on over 2000 organizations
-        worldwide to identify the practices that result in high-performing tech
-        organizations. The results of their research is compiled into the book
-        Accelerate, which highlights the impact of Lean Software and DevOps on
-        tech organizations.
-      </p>
-      <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
-        <h3 id="fourth_header_sub_1">Lean Management Practices </h3>
+      <div className={`${styles.content_container}`}>
+        <p>
+          We have established that the work environment plays an important role
+          in the development of burnout. However, certain personal
+          characteristics have also been found to correlate with burnout.
+        </p>{" "}
+        <br />{" "}
+        <p>
+          {" "}
+          <b className={"$´styles.bold´"}>Age</b> is one of those variables, as
+          younger employees tend to have higher rates of burnout compared to
+          those over 30 or 40 years old. Gender has not been identified as a
+          strong predictor of burnout, but males tend to score slightly higher
+          on cynicism, while females tend to score higher on exhaustion. In
+          terms of <b className={"$´styles.bold´"}>personality traits</b>,
+          individuals with Type A behavior (competitive, impatient and
+          aggressive) tend to have higher rates of burnout, and people high on
+          neuroticism, which is a trait from the Big Five personality
+          dimensions, has also been closely linked to burnout. A person's{" "}
+          <b className={"$´styles.bold´"}> home life </b> is also important in
+          their susceptibility to burnout. As those experiencing stress in their
+          personal life are more vulnerable to developing burnout.
+        </p>
       </div>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        According to the authors, Lean management practices have a strong
-        positive influence on software delivery performance and team culture,
-        while also reducing burnout and promoting a more generative culture.
-        Practices such as{" "}
-        <b>
-          limiting Work In Process, implementing visual management, providing
-          feedback from production, and implementing lightweight change approval
-          processes{" "}
-        </b>{" "}
-        were found to contribute to these positive outcomes.
-      </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        The core principles of Lean management involve granting employees the
-        necessary time and resources to improve their work and creating an
-        environment that supports experimentation, failure and learning, and
-        which allows employees to make decisions that impact their jobs.
-      </p>
-      <div className="my-12 mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize text-2xl">
-        <h3 id="fourth_header_sub_1">Making work sustainable </h3>
+      <h2 id="fourth_header" className={`${styles.h2}`}>
+        Job demands in tech
+      </h2>
+      <div className={`${styles.content_container}`}>
+        <p>
+          Nicole Forsgren, Jez Humble, and Gene Kim, Kim is known for authoring
+          The Phoenix Project, conducted a study on over 2000 organizations
+          worldwide to identify the practices that result in high-performing
+          tech organizations. The results of their research is compiled into the
+          book Accelerate, which highlights the impact of Lean Software and
+          DevOps on tech organizations.
+        </p>
       </div>
-      <p className="mx-auto text-cyan-100 mb-4 w-3/4 md:w-2/4 place-items-center">
-        Factors within organizations that strongly correlate with high levels of
-        burnout were identified in the research, with suggestions for how to
-        address these problems.
-      </p>
-      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
+      <h3
+        id="fourth_header_sub_1"
+        className={`${styles.sub_header_container} mt-8 mb-4 text-2xl`}
+      >
+        Lean Management Practices{" "}
+      </h3>
+      <div className={`${styles.content_container}`}>
+        <p>
+          According to the authors, Lean management practices have a strong
+          positive influence on software delivery performance and team culture,
+          while also reducing burnout and promoting a more generative culture.
+          Practices such as{" "}
+          <b>
+            limiting Work In Process, implementing visual management, providing
+            feedback from production, and implementing lightweight change
+            approval processes{" "}
+          </b>{" "}
+          were found to contribute to these positive outcomes.
+        </p>
+        <p>
+          The core principles of Lean management involve granting employees the
+          necessary time and resources to improve their work and creating an
+          environment that supports experimentation, failure and learning, and
+          which allows employees to make decisions that impact their jobs.
+        </p>
+      </div>
+      <h3
+        id="fourth_header_sub_1"
+        className={`${styles.sub_header_container} mt-8 mb-4 text-2xl`}
+      >
+        Making work sustainable{" "}
+      </h3>
+      <div className={`${styles.content_container} mb-4`}>
+        <p>
+          Factors within organizations that strongly correlate with high levels
+          of burnout were identified in the research, with suggestions for how
+          to address these problems.
+        </p>
+      </div>
+      <h3 className={`${styles.sub_header_container}`}>
         Organizational culture
       </h3>
-      <br />
-      <p className="mx-auto text-cyan-100 mb-4 w-3/4 md:w-2/4 place-items-center">
-        Organizational culture was found to predict software delivery
-        performance and organizational performance. A power oriented culture,
-        characterized by low cooperation, nontransparence and blaming have
-        employees with strong feelings of burnout. Managers can counteract by
-        creating a blame free environment, learn from failures and communicating
-        shared sense of purpose, in that way transforming the culture into a
-        generative one.
-      </p>
-      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
-        Deployments
-      </h3>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        A high correlation was found between deployment pain, which contributes
-        to feelings of stress and lack of control, and poor IT performance,
-        organizational performance and organizational culture. Systems should be
-        designed to be deployed easily, be able to detect and tolerate failure
-        and have loosely coupled architectures, so that it’s components can be
-        updated easily. They should also be able to automatically reproduce the
-        state of production systems from information in version control.
-      </p>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        A 2020 survey of more than 500 software developers in North America
-        examining the state of Big Code, which refers to the dramatic growth in
-        the volume and complexity of code, found that 88% of teams admitted that
-        evry release caused some anxiety. When asked about the emotions that
-        code releases make them feel, there was a 50/50 response of satisfaction
-        vs fear or anxiety.
-      </p>
-      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
-        Leaders
-      </h3>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Teams with effective leaders reported lower levels of burnout. These
-        leaders are known for limiting work in process and removing roadblocks
-        that hinders the team's progress.
-      </p>
-      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
-        Skills Development
-      </h3>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Organizations that prioritize the development of their teams' skills and
-        abilities have better outcomes. Invest in training and providing
-        adequate support and resources for acquiring new skills, are vital for
-        the succesull adoption of DevOps practices that improve software
-        delivery and performance.
-      </p>{" "}
-      <h3 className="mx-auto w-3/4 md:w-2/4 text-neutral-200 font-bold capitalize">
+      <div className={`${styles.content_container} mb-4`}>
+        <p>
+          Organizational culture was found to predict software delivery
+          performance and organizational performance. A power oriented culture,
+          characterized by low cooperation, nontransparence and blaming have
+          employees with strong feelings of burnout. Managers can counteract by
+          creating a blame free environment, learn from failures and
+          communicating shared sense of purpose, in that way transforming the
+          culture into a generative one.
+        </p>
+      </div>
+      <h3 className={`${styles.sub_header_container}`}>Deployments</h3>
+      <div className={`${styles.content_container}  mb-4`}>
+        <p>
+          A high correlation was found between deployment pain, which
+          contributes to feelings of stress and lack of control, and poor IT
+          performance, organizational performance and organizational culture.
+          Systems should be designed to be deployed easily, be able to detect
+          and tolerate failure and have loosely coupled architectures, so that
+          it’s components can be updated easily. They should also be able to
+          automatically reproduce the state of production systems from
+          information in version control.
+        </p>
+        <p>
+          A 2020 survey of more than 500 software developers in North America
+          examining the state of Big Code, which refers to the dramatic growth
+          in the volume and complexity of code, found that 88% of teams admitted
+          that evry release caused some anxiety. When asked about the emotions
+          that code releases make them feel, there was a 50/50 response of
+          satisfaction vs fear or anxiety.
+        </p>
+      </div>
+      <h3 className={`${styles.sub_header_container}`}>Leaders</h3>
+      <div className={`${styles.content_container} mb-4`}>
+        <p>
+          Teams with effective leaders reported lower levels of burnout. These
+          leaders are known for limiting work in process and removing roadblocks
+          that hinders the team's progress.
+        </p>
+      </div>
+      <h3 className={`${styles.sub_header_container}`}>Skills Development</h3>
+      <div className={`${styles.content_container} mb-4`}>
+        <p>
+          Organizations that prioritize the development of their teams' skills
+          and abilities have better outcomes. Invest in training and providing
+          adequate support and resources for acquiring new skills, are vital for
+          the succesull adoption of DevOps practices that improve software
+          delivery and performance.
+        </p>
+      </div>
+      <h3 className={`${styles.sub_header_container}`}>
         Organizational performance
       </h3>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Research shows that the implementation of Lean management and continuous
-        delivery practices has a positive impact on software delivery
-        performance, leading to an improvement in overall organizational
-        performance.
-      </p>
-      <Parallax speed={0}>
-        <div className="my-20 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit text-center">
-          <h2 id="third_header"> Leaders and Managers </h2>
-        </div>
-      </Parallax>
-      <p className="mx-auto text-cyan-100 my-4 w-3/4 md:w-2/4 place-items-center">
-        Research shows that the implementation of Lean management and continuous
-        delivery practices has a positive impact on software delivery
-        performance, leading to an improvement in overall organizational
-        performance.
-      </p>
+      <div className={`${styles.content_container}`}>
+        <p>
+          Research shows that the implementation of Lean management and
+          continuous delivery practices has a positive impact on software
+          delivery performance, leading to an improvement in overall
+          organizational performance.
+        </p>
+      </div>
+      <h2 id="third_header" className={`${styles.h2}`}>
+        Leaders and Managers
+      </h2>
+      <div className={`${styles.content_container}`}>
+        <p>
+          Research shows that the implementation of Lean management and
+          continuous delivery practices has a positive impact on software
+          delivery performance, leading to an improvement in overall
+          organizational performance.
+        </p>
+      </div>
       <Footer openModal={() => setOpen(true)} />
-    </div>
+    </>
   );
 };
 export default Burnout;
