@@ -23,8 +23,11 @@ import {
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 import JobPersonSVG from "../assets/JobPersonSVG";
-import AwsSVG from "../assets/AwsSVG";
+import AwsSVG from "../assets/aws/AwsSVG";
 import Navigation from "../components/Navigation";
+import Scenario from "../components/Scenario";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
 
 const styles = {
   center:
@@ -650,12 +653,12 @@ const Burnout = () => {
         <br />{" "}
         <p>
           {" "}
-          <b className={"$´styles.bold´"}>Age</b> is one of those variables, as
+          <b className={`${styles.bold}`}>Age</b> is one of those variables, as
           younger employees tend to have higher rates of burnout compared to
           those over 30 or 40 years old. Gender has not been identified as a
           strong predictor of burnout, but males tend to score slightly higher
           on cynicism, while females tend to score higher on exhaustion. In
-          terms of <b className={"$´styles.bold´"}>personality traits</b>,
+          terms of <b className={`${styles.bold}`}>personality traits</b>,
           individuals with Type A behavior (competitive, impatient and
           aggressive) tend to have higher rates of burnout, and people high on
           neuroticism, which is a trait from the Big Five personality
@@ -690,7 +693,7 @@ const Burnout = () => {
           positive influence on software delivery performance and team culture,
           while also reducing burnout and promoting a more generative culture.
           Practices such as{" "}
-          <b>
+          <b className={`${styles.bold}`}>
             limiting Work In Process, implementing visual management, providing
             feedback from production, and implementing lightweight change
             approval processes{" "}
@@ -782,6 +785,15 @@ const Burnout = () => {
           organizational performance.
         </p>
       </div>
+
+      {/* Scenario */}
+      <DndProvider backend={HTML5Backend}>
+        <div className={`${styles.content_container} my-8`}>
+          <hr />
+          <br />
+          <Scenario id={1} name="Pet" />
+        </div>
+      </DndProvider>
 
       <Footer openModal={() => setOpen(true)} />
     </>
