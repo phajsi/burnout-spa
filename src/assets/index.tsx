@@ -20,10 +20,18 @@ export { default as MentalHealthSVG } from "./health/MentalHealthSVG";
 export { default as LifestyleSVG } from "./health/LifestyleSVG";
 export { default as WorkSVG } from "./WorkSVG";
 export { default as EngagedSVG } from "./EngagedSVG";
+export { default as JobPersonSVG } from "./JobPersonSVG";
 
+export { default as AwsSVG } from "./aws/AwsSVG";
 export { default as ControlSVG } from "./aws/ControlSVG";
+export { default as ControlText } from "./aws/ControlText";
 export { default as RewardSVG } from "./aws/RewardSVG";
+export { default as RewardText } from "./aws/RewardText";
 export { default as CommunitySVG } from "./aws/CommunitySVG";
+export { default as CommunityText } from "./aws/CommunityText";
 export { default as FairnessSVG } from "./aws/FairnessSVG";
+export { default as FairnessText } from "./aws/FairnessText";
 export { default as ValuesSVG } from "./aws/ValuesSVG";
+export { default as ValuesText } from "./aws/ValuesText";
 export { default as WorkloadSVG } from "./aws/WorkloadSVG";
+export { default as WorkloadText } from "./aws/WorkloadText";
