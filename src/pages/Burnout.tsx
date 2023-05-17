@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
 
 import {
   ExhaustionColSVG,
@@ -29,7 +27,6 @@ import {
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 import Navigation from "../components/Navigation";
-import Scenario from "../components/Scenario";
 
 const styles = {
   center:
@@ -787,15 +784,6 @@ const Burnout = () => {
           organizational performance.
         </p>
       </div>
-
-      {/* Scenario */}
-      <DndProvider backend={HTML5Backend}>
-        <div className={`${styles.content_container} my-8`}>
-          <hr />
-          <br />
-          <Scenario id={1} name="drag me!" />
-        </div>
-      </DndProvider>
 
       <Footer openModal={() => setOpen(true)} />
     </>
