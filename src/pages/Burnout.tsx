@@ -329,7 +329,7 @@ const Burnout = () => {
         </p>
       </div>
       <Parallax speed={10}>
-        <div className="mx-2 sm:mx-auto mt-12 sm:w-3/4 md:w-2/4 flex justify-between">
+        <div className="mx-2 sm:mx-auto mt-12 md:w-2/4 flex justify-between">
           <div className="group">
             <LifestyleSVG />
             <ul className="group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-sm text-xs whitespace-nowrap">
@@ -350,10 +350,15 @@ const Burnout = () => {
           </div>
 
           <div className="group">
-            <div className="sm:mx-12">
+            <div className="sm:mx-8">
               <PhisycalHealthSVG />{" "}
             </div>
-            <ul className="w-fit mx-auto group-hover:opacity-100 opacity-0 transition-all active:opacity-100 mt-4 text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950] p-2 sm:text-sm text-xs whitespace-nowrap">
+            <ul
+              className="mx-auto mt-4 p-2 
+              group-hover:opacity-100 opacity-0 transition-all active:opacity-100
+              text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950]
+              sm:text-sm text-xs sm:whitespace-nowrap whitespace-break-spaces"
+            >
               <li>- headaches</li>
               <li>- chronic fatigue</li>
               <li>- gastrointestinal issues</li>
