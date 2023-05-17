@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+
 import {
   ExhaustionColSVG,
   CynicismColSVG,
@@ -19,15 +22,14 @@ import {
   MaslachColSVG,
   MaslachSVG,
   BurnoutDimensionsSVG,
+  JobPersonSVG,
+  AwsSVG,
 } from "../assets/";
+
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
-import JobPersonSVG from "../assets/JobPersonSVG";
-import AwsSVG from "../assets/aws/AwsSVG";
 import Navigation from "../components/Navigation";
 import Scenario from "../components/Scenario";
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
 
 const styles = {
   center:
@@ -791,7 +793,7 @@ const Burnout = () => {
         <div className={`${styles.content_container} my-8`}>
           <hr />
           <br />
-          <Scenario id={1} name="Pet" />
+          <Scenario id={1} name="drag me!" />
         </div>
       </DndProvider>
 
