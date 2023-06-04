@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import ModalSesction from "./ModalSection";
 type Props = {
   openModal: () => void;
 };
@@ -44,30 +45,96 @@ const Modal = (props: Props) => {
 
             {/*      <!-- Modal body --> */}
             <div className="p-6 space-y-6">
+              <ModalSesction
+                relates={
+                  " On Freudenberg and the origins of burnout as a terminology "
+                }
+                link={
+                  "https://www.researchgate.net/publication/346586006_Herbert_J_Freudenberger_and_the_making_of_burnout_as_a_psychopathological_syndrome"
+                }
+                title={
+                  "Herbert J. Freudenberger and the making of burnout as a psychopathological syndrome"
+                }
+                author={"Fontes, Flavio"}
+                year={"2020"}
+              />
+              <hr />
+              <ModalSesction
+                relates={"Burnout on WHO's ICD-11"}
+                link={
+                  "https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/129180281"
+                }
+                title={"ICD-11 for Mortality and Morbidity Statistics"}
+                author={"ICD-11"}
+                year={"2023"}
+              />
+              <hr />
               <p className="text-base leading-relaxed text-cyan-100">
-                Lorem hehe
+                <b>Christina Maslach and Burnout</b>
+                <br />
+                <a
+                  href="https://www.youtube.com/watch?v=gRPBkCW0R5E"
+                  target="_blank"
+                  className="underline text-red-500"
+                >
+                  {" "}
+                  TED Talk: Understanding Job Burnout by Dr. Christina Maslach
+                </a>{" "}
+                (2018) and Dr. Christina Maslach's{" "}
+                <a
+                  href="https://psychology.berkeley.edu/people/christina-maslach"
+                  target="_blank"
+                  className="underline text-red-500"
+                >
+                  page
+                </a>{" "}
+                at Berkeley
               </p>
-              <p className="text-base leading-relaxed text-cyan-100">
-                The European Union’s General Data Protection Regulation
-                (G.D.P.R.) goes into effect on May 25 and is meant to ensure a
-                common set of data rights in the European Union. It requires
-                organizations to notify users as soon as possible of high-risk
-                data breaches that could personally affect them.
-              </p>
-              <p className="text-base leading-relaxed text-cyan-100">
-                The European Union’s General Data Protection Regulation
-                (G.D.P.R.) goes into effect on May 25 and is meant to ensure a
-                common set of data rights in the European Union. It requires
-                organizations to notify users as soon as possible of high-risk
-                data breaches that could personally affect them.
-              </p>
-              <p className="text-base leading-relaxed text-cyan-100">
-                The European Union’s General Data Protection Regulation
-                (G.D.P.R.) goes into effect on May 25 and is meant to ensure a
-                common set of data rights in the European Union. It requires
-                organizations to notify users as soon as possible of high-risk
-                data breaches that could personally affect them.
-              </p>
+              <hr />
+              <ModalSesction
+                relates={"On what Job Engagement is"}
+                link={
+                  "https://www.researchgate.net/publication/5396366_Early_Predictors_of_Job_Burnout_and_Engagement"
+                }
+                title={"Early Predictors of Job Burnout and Engagement"}
+                author={"Maslach and Leiter"}
+                year={"2008"}
+              />
+              <hr />
+              <ModalSesction
+                relates={
+                  "On the Burnout Dimensions, Effects of Burnout, Areas of Worklife Scale and Personal Characteristics and Burnout"
+                }
+                link={
+                  "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118993811"
+                }
+                title={
+                  "Understanding Burnout (CH. 3) on The Handbook of Stress and Health"
+                }
+                author={"Maslach and Leiter"}
+                year={"2017"}
+              />
+              <hr />
+
+              <ModalSesction
+                relates={"On the effects of Job Engagement"}
+                link={
+                  "https://www.oreilly.com/library/view/accelerate/9781457191435/"
+                }
+                title={"Accelerate (Chapter 10)"}
+                author={"Forsgren et al."}
+                year={"2018"}
+              />
+              <hr />
+              <ModalSesction
+                relates={"On Job Demands in Tech"}
+                link={
+                  "https://www.oreilly.com/library/view/accelerate/9781457191435/"
+                }
+                title={"Accelerate"}
+                author={"Forsgren et al."}
+                year={"2018"}
+              />
             </div>
           </div>
         </div>
