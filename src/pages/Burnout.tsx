@@ -426,22 +426,46 @@ const Burnout = () => {
       </div>
       <p className={`${styles.content_container}`}>
         Research into high performing organisations in software development has
-        shown that employee engagement and satisfaction are indicative of
-        employee loyalty and identity, they can help reduce the likelihood of
-        burnout while driving key organizational outcomes such as profitability,
-        productivity, and market share. In fact, employees in high-performing
-        teams were twice as likely to recommend their organization to a friend
-        as a great place to work.
+        shown that{" "}
+        <b className={`${styles.bold}`}>employee engagement and satisfaction</b>{" "}
+        are indicative of{" "}
+        <b className={`${styles.bold}`}>employee loyalty and identity</b>, they
+        can{" "}
+        <b className={`${styles.bold}`}>
+          help reduce the likelihood of burnout
+        </b>{" "}
+        while{" "}
+        <b className={`${styles.bold}`}>
+          driving key organizational outcomes such as profitability,
+          productivity, and market share.
+        </b>{" "}
+        Employees in high-performing teams were{" "}
+        <b className={`${styles.bold}`}>
+          twice as likely to recommend their organization to a friend as a great
+          place to work.
+        </b>
       </p>
       <p className={`${styles.content_container}`}>
-        Moreover, employee engagement doesn't just benefit the workers; it can
-        drive business outcomes as well. Research has found significant
-        correlations between engagement and how well organizations collect and
-        utilize customer feedback, as well as the ability of teams to visualize
-        and understand the development process from start to finish. Engagement
-        is also linked to how much employees align with their workplace's values
-        and goals, and how much effort they're willing to put in to ensure the
-        organization's success.
+        Moreover, employee engagement doesn't just benefit the workers; it
+        drives business outcomes as well. Research has found{" "}
+        <b className={`${styles.bold}`}>
+          significant correlations between engagement and how well organizations
+          collect and utilize customer feedback
+        </b>
+        , as well as the{" "}
+        <b className={`${styles.bold}`}>
+          ability of teams to visualize and understand the development process
+          from start to finish.
+        </b>{" "}
+        Engagement is also linked to{" "}
+        <b className={`${styles.bold}`}>
+          how much employees align with their workplace's values and goals,
+        </b>{" "}
+        and{" "}
+        <b className={`${styles.bold}`}>
+          how much effort they're willing to put in to ensure the organization's
+          success.
+        </b>
       </p>
       {/* Part 2 - AREAS OF WORKLIFE BALANCE */}
       <h2 id="second_header" className={`${styles.h2}`}>
@@ -657,19 +681,20 @@ const Burnout = () => {
         <br />{" "}
         <p>
           {" "}
-          <b className={`${styles.bold}`}>Age</b> is one of those variables, as
-          younger employees tend to have higher rates of burnout compared to
-          those over 30 or 40 years old. Gender has not been identified as a
-          strong predictor of burnout, but males tend to score slightly higher
-          on cynicism, while females tend to score higher on exhaustion. In
-          terms of <b className={`${styles.bold}`}>personality traits</b>,
-          individuals with Type A behavior (competitive, impatient and
-          aggressive) tend to have higher rates of burnout, and people high on
-          neuroticism, which is a trait from the Big Five personality
-          dimensions, has also been closely linked to burnout. A person's{" "}
-          <b className={"$´styles.bold´"}> home life </b> is also important in
-          their susceptibility to burnout. As those experiencing stress in their
-          personal life are more vulnerable to developing burnout.
+          Age is one of those variables, as{" "}
+          <b className={`${styles.bold}`}>younger employees </b> tend to have
+          higher rates of burnout compared to those over 30 or 40 years old.
+          Gender has not been identified as a strong predictor of burnout, but
+          males tend to score slightly higher on cynicism, while females tend to
+          score higher on exhaustion. In terms of personality traits,
+          individuals with <b className={`${styles.bold}`}>Type A behavior </b>{" "}
+          (competitive, impatient and aggressive) tend to have higher rates of
+          burnout, and{" "}
+          <b className={`${styles.bold}`}> people high on neuroticism, </b>
+          which is a trait from the Big Five personality dimensions, has also
+          been closely linked to burnout. A person's home life is also important
+          in their susceptibility to burnout. As those experiencing stress in
+          their personal life are more vulnerable to developing burnout.
         </p>
       </div>
       <h2 id="fourth_header" className={`${styles.h2}`}>
@@ -751,6 +776,7 @@ const Burnout = () => {
           automatically reproduce the state of production systems from
           information in version control.
         </p>
+        <br />
         <p>
           A 2020 survey of more than 500 software developers in North America
           examining the state of Big Code, which refers to the dramatic growth
