@@ -50,14 +50,14 @@ const JobPersonSVG = () => {
       <path
         d="M136.096 59.0778C136.096 59.0778 135.395 59.3237 135.026 59.6092C134.716 59.8484 134.345 60.3438 134.345 60.3438"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M136.123 58.4801C136.123 58.4801 135.339 58.6759 134.636 59.1776C134.047 59.5981 133.762 60.147 133.762 60.147"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
     </svg>
   );

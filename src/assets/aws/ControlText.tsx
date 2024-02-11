@@ -21,62 +21,62 @@ const ControlText = () => {
       <path
         d="M39.802 26.4357C40.5808 25.0674 40.895 24.5552 42.4753 24.3564"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M28.8118 27.0297C30.5939 26.7326 31.485 27.0297 32.3761 27.9325"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M24.3565 25.3437C23.2829 23.8967 22.4311 23.5398 20.4951 24.0595"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M16.0396 23.9047C17.7515 23.5597 18.4432 23.8001 19.3069 25.0929"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M13.6633 23.1682C14.5196 23.7579 15.017 24.059 14.9537 24.9504"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M41.5842 28.2178C43.8861 33.9886 41.5842 40.693 41.5842 46.6336"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M29.703 31.1882C29.2483 36.7127 30.2537 41.9924 30.8911 47.8219"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M20.495 28.5149C19.4905 34.5594 24.2948 42.6926 24.3564 48.7129"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M16.9307 27.9209C15.491 33.0551 18.9078 41.7598 18.7129 47.5249"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M13.0692 26.7327C10.8941 31.7116 13.6632 38.9109 14.5543 44.2574"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <rect x="1" y="67" width="57" height="30" rx="4" fill="#115E59" />
       <path

@@ -20,44 +20,44 @@ const BurnoutDimensionsSVG = () => {
       <path
         d="M59.0035 141.971C58.4977 138.856 58.4416 136.864 58.9836 133.994C59.0711 133.53 59.4809 133.2 59.9527 133.2H61.0241C61.536 133.2 61.9663 133.587 62.0133 134.097C62.2687 136.871 62.2588 138.838 62.0045 141.89C61.9616 142.405 61.5291 142.8 61.0122 142.8H59.9838C59.4981 142.8 59.0813 142.45 59.0035 141.971Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M41.6262 143.138C41.0917 139.085 41.0316 136.561 41.6079 132.833C41.6823 132.351 42.0999 132 42.5872 132H43.6049C44.1248 132 44.5586 132.399 44.5979 132.917C44.8737 136.557 44.8633 139.062 44.5902 143.073C44.5546 143.595 44.1191 144 43.5952 144H42.6133C42.1146 144 41.6914 143.632 41.6262 143.138Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M47.6212 142.845C47.093 139.028 47.0337 136.637 47.6024 133.125C47.6798 132.647 48.0958 132.3 48.5797 132.3H49.609C50.1271 132.3 50.5603 132.697 50.6012 133.213C50.8726 136.636 50.8623 139.006 50.5933 142.776C50.5561 143.297 50.1212 143.7 49.5988 143.7H48.6069C48.111 143.7 47.6892 143.337 47.6212 142.845Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M35.6212 142.845C35.093 139.028 35.0337 136.637 35.6024 133.125C35.6798 132.647 36.0958 132.3 36.5797 132.3H37.609C38.1271 132.3 38.5603 132.697 38.6012 133.213C38.8726 136.636 38.8623 139.006 38.5933 142.776C38.5561 143.297 38.1212 143.7 37.5988 143.7H36.6069C36.111 143.7 35.6892 143.337 35.6212 142.845Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M29.6157 142.553C29.0944 138.971 29.0361 136.713 29.5966 133.416C29.6771 132.942 30.0912 132.6 30.5716 132.6H31.6134C32.1297 132.6 32.562 132.994 32.6048 133.508C32.8714 136.714 32.8612 138.95 32.5966 142.48C32.5577 142.999 32.1235 143.4 31.6028 143.4H30.6C30.1071 143.4 29.6867 143.04 29.6157 142.553Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M53.6157 142.553C53.0944 138.971 53.0361 136.713 53.5966 133.416C53.6771 132.942 54.0912 132.6 54.5716 132.6H55.6134C56.1297 132.6 56.562 132.994 56.6048 133.508C56.8714 136.714 56.8612 138.95 56.5966 142.48C56.5577 142.999 56.1235 143.4 55.6028 143.4H54.6C54.1071 143.4 53.6867 143.04 53.6157 142.553Z"
         stroke="#ECFEFF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
       />
       <path
         d="M20.2 136.8C20.2 137.712 20.2 138.286 20.2 139.2"
         stroke="#ECFEFF"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
       <path
         d="M65.2 136.8C65.2 137.712 65.2 138.286 65.2 139.2"
         stroke="#ECFEFF"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
       <rect y="173" width="83" height="30" rx="4" fill="#075985" />
       <path
@@ -68,7 +68,7 @@ const BurnoutDimensionsSVG = () => {
       <path
         d="M144 131.146C144 131.146 145.964 128.33 147.9 127.846C150.3 127.246 150.6 121.846 153.9 122.446C156.809 122.975 157.455 125.548 160.2 126.646C163.2 127.846 161.293 133.332 163.2 137.146C164.7 140.146 163.2 143.746 165.3 145.246C166.717 146.259 166.248 147.584 167.7 148.546C169.244 149.57 171 149.446 172.2 150.946C173.24 152.247 172.8 153.346 174.9 153.346C176.1 153.346 176.7 153.346 176.7 153.346"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="123" y="173" width="73" height="30" rx="4" fill="#78350F" />
       <path
@@ -79,83 +79,83 @@ const BurnoutDimensionsSVG = () => {
       <path
         d="M90.0134 17.3075C86.327 17.5156 82.3765 20.384 80.1945 21.1531C78.0125 21.9222 76.0887 26.8456 78.558 28.8444C80.6734 30.5568 81.2991 33.1578 82.922 33.972C86.1196 35.5761 89.5055 33.4658 93.5592 34.9975C97.7847 36.594 100.461 32.9245 105.015 32.9464C108.133 32.9615 109.833 34.3531 112.924 33.972C116.281 33.5582 121.998 31.9142 121.107 28.8444C120.289 26.0242 121.925 23.2042 120.289 21.1531C117.293 17.3986 114.521 18.4449 110.197 17.3075C106.531 16.3435 105.287 15 101.742 15C96.0864 15 93.6999 17.0994 90.0134 17.3075Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M107.882 41.0989L110.594 38.8387C111.413 38.1562 112.589 39.0579 112.142 40.0259L111.544 41.3208C111.371 41.696 111.447 42.1391 111.734 42.4358L112.166 42.8818C112.566 43.2943 112.537 43.958 112.103 44.3339L110.042 46.1174C109.16 46.8808 107.907 45.7728 108.557 44.8041L108.786 44.4623C109.092 44.0075 108.974 43.3917 108.523 43.0813L107.955 42.691C107.41 42.3156 107.373 41.523 107.882 41.0989Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
-      <path d="M92.5293 39.6V40.5" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M96.1372 40.2V41.1" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M101.188 39.6V40.5" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M104.4 38.4V39.3" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M90.3645 42.6V43.5" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M93.9724 43.8V44.7" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M98.3018 43.2V44.1" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M102.631 43.2V44.1" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M88.2 39.6V40.5" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M100.466 46.8V47.7" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M96.8586 46.2V47.1" stroke="#ECFEFF" stroke-linecap="round" />
+      <path d="M92.5293 39.6V40.5" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M96.1372 40.2V41.1" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M101.188 39.6V40.5" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M104.4 38.4V39.3" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M90.3645 42.6V43.5" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M93.9724 43.8V44.7" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M98.3018 43.2V44.1" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M102.631 43.2V44.1" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M88.2 39.6V40.5" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M100.466 46.8V47.7" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M96.8586 46.2V47.1" stroke="#ECFEFF" strokeLinecap="round" />
       <path
         d="M82.5 23.4L81 27.3"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M87.5999 20.4L83.3999 31.2"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M92.4 19.2L87.3 32.1"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M97.8001 18L92.1001 32.1"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M102.6 18L96.3 32.7"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M106.8 18.6L101.7 31.2"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M110.7 19.8L106.5 30.3"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M114.6 20.4L110.7 30.9"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M117.6 22.2L114.6 30.9"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M118.8 27.9L117.9 30"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <rect x="63" y="64" width="71" height="30" rx="4" fill="#7F1D1D" />
       <path

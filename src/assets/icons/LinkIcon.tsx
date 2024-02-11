@@ -1,7 +1,7 @@
 const LinkIcon = () => {
   return (
     <svg
-      enable-background="new 0 0 141.732 141.732"
+      enableBackground="new 0 0 141.732 141.732"
       height="20"
       viewBox="0 0 141.732 141.732"
       width="20"

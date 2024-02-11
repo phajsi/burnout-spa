@@ -29,14 +29,14 @@ const WorkSVG = () => {
       <path
         d="M98.9017 69.651C98.9017 69.651 96.3779 70.5361 95.0491 71.5636C93.9352 72.4248 92.5982 74.2079 92.5982 74.2079"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M99 67.5001C99 67.5001 96.175 68.2048 93.6468 70.0106C91.5274 71.5243 90.4999 73.5 90.4999 73.5"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
     </svg>
   );
