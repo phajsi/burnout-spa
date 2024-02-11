@@ -505,10 +505,6 @@ const Burnout = () => {
             energy, but with the chance to recover, the energy can be recharged
             keeping exhaustion at bay, without time to recover the exhaustion
             continues.
-            {/* <div className="border-2 rounded-md p-2 my-2 border-amber-800 bg-[#A8663E]">
-          Typical feelings of inefficacy are feeling that there's no future,
-          feeling stuck.{" "}
-        </div> */}
           </p>
         </div>
       </div>
@@ -820,11 +816,9 @@ const Burnout = () => {
         <h3 className="text-neutral-200 font-bold capitalize leading-8 text-xl">
           Test what you have learned
         </h3>
-        <a
-          href="https://www.figma.com/proto/0aR0EDHOKOrSddx8CSUwLp/Untitled?type=design&node-id=204-146&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A146"
-          target="_blank"
-          rel="noreferrer"
-        >
+        {/* Prortype:
+         "https://www.figma.com/proto/0aR0EDHOKOrSddx8CSUwLp/Untitled?type=design&node-id=204-146&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A146" */}
+        <a href="burnout-in-tech_scene-1" rel="noreferrer">
           <button className="py-8">
             <svg
               width="123"
