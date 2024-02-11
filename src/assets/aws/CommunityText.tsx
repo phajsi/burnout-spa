@@ -27,12 +27,12 @@ const CommunityText = () => {
       <path
         d="M27.5 33.5999C26.9541 31.1157 27.7844 30.2791 29.9 27.2999C29.9 27.2999 30.7344 26.7514 30.5 26.3999C29.9 25.4999 26.3 23.3999 26.3 23.3999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M61.4 19.5C61.4 19.5 57.4999 20.5584 57.5 21.9C57.5 23.1 59.68 24.1489 60.8 25.8C61.918 27.4483 62 30.3 63.2 30.3C65 30.3 67.7 28.5 67.7 28.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect y="68" width="88" height="30" rx="4" fill="#115E59" />
       <path

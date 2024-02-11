@@ -27,12 +27,12 @@ const CommunitySVG = () => {
       <path
         d="M22.4999 56C21.5901 51.8597 22.9738 50.4653 26.5 45.5C26.5 45.5 27.8905 44.5858 27.5 44C26.5 42.5 20.5 39 20.5 39"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M79 32.5C79 32.5 72.4999 34.264 72.5 36.5C72.5001 38.5 76.1334 40.2481 78 43C79.8634 45.7471 80 50.5 82 50.5C85 50.5 89.5 47.5 89.5 47.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

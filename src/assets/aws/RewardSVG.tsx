@@ -19,12 +19,12 @@ const RewardSVG = () => {
       <path
         d="M57.8923 31.2592C53.3923 26.2592 45.4445 26.9656 41.0403 33.701C36.8693 40.0795 39.3923 47.7591 45.8923 50.7591"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M61 34C62.6516 37.127 62.9249 39.5867 62 43C61.1214 46.2425 59.8001 48.144 57 50C54.6302 51.5708 52.8419 52.0817 50 52"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -27,12 +27,12 @@ const AwsSVG = () => {
       <path
         d="M114.5 33.5999C113.954 31.1157 114.784 30.2791 116.9 27.2999C116.9 27.2999 117.734 26.7514 117.5 26.3999C116.9 25.4999 113.3 23.3999 113.3 23.3999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M148.4 19.5C148.4 19.5 144.5 20.5584 144.5 21.9C144.5 23.1 146.68 24.1489 147.8 25.8C148.918 27.4483 149 30.3 150.2 30.3C152 30.3 154.7 28.5 154.7 28.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="87" y="68" width="88" height="30" rx="4" fill="#115E59" />
       <path
@@ -55,17 +55,17 @@ const AwsSVG = () => {
       <path
         d="M238.3 208.1C239.421 206.676 239.935 206.1 241.9 205.7"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M231.4 199.7C232.567 200.004 232.77 200.43 233.5 201.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M235.6 194.9C235.836 195.239 235.901 195.437 235.9 195.8"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="208" y="249" width="54" height="30" rx="4" fill="#115E59" />
       <path
@@ -76,37 +76,37 @@ const AwsSVG = () => {
       <path
         d="M114.08 243.812L125.883 250.674C126.02 250.753 126.185 250.764 126.331 250.702L151.783 239.834C152.179 239.665 152.191 239.109 151.803 238.923L139.199 232.895C139.072 232.835 138.926 232.83 138.795 232.883L114.143 242.916C113.758 243.073 113.721 243.603 114.08 243.812Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 245.1L125.5 252.243M152.2 241.5L126.7 252.345"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 246.9L125.5 254.043M152.2 243.3L126.7 254.145"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 248.7L125.5 255.843M152.2 245.1L126.7 255.945"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 250.5L125.596 257.7M152.2 246.9L126.805 257.7"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 252.3L125.596 259.5M152.2 248.7L126.7 259.545"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M113.5 254.1L125.596 261.3M152.2 250.5L126.7 261.345"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="96" y="282" width="74" height="30" rx="4" fill="#115E59" />
       <path
@@ -127,62 +127,62 @@ const AwsSVG = () => {
       <path
         d="M40.802 202.436C41.5808 201.067 41.895 200.555 43.4753 200.356"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M29.8118 203.03C31.5939 202.733 32.485 203.03 33.3761 203.932"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M25.3564 201.344C24.2828 199.897 23.431 199.54 21.495 200.06"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M17.0396 199.905C18.7515 199.56 19.4432 199.8 20.3069 201.093"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M14.6633 199.168C15.5196 199.758 16.017 200.059 15.9537 200.95"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M42.5842 204.218C44.8861 209.989 42.5842 216.693 42.5842 222.634"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M30.703 207.188C30.2483 212.713 31.2537 217.992 31.8911 223.822"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M21.495 204.515C20.4905 210.559 25.2948 218.693 25.3564 224.713"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M17.9307 203.921C16.491 209.055 19.9078 217.76 19.7129 223.525"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M14.0693 202.733C11.8942 207.712 14.6634 214.911 15.5545 220.257"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <rect x="2" y="243" width="57" height="30" rx="4" fill="#115E59" />
       <path
@@ -201,12 +201,12 @@ const AwsSVG = () => {
       <path
         d="M34.7354 73.7555C32.0354 70.7555 27.2667 71.1794 24.6242 75.2206C22.1216 79.0478 23.6354 83.6555 27.5354 85.4555"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M36.6 75.3999C37.5909 77.2761 37.7549 78.7519 37.2 80.7999C36.6728 82.7454 35.8801 83.8863 34.2 84.9999C32.7781 85.9424 31.7051 86.2489 30 86.1999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect y="122" width="60" height="30" rx="4" fill="#115E59" />
       <path
@@ -214,45 +214,37 @@ const AwsSVG = () => {
         fill="white"
       />
       <circle cx="238" cy="82" r="29.5" fill="#115E59" stroke="#ECFEFF" />
-      <path
-        d="M250.3 85.3L252.7 83.8"
-        stroke="#ECFEFF"
-        stroke-linecap="round"
-      />
+      <path d="M250.3 85.3L252.7 83.8" stroke="#ECFEFF" strokeLinecap="round" />
       <path
         d="M247.6 85.3001L249.7 84.1001"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M237.29 95.5792C237.29 95.5792 234.257 95.5425 232.378 95.957C230.372 96.3997 228.6 96.7125 227.467 97.8459C226.334 98.9793 251.268 99.2627 249.379 97.8459C248.289 97.0286 245.956 96.3997 244.09 95.957C242.361 95.5468 239.556 95.5792 239.556 95.5792M237.29 95.5792C237.29 95.5792 237.667 89.9123 237.565 86.8899C237.462 83.8676 238.234 65.7335 238.234 65.7335M237.29 95.5792H238.423H239.556M238.234 65.7335H227.089M238.234 65.7335H248.623M238.234 65.7335C238.234 65.7335 239.179 83.8676 239.179 86.1343C239.179 88.4011 239.556 95.5792 239.556 95.5792M238.234 65.7335V64.6001M227.089 65.7335L224.067 80.0896M227.089 65.7335L230.112 80.0896M248.623 65.7335C247.723 72.3226 247.151 75.505 245.979 80.0896M248.623 65.7335L250.135 72.9116L251.646 80.0896"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M249.007 86.5121C251.464 86.5121 254.29 84.7522 254.29 83.2857C254.29 82.0763 252.17 83.2236 249.007 83.2857C246.05 83.3438 243.519 82.1284 243.723 83.2857C244.034 85.0455 246.549 86.5121 249.007 86.5121Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M227.095 86.5121C229.552 86.5121 232.378 84.7522 232.378 83.2857C232.378 82.0763 230.258 83.2236 227.095 83.2857C224.138 83.3438 221.607 82.1284 221.812 83.2857C222.122 85.0455 224.637 86.5121 227.095 86.5121Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
-      <path
-        d="M228.1 85.6L230.5 83.8"
-        stroke="#ECFEFF"
-        stroke-linecap="round"
-      />
+      <path d="M228.1 85.6L230.5 83.8" stroke="#ECFEFF" strokeLinecap="round" />
       <path
         d="M223.3 84.1L223.6 83.8M225.4 85.3L226.9 84.1"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M245.8 84.7001L247 84.1001"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="205" y="120" width="66" height="30" rx="4" fill="#115E59" />
       <path

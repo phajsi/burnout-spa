@@ -23,17 +23,17 @@ const ValuesSVG = () => {
       <path
         d="M55.5 43.5C57.3679 41.1265 58.2242 40.1672 61.5 39.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M44 29.5C45.9445 30.0058 46.2828 30.7167 47.5 32.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M51 21.5C51.394 22.0657 51.5008 22.3944 51.5 23"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

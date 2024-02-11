@@ -11,37 +11,37 @@ const WorkloadText = () => {
       <path
         d="M18.08 27.8117L29.883 34.6739C30.0195 34.7533 30.1855 34.7635 30.3307 34.7015L55.7834 23.8341C56.179 23.6652 56.1909 23.1087 55.8028 22.9232L43.1994 16.8954C43.0724 16.8347 42.9256 16.8303 42.7952 16.8834L18.1428 26.9163C17.7582 27.0729 17.721 27.603 18.08 27.8117Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 29.1L29.5 36.2429M56.2 25.5L30.7 36.3448"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 30.9L29.5 38.0429M56.2 27.3L30.7 38.1449"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 32.7001L29.5 39.843M56.2 29.1001L30.7 39.9449"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 34.4999L29.596 41.6999M56.2 30.8999L30.8054 41.6999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 36.3L29.596 43.5M56.2 32.7L30.7 43.5448"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.5 38.1L29.596 45.3M56.2 34.5L30.7 45.3448"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect y="66" width="74" height="30" rx="4" fill="#115E59" />
       <path

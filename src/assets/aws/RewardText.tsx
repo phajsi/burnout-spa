@@ -19,12 +19,12 @@ const RewardText = () => {
       <path
         d="M34.7353 18.7555C32.0353 15.7555 27.2666 16.1794 24.6241 20.2206C22.1215 24.0478 23.6353 28.6555 27.5353 30.4555"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M36.6 20.3999C37.5909 22.2761 37.7549 23.7519 37.2 25.7999C36.6728 27.7454 35.8801 28.8863 34.2 29.9999C32.7781 30.9424 31.7051 31.2489 30 31.1999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect y="67" width="60" height="30" rx="4" fill="#115E59" />
       <path

@@ -10,8 +10,8 @@ const MenuStroke = () => {
       <path
         d="M5.5 1.5H1.5"
         stroke="#ECFEFF"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
     </svg>
   );

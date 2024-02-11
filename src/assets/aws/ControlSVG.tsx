@@ -15,62 +15,62 @@ const ControlSVG = () => {
       <path
         d="M67 44.5C68.3109 42.1968 68.8399 41.3345 71.5 41"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M48.5 45.4999C51.5 44.9999 53 45.5 54.5 47.0196"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M41 42.6618C39.1928 40.226 37.7589 39.6252 34.5 40.5001"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M27 40.2395C29.8817 39.6587 31.0461 40.0634 32.5 42.2395"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M23 39C24.4414 39.9927 25.2787 40.4994 25.172 42"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M70 47.5C73.8748 57.2142 70 68.5 70 78.5"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M50 52.5C49.2346 61.7995 50.9271 70.687 52 80.5"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M34.5 48C32.8091 58.175 40.8963 71.8658 41 82"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M28.5 47C26.0765 55.6425 31.8281 70.2955 31.5 80"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
       <path
         d="M22 45C18.3386 53.3812 23 65.5 24.5 74.5"
         stroke="#ECFEFF"
-        stroke-width="0.5"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinecap="round"
       />
     </svg>
   );

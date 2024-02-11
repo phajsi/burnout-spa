@@ -23,17 +23,17 @@ const ValuesText = () => {
       <path
         d="M33.3 26.1C34.4208 24.6759 34.9346 24.1003 36.9 23.7"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M26.4001 17.7C27.5668 18.0035 27.7697 18.43 28.5001 19.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M30.6001 12.8999C30.8365 13.2393 30.9006 13.4366 30.9001 13.7999"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect x="3" y="67" width="54" height="30" rx="4" fill="#115E59" />
       <path

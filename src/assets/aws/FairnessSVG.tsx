@@ -8,30 +8,30 @@ const FairnessSVG = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle cx="50" cy="50" r="49.5" fill="#115E59" stroke="#ECFEFF" />
-      <path d="M70.5 55.5L74.5 53" stroke="#ECFEFF" stroke-linecap="round" />
-      <path d="M66 55.5L69.5 53.5" stroke="#ECFEFF" stroke-linecap="round" />
+      <path d="M70.5 55.5L74.5 53" stroke="#ECFEFF" strokeLinecap="round" />
+      <path d="M66 55.5L69.5 53.5" stroke="#ECFEFF" strokeLinecap="round" />
       <path
         d="M48.816 72.6318C48.816 72.6318 43.7613 72.5707 40.6305 73.2614C37.286 73.9993 34.3339 74.5207 32.445 76.4097C30.556 78.2987 72.1133 78.7709 68.965 76.4097C67.1488 75.0476 63.2601 73.9994 60.1498 73.2614C57.2688 72.5779 52.594 72.6318 52.594 72.6318M48.816 72.6318C48.816 72.6318 49.4457 63.1869 49.2743 58.1497C49.103 53.1124 50.3902 22.889 50.3902 22.889M48.816 72.6318H50.705H52.594M50.3902 22.889H31.8153M50.3902 22.889H67.7057M50.3902 22.889C50.3902 22.889 51.9643 53.1124 51.9643 56.8904C51.9643 60.6683 52.594 72.6318 52.594 72.6318M50.3902 22.889V21M31.8153 22.889L26.7781 46.8159M31.8153 22.889L36.8526 46.8159M67.7057 22.889C66.2054 33.8708 65.2516 39.1748 63.2981 46.8159M67.7057 22.889L70.2243 34.8524L72.743 46.8159"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M68.3446 57.5201C72.4405 57.5201 77.1501 54.5869 77.1501 52.1428C77.1501 50.1272 73.6169 52.0393 68.3445 52.1428C63.4172 52.2395 59.1984 50.2139 59.5391 52.1428C60.057 55.0758 64.2487 57.5201 68.3446 57.5201Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M31.8248 57.5201C35.9207 57.5201 40.6304 54.5869 40.6304 52.1428C40.6304 50.1272 37.0971 52.0393 31.8248 52.1428C26.8974 52.2395 22.6787 50.2139 23.0193 52.1428C23.5373 55.0758 27.729 57.5201 31.8248 57.5201Z"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
-      <path d="M33.5 56L37.5 53" stroke="#ECFEFF" stroke-linecap="round" />
+      <path d="M33.5 56L37.5 53" stroke="#ECFEFF" strokeLinecap="round" />
       <path
         d="M25.5 53.5L26 53M29 55.5L31.5 53.5"
         stroke="#ECFEFF"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
-      <path d="M63 54.5L65 53.5" stroke="#ECFEFF" stroke-linecap="round" />
+      <path d="M63 54.5L65 53.5" stroke="#ECFEFF" strokeLinecap="round" />
     </svg>
   );
 };
