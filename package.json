@@ -3,19 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/node": "^20.11.17",
+    "@types/node": "^22.11.17",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
     "react-scroll-parallax": "^3.4.5",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.0.0"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "install": "npx only-allow pnpm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
