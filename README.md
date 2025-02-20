@@ -1,3 +1,17 @@
+# burnout-spa
+
+Welcome to this spa for my own personal project's collections!
+
 ## Getting Started
 
-TODO
+Installing dependecies:
+
+```
+pnpm install
+```
+
+Starting the App:
+
+```
+pnpm start
+```
