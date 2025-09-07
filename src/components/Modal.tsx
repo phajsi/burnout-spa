@@ -12,7 +12,7 @@ const Modal = (props: Props) => {
         aria-hidden="true"
         className="fixed top-0 left-0 right-0 z-50 m-4 p-4 overflow-x-hidden sm:inset-0 h-[calc(100%-1rem)] max-h-full"
       >
-        <div className="relative flex mx-auto w-full max-w-2xl max-h-full overflow-y-scroll bg-cyan-950 border-grey-100 border-2 rounded-md scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-400">
+        <div className="relative flex mx-auto w-full max-w-2xl max-h-full overflow-y-scroll bg-cyan-950 border-grey-100 border-2 rounded-md">
           {/*   <!-- Modal content --> */}
           <div className="relative rounded-lg shadow ">
             {/*    <!-- Modal header --> */}

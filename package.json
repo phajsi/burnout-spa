@@ -31,9 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwind-scrollbar": "^4.0.2",
-    "tailwindcss": "^4.1.12"
   }
 }
