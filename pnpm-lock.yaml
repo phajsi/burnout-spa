@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@types/node':
-        specifier: ^22.17.2
+        specifier: ^22.18.1
         version: 22.18.1
       '@types/react':
         specifier: ^19.1.11
