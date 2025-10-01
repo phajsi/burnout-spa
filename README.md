@@ -95,4 +95,3 @@ fnm use 22.19.0
 - Add dark mode toggle (`dark:` variant)
 - Add accessibility tests (axe-core integration)
 - Add CI workflow (GitHub Actions) running: type check, test, build:check
-
