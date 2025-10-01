@@ -18,8 +18,8 @@ importers:
         specifier: ^7.7.1
         version: 7.8.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react-scroll-parallax:
-        specifier: ^3.4.5
-        version: 3.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: ^3.5.0
+        version: 3.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.1.14
@@ -1076,12 +1076,12 @@ packages:
       react-dom:
         optional: true
 
-  react-scroll-parallax@3.4.5:
-    resolution: {integrity: sha512-4NLZQ8cZEUyxoA95DfrXWneOOUSFrFmpM0dZNzMErmuJ0LzY+CCw8Xw0hqB6xxHWxNknfs46AozyIPSWkZeucA==}
+  react-scroll-parallax@3.5.0:
+    resolution: {integrity: sha512-cUyBTFfTMA/4jweZB4j06LQnUQdZlGgVKX2hmZ5a/BuHZsnp85MEo6ygD2otCQH734VJ9xXPVZ3WfiAiF2TesQ==}
     engines: {node: '>=10'}
     peerDependencies:
-      react: ^16.8.0-0 || >=17.0.1 || ^18.0.0
-      react-dom: ^16.8.0-0 || >=17.0.1 || ^18.0.0
+      react: ^16.8.0-0 || >=17.0.1 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0-0 || >=17.0.1 || ^18.0.0 || ^19.0.0
 
   react@19.1.1:
     resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
@@ -2305,7 +2305,7 @@ snapshots:
     optionalDependencies:
       react-dom: 19.1.1(react@19.1.1)
 
-  react-scroll-parallax@3.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  react-scroll-parallax@3.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       parallax-controller: 1.7.1
       react: 19.1.1
