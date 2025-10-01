@@ -73,7 +73,7 @@ Extra verification (ensures assets emitted):
 pnpm run build:check
 ```
 
-`scripts/check-build.cjs` asserts `build/` exists, contains `index.html`, and at least one JS file.
+`scripts/check-build.cjs` asserts `dist/` exists, contains `index.html`, and at least one JS file.
 
 Combined build + verify (CI friendly):
 
@@ -95,3 +95,32 @@ fnm use 22.19.0
 - Add dark mode toggle (`dark:` variant)
 - Add accessibility tests (axe-core integration)
 - Add CI workflow (GitHub Actions) running: type check, test, build:check
+
+## Deployment (Vercel)
+
+1. Ensure fresh production build:
+   ```bash
+   pnpm run build
+   ```
+2. Vercel Project Settings:
+   - Build Command: `pnpm run build`
+   - Output Directory: `dist`
+   - Install Command: (leave default) or `pnpm install --frozen-lockfile`
+3. Remove custom `vercel.json` rewrite unless you need special routes; Vite SPA works without it (optional fallback rewrites are automatic).
+4. Manifest & icons: files in `public/` are copied to `dist/` root.
+5. If you see MIME/type or 404 errors:
+   - Confirm you are deploying `dist/`, not repo root.
+   - Clear any CDN cache.
+   - Avoid serving raw source files (`/src/**/*.tsx`).
+
+### Optional SPA Fallback
+
+If you need a manual fallback, create `vercel.json`:
+
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
+Usually not required for Vite SPA routing.

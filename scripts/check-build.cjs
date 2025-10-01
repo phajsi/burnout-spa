@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 /** Simple build verification script.
- *  Ensures build directory exists and contains an index.html plus at least one JS asset.
+ *  Ensures Vite production output directory (dist/) exists and contains an index.html
+ *  plus at least one JS asset. Adjust if you customize outDir.
  */
 const fs = require("fs");
 const path = require("path");
 
-const buildDir = path.resolve(__dirname, "..", "build");
+const buildDir = path.resolve(__dirname, "..", "dist");
 let exitCode = 0;
 
 function fail(msg) {
@@ -14,11 +15,13 @@ function fail(msg) {
 }
 
 if (!fs.existsSync(buildDir)) {
-  fail("Build directory not found: " + buildDir);
+  fail(
+    "Dist directory not found: " + buildDir + " (did you run 'pnpm run build'?)"
+  );
 } else {
   const files = fs.readdirSync(buildDir);
   if (!files.includes("index.html")) {
-    fail("index.html not emitted");
+    fail("index.html not emitted in dist/");
   }
   const jsAssets = files.filter((f) => /\.js$/.test(f));
   if (jsAssets.length === 0) {

@@ -1,4 +1,3 @@
-import React from "react";
 import { BurnoutLogoIconSVG } from "../assets";
 
 const Home = () => {

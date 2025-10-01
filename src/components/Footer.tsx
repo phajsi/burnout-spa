@@ -1,4 +1,3 @@
-import { Fragment, useRef, useState } from "react";
 import { GitHubIcon, LinkIcon, LinkedInIcon } from "../assets";
 
 type Props = {

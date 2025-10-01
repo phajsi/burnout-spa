@@ -41,7 +41,7 @@
     "dev": "vite",
     "start": "vite",
     "build": "tsc --noEmit && vite build",
-    "build:clean": "rm -rf build && vite build",
+    "build:clean": "rm -rf dist && vite build",
     "build:check": "node scripts/check-build.cjs",
     "preview": "vite preview",
     "test": "vitest",
