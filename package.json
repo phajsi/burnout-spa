@@ -2,28 +2,45 @@
   "name": "burnout-spa",
   "version": "0.1.0",
   "private": true,
+  "description": "Burnout in Tech SPA built with React + Vite",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phajsi/burnout-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phajsi/burnout-spa/issues"
+  },
+  "homepage": "https://github.com/phajsi/burnout-spa#readme",
+  "engines": {
+    "node": ">=22.19.0",
+    "pnpm": ">=8"
+  },
   "dependencies": {
-    "@types/node": "^22.18.6",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.7.1",
-    "react-scripts": "5.0.1",
-    "react-scroll-parallax": "^3.4.5",
-    "typescript": "^5.9.2"
-  },
-  "scripts": {
-    "install": "npx only-allow pnpm",
-    "dev": "vite",
-    "start": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "vitest"
+    "react-scroll-parallax": "^3.4.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.0",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
-    "vite": "^7.1.7"
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint:types": "tsc --noEmit"
   }
 }

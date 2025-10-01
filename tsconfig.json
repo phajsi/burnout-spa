@@ -22,9 +22,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     /* Testing */
-    "types": [
-      "vitest/globals"
-    ]
+    // Rely on src/global.d.ts for vitest & jest-dom type references
   },
   "include": [
     "src"
