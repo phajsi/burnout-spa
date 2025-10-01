@@ -7,13 +7,15 @@ import Scene1 from "./pages/Scene1";
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route index element={<Home />}></Route>
-        <Route path="burnout-in-tech" element={<Burnout />}></Route>
-        <Route path="burnout-in-tech/intro" element={<SceneIntro />}></Route>
-        <Route path="burnout-in-tech/scene-1" element={<Scene1 />}></Route>
-      </Routes>
+      <div className="min-h-screen bg-brand-teal/95 text-white font-sans">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route index element={<Home />}></Route>
+          <Route path="burnout-in-tech" element={<Burnout />}></Route>
+          <Route path="burnout-in-tech/intro" element={<SceneIntro />}></Route>
+          <Route path="burnout-in-tech/scene-1" element={<Scene1 />}></Route>
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 };
