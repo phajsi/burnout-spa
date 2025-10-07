@@ -1,40 +1,61 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":dependencyDashboard",
     ":semanticCommits",
     ":automergeDigest",
     ":automergeBranch"
   ],
-  "schedule": ["before 6am on monday"],
+  "schedule": [
+    "before 6am on monday"
+  ],
   "timezone": "UTC",
-  "labels": ["dependencies"],
-  "assignees": ["phajsi"],
-  "reviewers": ["phajsi"],
+  "labels": [
+    "dependencies"
+  ],
+  "assignees": [
+    "phajsi"
+  ],
+  "reviewers": [
+    "phajsi"
+  ],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
       "automerge": true,
       "automergeType": "branch"
     },
     {
-      "matchPackagePatterns": ["^@types/"],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "branch",
+      "matchPackageNames": [
+        "/^@types//"
+      ]
     },
     {
-      "matchDepTypes": ["dependencies"],
-      "matchPackageNames": ["react", "react-dom"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchPackageNames": [
+        "react",
+        "react-dom"
+      ],
       "groupName": "React core packages",
       "automerge": false
     },
     {
-      "matchPackageNames": ["typescript"],
+      "matchPackageNames": [
+        "typescript"
+      ],
       "automerge": false
     },
     {
-      "matchPackageNames": ["react-scripts"],
+      "matchPackageNames": [
+        "react-scripts"
+      ],
       "automerge": false
     }
   ],
@@ -43,10 +64,14 @@
   },
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["before 6am on monday"]
+    "schedule": [
+      "before 6am on monday"
+    ]
   },
   "prConcurrentLimit": 5,
   "prHourlyLimit": 2,
-  "enabledManagers": ["npm"],
+  "enabledManagers": [
+    "npm"
+  ],
   "rangeStrategy": "bump"
 }
