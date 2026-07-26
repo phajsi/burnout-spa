@@ -30,7 +30,7 @@ const BurnoutLogoIconSVG = () => {
         stroke="white"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default BurnoutLogoIconSVG;
+export default BurnoutLogoIconSVG

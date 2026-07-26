@@ -17,7 +17,7 @@ const MentalHealthSVG = () => {
         stroke="#ECFEFF"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default MentalHealthSVG;
+export default MentalHealthSVG

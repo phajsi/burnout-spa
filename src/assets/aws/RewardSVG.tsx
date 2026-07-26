@@ -27,6 +27,6 @@ const RewardSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default RewardSVG;
+  )
+}
+export default RewardSVG

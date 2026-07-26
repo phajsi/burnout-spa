@@ -52,7 +52,7 @@ const LifestyleSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default LifestyleSVG;
+export default LifestyleSVG

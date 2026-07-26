@@ -32,6 +32,6 @@ const RewardText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default RewardText;
+  )
+}
+export default RewardText

@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Parallax } from "react-scroll-parallax";
+import { useEffect, useState } from "react"
+import { Parallax } from "react-scroll-parallax"
 
 import {
   ExhaustionColSVG,
@@ -22,12 +22,12 @@ import {
   BurnoutDimensionsSVG,
   JobPersonSVG,
   AwsSVG,
-} from "../assets/";
+} from "../assets/"
 
-import Footer from "../components/Footer";
-import Modal from "../components/Modal";
-import Navigation from "../components/Navigation";
-import PlayIcon from "../assets/icons/PlayIcon";
+import Footer from "../components/Footer"
+import Modal from "../components/Modal"
+import Navigation from "../components/Navigation"
+import PlayIcon from "../assets/icons/PlayIcon"
 
 const styles = {
   center:
@@ -39,15 +39,14 @@ const styles = {
     "text-cyan-100 mx-4 mb-4 sm:w-3/4 sm:mx-auto md:w-2/4 place-items-center",
   sub_header_container:
     "sm:mx-auto w-fit mx-4 md:w-2/4 text-neutral-200 font-bold capitalize leading-8",
-};
+}
 
 const Burnout = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   useEffect(() => {
-    open && (document.body.style.overflow = "hidden");
-    !open && (document.body.style.overflow = "unset");
-  }, [open]);
+    document.body.style.overflow = open ? "hidden" : "unset"
+  }, [open])
 
   return (
     <>
@@ -308,7 +307,8 @@ const Burnout = () => {
           Workload and exhaustion has also been found to correlate with{" "}
           <b className={`${styles.bold}`}>incidences of workplace injuries</b>,
           and burnout has been linked to unhealthy lifestyles like{" "}
-          <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>.{" "}
+          <b className={`${styles.bold}`}>smoking, alcohol and drug use</b>
+          .{" "}
         </p>
         <br />
         <p>
@@ -826,6 +826,6 @@ const Burnout = () => {
 
       <Footer openModal={() => setOpen(true)} />
     </>
-  );
-};
-export default Burnout;
+  )
+}
+export default Burnout

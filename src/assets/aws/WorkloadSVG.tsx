@@ -44,6 +44,6 @@ const WorkloadSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default WorkloadSVG;
+  )
+}
+export default WorkloadSVG

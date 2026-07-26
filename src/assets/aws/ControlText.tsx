@@ -84,6 +84,6 @@ const ControlText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default ControlText;
+  )
+}
+export default ControlText

@@ -33,6 +33,6 @@ const FairnessSVG = () => {
       />
       <path d="M63 54.5L65 53.5" stroke="#ECFEFF" strokeLinecap="round" />
     </svg>
-  );
-};
-export default FairnessSVG;
+  )
+}
+export default FairnessSVG

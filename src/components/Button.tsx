@@ -5,6 +5,6 @@ const Button = ({ text, href }: { text: string; href: string }) => (
   >
     {text}
   </a>
-);
+)
 
-export default Button;
+export default Button

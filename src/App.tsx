@@ -1,8 +1,8 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Burnout from "./pages/Burnout";
-import Home from "./pages/Home";
-import SceneIntro from "./pages/SceneIntro";
-import Scene1 from "./pages/Scene1";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Burnout from "./pages/Burnout"
+import Home from "./pages/Home"
+import SceneIntro from "./pages/SceneIntro"
+import Scene1 from "./pages/Scene1"
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         </Routes>
       </div>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default App;
+export default App

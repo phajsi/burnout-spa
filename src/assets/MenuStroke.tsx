@@ -14,6 +14,6 @@ const MenuStroke = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default MenuStroke;
+  )
+}
+export default MenuStroke

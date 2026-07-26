@@ -14,6 +14,6 @@ const GitHubIcon = () => {
         fill="white"
       ></path>{" "}
     </svg>
-  );
-};
-export default GitHubIcon;
+  )
+}
+export default GitHubIcon

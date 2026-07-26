@@ -39,7 +39,7 @@ const WorkSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default WorkSVG;
+export default WorkSVG

@@ -1,4 +1,4 @@
-import { BurnoutLogoIconSVG } from "../assets";
+import { BurnoutLogoIconSVG } from "../assets"
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
         </a>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

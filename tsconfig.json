@@ -21,6 +21,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "types": [
+      "node"
+    ],
     /* Testing */
     // Rely on src/global.d.ts for vitest & jest-dom type references
   },

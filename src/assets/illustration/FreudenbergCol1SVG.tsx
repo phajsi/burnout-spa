@@ -16,7 +16,7 @@ const FreudenbergCol1SVG = () => {
         fill="#083344"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default FreudenbergCol1SVG;
+export default FreudenbergCol1SVG

@@ -252,6 +252,6 @@ const AwsSVG = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default AwsSVG;
+  )
+}
+export default AwsSVG

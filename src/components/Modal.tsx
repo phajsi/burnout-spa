@@ -1,8 +1,8 @@
-import { Fragment } from "react";
-import ModalSesction from "./ModalSection";
+import { Fragment } from "react"
+import ModalSesction from "./ModalSection"
 type Props = {
-  openModal: () => void;
-};
+  openModal: () => void
+}
 const Modal = (props: Props) => {
   return (
     <Fragment>
@@ -140,7 +140,7 @@ const Modal = (props: Props) => {
         </div>
       </div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Modal;
+export default Modal

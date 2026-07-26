@@ -1,4 +1,4 @@
-import MenuStroke from "../assets/MenuStroke";
+import MenuStroke from "../assets/MenuStroke"
 
 const styles = {
   center_right_nav_div:
@@ -8,7 +8,7 @@ const styles = {
     "text-neutral-200 font-normal md:leading-10 text-sm md:text-base ml-auto",
   nav_li: "group flex items-center justify-end h-10 ",
   navA: "mx-2 px-4 group-hover:opacity-100 opacity-0 lg:opacity-60 transition-opacity top rounded-lg md:group-hover:bg-[#11455A]",
-};
+}
 
 const Navigation = () => {
   return (
@@ -76,6 +76,6 @@ const Navigation = () => {
         </ul>
       </div>
     </>
-  );
-};
-export default Navigation;
+  )
+}
+export default Navigation

@@ -163,7 +163,7 @@ const BurnoutDimensionsSVG = () => {
         fill="white"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default BurnoutDimensionsSVG;
+export default BurnoutDimensionsSVG

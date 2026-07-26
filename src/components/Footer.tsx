@@ -1,8 +1,8 @@
-import { GitHubIcon, LinkIcon, LinkedInIcon } from "../assets";
+import { GitHubIcon, LinkIcon, LinkedInIcon } from "../assets"
 
 type Props = {
-  openModal: () => void;
-};
+  openModal: () => void
+}
 
 const Footer = (props: Props) => {
   return (
@@ -12,10 +12,10 @@ const Footer = (props: Props) => {
         <div className="w-3/4 lg:w-2/4 m-auto flex sm:justify-end justify-center">
           <div className="border-r-2 mr-2 pr-2">
             <button
-              onClick={() =>
-                (document.documentElement.scrollTop = 0) ||
-                (document.body.scrollTop = 0)
-              }
+              onClick={() => {
+                document.documentElement.scrollTop = 0
+                document.body.scrollTop = 0
+              }}
               type="button"
               className="mx-2 border-2 mb-2 inline-block rounded-full p-3 text-xs font-medium  leading-normal text-white shadow-md "
             >
@@ -64,7 +64,7 @@ const Footer = (props: Props) => {
         </div>
       </footer>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
