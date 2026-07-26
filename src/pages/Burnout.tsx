@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { Parallax } from "react-scroll-parallax"
 
 import {
@@ -16,7 +15,7 @@ import {
 } from "../assets/"
 
 import Footer from "../components/Footer"
-import Modal from "../components/Modal"
+import Modal, { useModal } from "../components/Modal"
 import Navigation from "../components/Navigation"
 import PlayIcon from "../assets/icons/PlayIcon"
 import IconCard from "../components/IconCard"
@@ -34,15 +33,11 @@ const styles = {
 }
 
 const Burnout = () => {
-  const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "unset"
-  }, [open])
+  const { open, openModal, closeModal } = useModal()
 
   return (
     <>
-      {open && <Modal openModal={() => setOpen(false)} />}
+      <Modal open={open} onClose={closeModal} />
       <header className="flex h-screen relative justify-center">
         <Parallax speed={2}>
           <div className={`z-10 bg-cyan-800 h-32 w-80 ${styles.center}`} />
@@ -588,7 +583,7 @@ const Burnout = () => {
         </a>
       </div>
 
-      <Footer openModal={() => setOpen(true)} />
+      <Footer openModal={openModal} />
     </>
   )
 }
