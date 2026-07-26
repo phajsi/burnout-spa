@@ -83,10 +83,10 @@ pnpm run test:build
 
 ## Node & Package Managers
 
-Project expects Node >= 22.19.0 (see `.nvmrc` / `.node-version`). Using `fnm`:
+Project expects Node >= 22.23.1 (see `.nvmrc` / `.node-version`). Using `fnm`:
 
 ```
-fnm use 22.19.0
+fnm use 22.23.1
 ```
 
 ## Suggested Next Steps
