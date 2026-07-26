@@ -1,13 +1,13 @@
 packages:
   - apps/**
   - packages/**
-  - '!**/test/**'
+  - "!**/test/**"
 
 allowBuilds:
-  '@tailwindcss/oxide': true
+  "@tailwindcss/oxide": true
   esbuild: true
 
 ignoredBuiltDependencies:
-  - '@tailwindcss/oxide'
+  - "@tailwindcss/oxide"
   - core-js
   - core-js-pure
