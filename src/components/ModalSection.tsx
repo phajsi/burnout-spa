@@ -6,7 +6,7 @@ type Props = {
   year: string
 }
 
-const ModalSesction = (props: Props) => {
+const ModalSection = (props: Props) => {
   return (
     <p className="text-base leading-relaxed text-cyan-100">
       <b>{props.relates}</b>
@@ -20,4 +20,4 @@ const ModalSesction = (props: Props) => {
   )
 }
 
-export default ModalSesction
+export default ModalSection
