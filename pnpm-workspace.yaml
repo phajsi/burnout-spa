@@ -3,6 +3,10 @@ packages:
   - packages/**
   - '!**/test/**'
 
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+
 ignoredBuiltDependencies:
   - '@tailwindcss/oxide'
   - core-js
