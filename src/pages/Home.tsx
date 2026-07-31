@@ -1,18 +1,12 @@
 import { BurnoutLogoIconSVG } from "../assets"
 
-const Home = () => {
+export default function Home() {
   return (
-    <>
-      <div>
-        <p>Learn more about burnout in Tech ...</p>
-
-        <a href="burnout-in-tech">
-          <BurnoutLogoIconSVG />
-          <p>Learn More</p>
-        </a>
-      </div>
-    </>
+    <div>
+      <a href="burnout-in-tech">
+        <BurnoutLogoIconSVG />
+        <p>Learn More</p>
+      </a>
+    </div>
   )
 }
-
-export default Home
