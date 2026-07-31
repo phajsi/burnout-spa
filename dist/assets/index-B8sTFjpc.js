@@ -18084,697 +18084,693 @@ var Ai = () =>
     h2: `mt-20 mb-8 mx-auto text-neutral-200 font-bold capitalize text-2xl underline underline-offset-4 w-fit`,
     content_container: `text-cyan-100 mx-4 mb-4 sm:w-3/4 sm:mx-auto md:w-2/4 place-items-center`,
     sub_header_container: `sm:mx-auto w-fit mx-4 md:w-2/4 text-neutral-200 font-bold capitalize leading-8`,
-  },
-  Li = () => {
-    let { open: e, openModal: t, closeModal: n } = Oi()
-    return (0, k.jsxs)(k.Fragment, {
-      children: [
-        (0, k.jsx)(ki, { open: e, onClose: n }),
-        (0, k.jsxs)(`header`, {
-          className: `flex h-screen relative justify-center`,
-          children: [
-            (0, k.jsx)(Qr, {
-              speed: 2,
-              children: (0, k.jsx)(`div`, {
-                className: `z-10 bg-cyan-800 h-32 w-80 ${A.center}`,
-              }),
-            }),
-            (0, k.jsx)(Qr, {
-              speed: 30,
-              children: (0, k.jsx)(`div`, {
-                className: `z-0 translate-y-48 ${A.center}`,
-                children: (0, k.jsx)(ci, {}),
-              }),
-            }),
-            (0, k.jsx)(Qr, {
-              speed: -10,
-              children: (0, k.jsx)(`h1`, {
-                id: `intro`,
-                className: `${A.center} text-neutral-200 font-bold capitalize w-max text-2xl sm:text-4xl font-mono underline z-20`,
-                children: `Burnout in Tech`,
-              }),
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container} relative z-10 mt-12`,
-          children: [
-            (0, k.jsx)(`p`, {
-              children: `In the 1960s and 1970s, a movement originated in the US to provide free medical treatment to individuals with no health insurance, the Free Clinic Movement.`,
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsx)(`p`, {
-              children: `These clinics were run by volunteers, a mix of nurses, doctors, and students, who worked after their regular workday ended. Due to the prevalence of drug-related issues during that time, the clinics often treated drug related illnesses, and at the time, the term "burnout" was used to describe the physical effects of chronic drug use.`,
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsxs)(`p`, {
-              children: [
-                `A psychologist named Herbert Freudenberg, who worked in these clinics, observed that the workers were becoming depressed, apathetic, and agitated, leading to the popularization of the term`,
-                ` `,
-                (0, k.jsx)(`cite`, { children: `burnout syndrome` }),
-                ` within the community of workers involved in the movement. Freudenberg later wrote several academic papers on this phenomenon.`,
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsx)(`hr`, {
-          className: `w-48 sm:w-72 h-1 mx-auto bg-neutral-300 border-0 rounded my-10 `,
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsx)(`p`, {
-              children: (0, k.jsxs)(`b`, {
-                className: `${A.bold}`,
-                children: [
-                  `Hi there! `,
-                  (0, k.jsx)(`br`, {}),
-                  ` You might have come across this page because you have personally experienced burnout, are uncertain if how you’re feeling constitutes burnout or want to help someone that is suffering from burnout. You might even want to learn how to best prevent it.`,
-                ],
-              }),
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsx)(`p`, {
-              children: `I’ll do my best to share what I have discovered in my research, and hopefully you’ll understand burnout a little bit better 😊`,
-            }),
-            (0, k.jsx)(`br`, {}),
-          ],
-        }),
-        (0, k.jsx)(Mi, {}),
-        (0, k.jsxs)(`h2`, {
-          id: `first_header`,
-          className: `${A.h2}`,
-          children: [` `, `What is Burnout?`, ` `],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsxs)(`p`, {
-              children: [
-                `Only recently has the World Health Organisation, WHO, added burnout to it’s characterisation system for illnesses, the ICD-11, in 2019. The WHO defines burnout as`,
-                (0, k.jsx)(`blockquote`, {
-                  className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
-                  children: (0, k.jsx)(`p`, {
-                    className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
-                    children: `a syndrome resulting from chronic workplace stress that has not been successfully managed`,
-                  }),
-                }),
-              ],
-            }),
-            (0, k.jsx)(`div`, {
-              className: `w-52 h-72 m-12 mx-auto`,
-              children: (0, k.jsxs)(`div`, {
-                className: `relative flex justify-center`,
-                children: [
-                  (0, k.jsx)(Qr, {
-                    speed: 10,
-                    children: (0, k.jsx)(`div`, {
-                      className: `${A.center} -z-10 mt-12`,
-                      children: (0, k.jsx)(ri, {}),
-                    }),
-                  }),
-                  (0, k.jsx)(Qr, {
-                    speed: 7,
-                    children: (0, k.jsx)(`div`, {
-                      className: `${A.center} z-10`,
-                      children: (0, k.jsx)(ni, {}),
-                    }),
-                  }),
-                ],
-              }),
-            }),
-            (0, k.jsxs)(`p`, {
-              children: [
-                `One cannot talk about burnout without mentioning Christina Maslach, the pioneer researcher who has devoted her life to researching occupational burnout since the 70’s. The basis of her work laid the foundation for the WHO’s recognition of burnout as a workplace syndrome. Maslach defines burnout as`,
-                (0, k.jsx)(`blockquote`, {
-                  className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
-                  children: (0, k.jsx)(`p`, {
-                    className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
-                    children: `a psychological syndrome that involves a prolonged response to chronic situational stressors on the job`,
-                  }),
-                }),
-                ` `,
-                `Her work led to the identification of the following three burnout dimensions:`,
-              ],
-            }),
-            (0, k.jsx)(`div`, {
-              className: `w-fit m-auto my-8`,
-              children: (0, k.jsx)(si, {}),
-            }),
-            (0, k.jsx)(`p`, {
-              children: `One important point that arises from the definitions of burnout is that it only manifests in the workplace setting, highlighting the role of employers and organizations as essential factors in its development. Burnout being the consequence of a malfunctioning system.`,
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsx)(`p`, {
-              children: `Going through stressful periods at work, like working extra to meet a deadline, is unavoidable at times. However, burnout arises when this stress becomes a constant. It follows that to avoid burnout and help burnt out people, not only the individuals must be helped, but the workplace as well.`,
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsxs)(`p`, {
-              children: [
-                `To not only focus on the negative, it is interesting to note that job engagement, defined as`,
-                (0, k.jsx)(`blockquote`, {
-                  className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
-                  children: (0, k.jsx)(`p`, {
-                    className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
-                    children: `an energetic state of involvement with personally fulfilling activities that enhance one's sense of professional efficacy`,
-                  }),
-                }),
-                `is considered as being the opposite state of burnout. Having engagement as a desired outcome in the workplace in the back of our minds, helps us think about the factors in the workplace that we should strive for, and that gives us energy and enjoyment.`,
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`h3`, {
-          id: `first_header_sub_1`,
-          className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
-          children: [`Burnout Dimensions`, ` `],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsx)(`p`, {
-              children: `Many associate burnout with the feeling of being exhausted, not having the energy to accomplish basic tasks. But exhaustion is but one of the facets of burnout.`,
-            }),
-            Fi.map((e) => (0, k.jsx)(Pi, { ...e }, e.label)),
-          ],
-        }),
-        (0, k.jsxs)(`h3`, {
-          id: `first_header_sub_2`,
-          className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
-          children: [`Why is Burnout Bad?`, ` `],
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container}`,
-          children: (0, k.jsx)(`p`, {
-            children: `Burnout acts as a mediator of both work and personal health outcomes.`,
-          }),
-        }),
-        (0, k.jsx)(`h4`, {
-          className: `${A.sub_header_container} text-xl`,
-          children: `Health`,
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsxs)(`p`, {
-              children: [
-                `The exhaustion dimension of burnout, being the closest related to stress is also the one most predictive of stress-related health outcomes. Exhaustion has been found to correlate with stress symptoms like `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `headaches`,
-                }),
-                `,`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `chronic fatigue`,
-                }),
-                `,`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `gastrointestinal disorders`,
-                }),
-                `,`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `muscle tension`,
-                }),
-                `,`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `hypertension`,
-                }),
-                `,`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `cold/flu episodes`,
-                }),
-                ` and`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `changes in sleep patterns`,
-                }),
-                `. Workload and exhaustion has also been found to correlate with`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `incidences of workplace injuries`,
-                }),
-                `, and burnout has been linked to unhealthy lifestyles like`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `smoking, alcohol and drug use`,
-                }),
-                `.`,
-                ` `,
-              ],
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsxs)(`p`, {
-              children: [
-                `Mental health wise, burnout has been found to be predictive of`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `depression and anxiety`,
-                }),
-                `. A Finnish study on burnout found that 90 percent of the those with severe burnout reported having physical or mental diseases like`,
-                ` `,
-                (0, k.jsxs)(`b`, {
-                  className: `${A.bold}`,
-                  children: [` `, `musculoskeletal pain and depression`, ` `],
-                }),
-                `as the most common problems. Other research has also found burnout predictive of the emergence of`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `cardiovascular problems, type 2 diabetes`,
-                }),
-                ` `,
-                `and a links between burnout and`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `inflammation biomarkers`,
-                }),
-                `.`,
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `mx-2 sm:mx-auto mt-12 md:w-2/4 flex justify-between`,
-          children: [
-            (0, k.jsxs)(`div`, {
-              className: `group`,
-              children: [
-                (0, k.jsx)(hi, {}),
-                (0, k.jsxs)(`ul`, {
-                  className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-sm text-xs whitespace-nowrap`,
-                  children: [
-                    (0, k.jsx)(`li`, { children: `- smoking` }),
-                    (0, k.jsx)(`li`, { children: `- alcohol use` }),
-                    (0, k.jsx)(`li`, { children: `- drug use` }),
-                  ],
-                }),
-              ],
-            }),
-            (0, k.jsxs)(`div`, {
-              className: `group`,
-              children: [
-                (0, k.jsx)(`div`, { children: (0, k.jsx)(mi, {}) }),
-                (0, k.jsxs)(`ul`, {
-                  className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-sm text-xs whitespace-nowrap`,
-                  children: [
-                    (0, k.jsx)(`li`, { children: `- depression` }),
-                    (0, k.jsx)(`li`, { children: `- anxiety` }),
-                  ],
-                }),
-              ],
-            }),
-            (0, k.jsxs)(`div`, {
-              className: `group`,
-              children: [
-                (0, k.jsxs)(`div`, {
-                  className: `sm:mx-8`,
-                  children: [(0, k.jsx)(pi, {}), ` `],
-                }),
-                (0, k.jsxs)(`ul`, {
-                  className: `mx-auto mt-4 p-2 
-              group-hover:opacity-100 opacity-0 transition-all active:opacity-100
-              text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950]
-              sm:text-sm text-xs sm:whitespace-nowrap whitespace-break-spaces`,
-                  children: [
-                    (0, k.jsx)(`li`, { children: `- headaches` }),
-                    (0, k.jsx)(`li`, { children: `- chronic fatigue` }),
-                    (0, k.jsx)(`li`, { children: `- gastrointestinal issues` }),
-                    (0, k.jsx)(`li`, { children: `- muscle tension` }),
-                    (0, k.jsx)(`li`, { children: `- hypertension` }),
-                    (0, k.jsx)(`li`, { children: `- cold/flu episodes` }),
-                    (0, k.jsx)(`li`, { children: `- sleep changes` }),
-                    (0, k.jsx)(`li`, { children: `- workplace injuries` }),
-                    (0, k.jsx)(`li`, { children: `- musculoskeletal pain` }),
-                    (0, k.jsx)(`li`, { children: `- cardiovascular problems` }),
-                    (0, k.jsx)(`li`, { children: `- type 2 diabetes` }),
-                    (0, k.jsx)(`li`, { children: `- inflammation biomarkers` }),
-                  ],
-                }),
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsx)(`h4`, {
-          className: `${A.sub_header_container} text-xl`,
-          children: `Work`,
-        }),
-        (0, k.jsxs)(`p`, {
-          className: `${A.content_container}`,
-          children: [
-            `Burnout is associated with several forms of negative responses to work, including`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `job dissatisfaction, low commitment to the organization, absenteeism, intention to quit the job, and employee turnover`,
-            }),
-            `. Those experiencing burnout can also have a`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `negative impact on their colleagues by causing personal conflicts or disrupting job tasks`,
-            }),
-            `. `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `Poor job performance `,
-            }),
-            `is one of the most significant consequences of burnout in the workplace, which could have severe consequences in certain professions, even leading to fatal outcomes.`,
-            ` `,
-          ],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `w-fit mx-auto my-4 group align-center`,
-          children: [
-            (0, k.jsx)(`div`, {
-              className: `w-fit mx-auto`,
-              children: (0, k.jsx)(gi, {}),
-            }),
-            (0, k.jsxs)(`ul`, {
-              className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap`,
-              children: [
-                (0, k.jsx)(`li`, { children: `- job dissatisfaction` }),
-                (0, k.jsx)(`li`, { children: `- low commitment` }),
-                (0, k.jsx)(`li`, { children: `- absenteeism` }),
-                (0, k.jsx)(`li`, { children: `- intention to quit` }),
-                (0, k.jsx)(`li`, { children: `- employee turnover` }),
-                (0, k.jsx)(`li`, { children: `- causing conflicts` }),
-                (0, k.jsx)(`li`, { children: `- disrupting job tasks` }),
-                (0, k.jsx)(`li`, { children: `- poor job performance` }),
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsx)(`h3`, {
-          id: `first_header_sub_3`,
-          className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
-          children: `Job Engagement`,
-        }),
-        (0, k.jsx)(`p`, {
-          className: `${A.content_container}`,
-          children: `It is important to note that employee engagement, the opposite of burnout, is incredibly powerful and important for organisations thriving.`,
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `w-fit mx-auto my-4`,
-          children: [(0, k.jsx)(_i, {}), ` `],
-        }),
-        (0, k.jsxs)(`p`, {
-          className: `${A.content_container}`,
-          children: [
-            `Research into high performing organisations in software development has shown that`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `employee engagement and satisfaction`,
-            }),
-            ` `,
-            `are indicative of`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `employee loyalty and identity`,
-            }),
-            `, they can`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `help reduce the likelihood of burnout`,
-            }),
-            ` `,
-            `while`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `driving key organizational outcomes such as profitability, productivity, and market share.`,
-            }),
-            ` `,
-            `Employees in high-performing teams were`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `twice as likely to recommend their organization to a friend as a great place to work.`,
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`p`, {
-          className: `${A.content_container}`,
-          children: [
-            `Moreover, employee engagement doesn't just benefit the workers; it drives business outcomes as well. Research has found`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `significant correlations between engagement and how well organizations collect and utilize customer feedback`,
-            }),
-            `, as well as the`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `ability of teams to visualize and understand the development process from start to finish.`,
-            }),
-            ` `,
-            `Engagement is also linked to`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `how much employees align with their workplace's values and goals,`,
-            }),
-            ` `,
-            `and`,
-            ` `,
-            (0, k.jsx)(`b`, {
-              className: `${A.bold}`,
-              children: `how much effort they're willing to put in to ensure the organization's success.`,
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`h2`, {
-          id: `second_header`,
-          className: `${A.h2}`,
-          children: [` `, `Areas of Worklife Scale`, ` `],
-        }),
-        (0, k.jsx)(`div`, {
-          className: `w-fit m-auto my-8`,
-          children: (0, k.jsx)(yi, {}),
-        }),
-        (0, k.jsx)(`p`, {
-          className: `${A.content_container}`,
-          children: `Maslach's research resulted in the identification of six key domains in worklife, as situational predictors of burnout. The key idea is that finding a good fit between the person and their job is essential. This model identifies areas of work that can impact a person's job satisfaction and engagement, or lead to burnout.`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container}`,
-          children: Ii.map((e) => (0, k.jsx)(Pi, { ...e }, e.label)),
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container}`,
-          children: (0, k.jsxs)(`p`, {
-            children: [
-              `While it may be difficult to get all worklife dimensions in perfect shape, it is neither necessary. These areas should be considered entry points for creating a better workplace. The organization can still be a good place to work even if it does not excel in all aspects. However, to prevent burnout, certain dimensions must be strong and well functioning.`,
-              ` `,
-            ],
-          }),
-        }),
-        (0, k.jsx)(`h2`, {
-          id: `third_header`,
-          className: `${A.h2}`,
-          children: `Personal Characteristics`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `w-fit m-auto mb-8`,
-          children: (0, k.jsx)(vi, {}),
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsx)(`p`, {
-              children: `We have established that the work environment plays an important role in the development of burnout. However, certain personal characteristics have also been found to correlate with burnout.`,
-            }),
-            ` `,
-            (0, k.jsx)(`br`, {}),
-            ` `,
-            (0, k.jsxs)(`p`, {
-              children: [
-                ` `,
-                `Age is one of those variables, as`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `younger employees `,
-                }),
-                ` tend to have higher rates of burnout compared to those over 30 or 40 years old. Gender has not been identified as a strong predictor of burnout, but males tend to score slightly higher on cynicism, while females tend to score higher on exhaustion. In terms of personality traits, individuals with `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: `Type A behavior `,
-                }),
-                ` `,
-                `(competitive, impatient and aggressive) tend to have higher rates of burnout, and`,
-                ` `,
-                (0, k.jsx)(`b`, {
-                  className: `${A.bold}`,
-                  children: ` people high on neuroticism, `,
-                }),
-                `which is a trait from the Big Five personality dimensions, has also been closely linked to burnout. A person's home life is also important in their susceptibility to burnout. As those experiencing stress in their personal life are more vulnerable to developing burnout.`,
-              ],
-            }),
-          ],
-        }),
-        (0, k.jsx)(`h2`, {
-          id: `fourth_header`,
-          className: `${A.h2}`,
-          children: `Job demands in tech`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container}`,
-          children: (0, k.jsx)(`p`, {
-            children: `Nicole Forsgren, Jez Humble, and Gene Kim, Kim is known for authoring The Phoenix Project, conducted a study on over 2000 organizations worldwide to identify the practices that result in high-performing tech organizations. The results of their research is compiled into the book Accelerate, which highlights the impact of Lean Software and DevOps on tech organizations.`,
-          }),
-        }),
-        (0, k.jsxs)(`h3`, {
-          id: `fourth_header_sub_1`,
-          className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
-          children: [`Lean Management Practices`, ` `],
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}`,
-          children: [
-            (0, k.jsxs)(`p`, {
-              children: [
-                `According to the authors, Lean management practices have a strong positive influence on software delivery performance and team culture, while also reducing burnout and promoting a more generative culture. Practices such as`,
-                ` `,
-                (0, k.jsxs)(`b`, {
-                  className: `${A.bold}`,
-                  children: [
-                    `limiting Work In Process, implementing visual management, providing feedback from production, and implementing lightweight change approval processes`,
-                    ` `,
-                  ],
-                }),
-                ` `,
-                `were found to contribute to these positive outcomes.`,
-              ],
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsx)(`p`, {
-              children: `The core principles of Lean management involve granting employees the necessary time and resources to improve their work and creating an environment that supports experimentation, failure and learning, and which allows employees to make decisions that impact their jobs.`,
-            }),
-          ],
-        }),
-        (0, k.jsxs)(`h3`, {
-          id: `fourth_header_sub_1`,
-          className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
-          children: [`Making work sustainable`, ` `],
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container} mb-4`,
-          children: (0, k.jsx)(`p`, {
-            children: `Factors within organizations that strongly correlate with high levels of burnout were identified in the research, with suggestions for how to address these problems.`,
-          }),
-        }),
-        (0, k.jsx)(`h3`, {
-          className: `${A.sub_header_container}`,
-          children: `Organizational culture`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container} mb-4`,
-          children: (0, k.jsx)(`p`, {
-            children: `Organizational culture was found to predict software delivery performance and organizational performance. A power oriented culture, characterized by low cooperation, nontransparence and blaming have employees with strong feelings of burnout. Managers can counteract by creating a blame free environment, learn from failures and communicating shared sense of purpose, in that way transforming the culture into a generative one.`,
-          }),
-        }),
-        (0, k.jsx)(`h3`, {
-          className: `${A.sub_header_container}`,
-          children: `Deployments`,
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `${A.content_container}  mb-4`,
-          children: [
-            (0, k.jsx)(`p`, {
-              children: `A high correlation was found between deployment pain, which contributes to feelings of stress and lack of control, and poor IT performance, organizational performance and organizational culture. Systems should be designed to be deployed easily, be able to detect and tolerate failure and have loosely coupled architectures, so that it’s components can be updated easily. They should also be able to automatically reproduce the state of production systems from information in version control.`,
-            }),
-            (0, k.jsx)(`br`, {}),
-            (0, k.jsx)(`p`, {
-              children: `A 2020 survey of more than 500 software developers in North America examining the state of Big Code, which refers to the dramatic growth in the volume and complexity of code, found that 88% of teams admitted that evry release caused some anxiety. When asked about the emotions that code releases make them feel, there was a 50/50 response of satisfaction vs fear or anxiety.`,
-            }),
-          ],
-        }),
-        (0, k.jsx)(`h3`, {
-          className: `${A.sub_header_container}`,
-          children: `Leaders`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container} mb-4`,
-          children: (0, k.jsx)(`p`, {
-            children: `Teams with effective leaders reported lower levels of burnout. These leaders are known for limiting work in process and removing roadblocks that hinders the team's progress.`,
-          }),
-        }),
-        (0, k.jsx)(`h3`, {
-          className: `${A.sub_header_container}`,
-          children: `Skills Development`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container} mb-4`,
-          children: (0, k.jsx)(`p`, {
-            children: `Organizations that prioritize the development of their teams' skills and abilities have better outcomes. Invest in training and providing adequate support and resources for acquiring new skills, are vital for the succesull adoption of DevOps practices that improve software delivery and performance.`,
-          }),
-        }),
-        (0, k.jsx)(`h3`, {
-          className: `${A.sub_header_container}`,
-          children: `Organizational performance`,
-        }),
-        (0, k.jsx)(`div`, {
-          className: `${A.content_container}`,
-          children: (0, k.jsx)(`p`, {
-            children: `Research shows that the implementation of Lean management and continuous delivery practices has a positive impact on software delivery performance, leading to an improvement in overall organizational performance.`,
-          }),
-        }),
-        (0, k.jsxs)(`div`, {
-          className: `w-fit m-auto my-8 self-center text-center`,
-          children: [
-            (0, k.jsx)(`h3`, {
-              className: `text-neutral-200 font-bold capitalize leading-8 text-xl`,
-              children: `Test what you have learned`,
-            }),
-            (0, k.jsx)(`a`, {
-              href: `burnout-in-tech/intro`,
-              rel: `noreferrer`,
-              children: (0, k.jsx)(Ni, {}),
-            }),
-          ],
-        }),
-        (0, k.jsx)(Ei, { openModal: t }),
-      ],
-    })
-  },
-  Ri = () =>
-    (0, k.jsx)(k.Fragment, {
-      children: (0, k.jsxs)(`div`, {
+  }
+function Li() {
+  let { open: e, openModal: t, closeModal: n } = Oi()
+  return (0, k.jsxs)(`div`, {
+    className: `burnout`,
+    children: [
+      (0, k.jsx)(ki, { open: e, onClose: n }),
+      (0, k.jsxs)(`header`, {
+        className: `flex h-screen relative justify-center`,
         children: [
-          (0, k.jsx)(`p`, { children: `Learn more about burnout in Tech ...` }),
-          (0, k.jsxs)(`a`, {
-            href: `burnout-in-tech`,
+          (0, k.jsx)(Qr, {
+            speed: 2,
+            children: (0, k.jsx)(`div`, {
+              className: `z-10 bg-cyan-800 h-32 w-80 ${A.center}`,
+            }),
+          }),
+          (0, k.jsx)(Qr, {
+            speed: 30,
+            children: (0, k.jsx)(`div`, {
+              className: `z-0 translate-y-48 ${A.center}`,
+              children: (0, k.jsx)(ci, {}),
+            }),
+          }),
+          (0, k.jsx)(Qr, {
+            speed: -10,
+            children: (0, k.jsx)(`h1`, {
+              id: `intro`,
+              className: `${A.center} text-neutral-200 font-bold capitalize w-max text-2xl sm:text-4xl font-mono underline z-20`,
+              children: `Burnout in Tech`,
+            }),
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container} relative z-10 mt-12`,
+        children: [
+          (0, k.jsx)(`p`, {
+            children: `In the 1960s and 1970s, a movement originated in the US to provide free medical treatment to individuals with no health insurance, the Free Clinic Movement.`,
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsx)(`p`, {
+            children: `These clinics were run by volunteers, a mix of nurses, doctors, and students, who worked after their regular workday ended. Due to the prevalence of drug-related issues during that time, the clinics often treated drug related illnesses, and at the time, the term "burnout" was used to describe the physical effects of chronic drug use.`,
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsxs)(`p`, {
             children: [
-              (0, k.jsx)(li, {}),
-              (0, k.jsx)(`p`, { children: `Learn More` }),
+              `A psychologist named Herbert Freudenberg, who worked in these clinics, observed that the workers were becoming depressed, apathetic, and agitated, leading to the popularization of the term`,
+              ` `,
+              (0, k.jsx)(`cite`, { children: `burnout syndrome` }),
+              ` within the community of workers involved in the movement. Freudenberg later wrote several academic papers on this phenomenon.`,
             ],
           }),
         ],
       }),
+      (0, k.jsx)(`hr`, {
+        className: `w-48 sm:w-72 h-1 mx-auto bg-neutral-300 border-0 rounded my-10 `,
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsx)(`p`, {
+            children: (0, k.jsxs)(`b`, {
+              className: `${A.bold}`,
+              children: [
+                `Hi there! `,
+                (0, k.jsx)(`br`, {}),
+                ` You might have come across this page because you have personally experienced burnout, are uncertain if how you’re feeling constitutes burnout or want to help someone that is suffering from burnout. You might even want to learn how to best prevent it.`,
+              ],
+            }),
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsx)(`p`, {
+            children: `I’ll do my best to share what I have discovered in my research, and hopefully you’ll understand burnout a little bit better 😊`,
+          }),
+          (0, k.jsx)(`br`, {}),
+        ],
+      }),
+      (0, k.jsx)(Mi, {}),
+      (0, k.jsxs)(`h2`, {
+        id: `first_header`,
+        className: `${A.h2}`,
+        children: [` `, `What is Burnout?`, ` `],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsxs)(`p`, {
+            children: [
+              `Only recently has the World Health Organisation, WHO, added burnout to it’s characterisation system for illnesses, the ICD-11, in 2019. The WHO defines burnout as`,
+              (0, k.jsx)(`blockquote`, {
+                className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
+                children: (0, k.jsx)(`p`, {
+                  className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
+                  children: `a syndrome resulting from chronic workplace stress that has not been successfully managed`,
+                }),
+              }),
+            ],
+          }),
+          (0, k.jsx)(`div`, {
+            className: `w-52 h-72 m-12 mx-auto`,
+            children: (0, k.jsxs)(`div`, {
+              className: `relative flex justify-center`,
+              children: [
+                (0, k.jsx)(Qr, {
+                  speed: 10,
+                  children: (0, k.jsx)(`div`, {
+                    className: `${A.center} -z-10 mt-12`,
+                    children: (0, k.jsx)(ri, {}),
+                  }),
+                }),
+                (0, k.jsx)(Qr, {
+                  speed: 7,
+                  children: (0, k.jsx)(`div`, {
+                    className: `${A.center} z-10`,
+                    children: (0, k.jsx)(ni, {}),
+                  }),
+                }),
+              ],
+            }),
+          }),
+          (0, k.jsxs)(`p`, {
+            children: [
+              `One cannot talk about burnout without mentioning Christina Maslach, the pioneer researcher who has devoted her life to researching occupational burnout since the 70’s. The basis of her work laid the foundation for the WHO’s recognition of burnout as a workplace syndrome. Maslach defines burnout as`,
+              (0, k.jsx)(`blockquote`, {
+                className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
+                children: (0, k.jsx)(`p`, {
+                  className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
+                  children: `a psychological syndrome that involves a prolonged response to chronic situational stressors on the job`,
+                }),
+              }),
+              ` `,
+              `Her work led to the identification of the following three burnout dimensions:`,
+            ],
+          }),
+          (0, k.jsx)(`div`, {
+            className: `w-fit m-auto my-8`,
+            children: (0, k.jsx)(si, {}),
+          }),
+          (0, k.jsx)(`p`, {
+            children: `One important point that arises from the definitions of burnout is that it only manifests in the workplace setting, highlighting the role of employers and organizations as essential factors in its development. Burnout being the consequence of a malfunctioning system.`,
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsx)(`p`, {
+            children: `Going through stressful periods at work, like working extra to meet a deadline, is unavoidable at times. However, burnout arises when this stress becomes a constant. It follows that to avoid burnout and help burnt out people, not only the individuals must be helped, but the workplace as well.`,
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsxs)(`p`, {
+            children: [
+              `To not only focus on the negative, it is interesting to note that job engagement, defined as`,
+              (0, k.jsx)(`blockquote`, {
+                className: `p-4 my-4 border-l-4 border-gray-500 bg-cyan-800`,
+                children: (0, k.jsx)(`p`, {
+                  className: `text-base sm:text-xl italic font-medium leading-relaxed text-neutral-200`,
+                  children: `an energetic state of involvement with personally fulfilling activities that enhance one's sense of professional efficacy`,
+                }),
+              }),
+              `is considered as being the opposite state of burnout. Having engagement as a desired outcome in the workplace in the back of our minds, helps us think about the factors in the workplace that we should strive for, and that gives us energy and enjoyment.`,
+            ],
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`h3`, {
+        id: `first_header_sub_1`,
+        className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
+        children: [`Burnout Dimensions`, ` `],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsx)(`p`, {
+            children: `Many associate burnout with the feeling of being exhausted, not having the energy to accomplish basic tasks. But exhaustion is but one of the facets of burnout.`,
+          }),
+          Fi.map((e) => (0, k.jsx)(Pi, { ...e }, e.label)),
+        ],
+      }),
+      (0, k.jsxs)(`h3`, {
+        id: `first_header_sub_2`,
+        className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
+        children: [`Why is Burnout Bad?`, ` `],
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container}`,
+        children: (0, k.jsx)(`p`, {
+          children: `Burnout acts as a mediator of both work and personal health outcomes.`,
+        }),
+      }),
+      (0, k.jsx)(`h4`, {
+        className: `${A.sub_header_container} text-xl`,
+        children: `Health`,
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsxs)(`p`, {
+            children: [
+              `The exhaustion dimension of burnout, being the closest related to stress is also the one most predictive of stress-related health outcomes. Exhaustion has been found to correlate with stress symptoms like `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `headaches`,
+              }),
+              `,`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `chronic fatigue`,
+              }),
+              `,`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `gastrointestinal disorders`,
+              }),
+              `,`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `muscle tension`,
+              }),
+              `,`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `hypertension`,
+              }),
+              `,`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `cold/flu episodes`,
+              }),
+              ` and`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `changes in sleep patterns`,
+              }),
+              `. Workload and exhaustion has also been found to correlate with`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `incidences of workplace injuries`,
+              }),
+              `, and burnout has been linked to unhealthy lifestyles like`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `smoking, alcohol and drug use`,
+              }),
+              `.`,
+              ` `,
+            ],
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsxs)(`p`, {
+            children: [
+              `Mental health wise, burnout has been found to be predictive of`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `depression and anxiety`,
+              }),
+              `. A Finnish study on burnout found that 90 percent of the those with severe burnout reported having physical or mental diseases like`,
+              ` `,
+              (0, k.jsxs)(`b`, {
+                className: `${A.bold}`,
+                children: [` `, `musculoskeletal pain and depression`, ` `],
+              }),
+              `as the most common problems. Other research has also found burnout predictive of the emergence of`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `cardiovascular problems, type 2 diabetes`,
+              }),
+              ` `,
+              `and a links between burnout and`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `inflammation biomarkers`,
+              }),
+              `.`,
+            ],
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `mx-2 sm:mx-auto mt-12 md:w-2/4 flex justify-between`,
+        children: [
+          (0, k.jsxs)(`div`, {
+            className: `group`,
+            children: [
+              (0, k.jsx)(hi, {}),
+              (0, k.jsxs)(`ul`, {
+                className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-red-950 rounded-md bg-[#6A3B3B] p-2 sm:text-sm text-xs whitespace-nowrap`,
+                children: [
+                  (0, k.jsx)(`li`, { children: `- smoking` }),
+                  (0, k.jsx)(`li`, { children: `- alcohol use` }),
+                  (0, k.jsx)(`li`, { children: `- drug use` }),
+                ],
+              }),
+            ],
+          }),
+          (0, k.jsxs)(`div`, {
+            className: `group`,
+            children: [
+              (0, k.jsx)(`div`, { children: (0, k.jsx)(mi, {}) }),
+              (0, k.jsxs)(`ul`, {
+                className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#694339] p-2 sm:text-sm text-xs whitespace-nowrap`,
+                children: [
+                  (0, k.jsx)(`li`, { children: `- depression` }),
+                  (0, k.jsx)(`li`, { children: `- anxiety` }),
+                ],
+              }),
+            ],
+          }),
+          (0, k.jsxs)(`div`, {
+            className: `group`,
+            children: [
+              (0, k.jsxs)(`div`, {
+                className: `sm:mx-8`,
+                children: [(0, k.jsx)(pi, {}), ` `],
+              }),
+              (0, k.jsxs)(`ul`, {
+                className: `mx-auto mt-4 p-2 
+              group-hover:opacity-100 opacity-0 transition-all active:opacity-100
+              text-cyan-100 border-2 border-pink-950 rounded-md bg-[#733950]
+              sm:text-sm text-xs sm:whitespace-nowrap whitespace-break-spaces`,
+                children: [
+                  (0, k.jsx)(`li`, { children: `- headaches` }),
+                  (0, k.jsx)(`li`, { children: `- chronic fatigue` }),
+                  (0, k.jsx)(`li`, { children: `- gastrointestinal issues` }),
+                  (0, k.jsx)(`li`, { children: `- muscle tension` }),
+                  (0, k.jsx)(`li`, { children: `- hypertension` }),
+                  (0, k.jsx)(`li`, { children: `- cold/flu episodes` }),
+                  (0, k.jsx)(`li`, { children: `- sleep changes` }),
+                  (0, k.jsx)(`li`, { children: `- workplace injuries` }),
+                  (0, k.jsx)(`li`, { children: `- musculoskeletal pain` }),
+                  (0, k.jsx)(`li`, { children: `- cardiovascular problems` }),
+                  (0, k.jsx)(`li`, { children: `- type 2 diabetes` }),
+                  (0, k.jsx)(`li`, { children: `- inflammation biomarkers` }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+      (0, k.jsx)(`h4`, {
+        className: `${A.sub_header_container} text-xl`,
+        children: `Work`,
+      }),
+      (0, k.jsxs)(`p`, {
+        className: `${A.content_container}`,
+        children: [
+          `Burnout is associated with several forms of negative responses to work, including`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `job dissatisfaction, low commitment to the organization, absenteeism, intention to quit the job, and employee turnover`,
+          }),
+          `. Those experiencing burnout can also have a`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `negative impact on their colleagues by causing personal conflicts or disrupting job tasks`,
+          }),
+          `. `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `Poor job performance `,
+          }),
+          `is one of the most significant consequences of burnout in the workplace, which could have severe consequences in certain professions, even leading to fatal outcomes.`,
+          ` `,
+        ],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `w-fit mx-auto my-4 group align-center`,
+        children: [
+          (0, k.jsx)(`div`, {
+            className: `w-fit mx-auto`,
+            children: (0, k.jsx)(gi, {}),
+          }),
+          (0, k.jsxs)(`ul`, {
+            className: `group-hover:opacity-100 opacity-0 transition-opacity active:opacity-100 mt-4 text-cyan-100 border-2 border-orange-950 rounded-md bg-[#684D38] p-2 sm:text-sm text-xs whitespace-nowrap`,
+            children: [
+              (0, k.jsx)(`li`, { children: `- job dissatisfaction` }),
+              (0, k.jsx)(`li`, { children: `- low commitment` }),
+              (0, k.jsx)(`li`, { children: `- absenteeism` }),
+              (0, k.jsx)(`li`, { children: `- intention to quit` }),
+              (0, k.jsx)(`li`, { children: `- employee turnover` }),
+              (0, k.jsx)(`li`, { children: `- causing conflicts` }),
+              (0, k.jsx)(`li`, { children: `- disrupting job tasks` }),
+              (0, k.jsx)(`li`, { children: `- poor job performance` }),
+            ],
+          }),
+        ],
+      }),
+      (0, k.jsx)(`h3`, {
+        id: `first_header_sub_3`,
+        className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
+        children: `Job Engagement`,
+      }),
+      (0, k.jsx)(`p`, {
+        className: `${A.content_container}`,
+        children: `It is important to note that employee engagement, the opposite of burnout, is incredibly powerful and important for organisations thriving.`,
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `w-fit mx-auto my-4`,
+        children: [(0, k.jsx)(_i, {}), ` `],
+      }),
+      (0, k.jsxs)(`p`, {
+        className: `${A.content_container}`,
+        children: [
+          `Research into high performing organisations in software development has shown that`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `employee engagement and satisfaction`,
+          }),
+          ` `,
+          `are indicative of`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `employee loyalty and identity`,
+          }),
+          `, they can`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `help reduce the likelihood of burnout`,
+          }),
+          ` `,
+          `while`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `driving key organizational outcomes such as profitability, productivity, and market share.`,
+          }),
+          ` `,
+          `Employees in high-performing teams were`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `twice as likely to recommend their organization to a friend as a great place to work.`,
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`p`, {
+        className: `${A.content_container}`,
+        children: [
+          `Moreover, employee engagement doesn't just benefit the workers; it drives business outcomes as well. Research has found`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `significant correlations between engagement and how well organizations collect and utilize customer feedback`,
+          }),
+          `, as well as the`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `ability of teams to visualize and understand the development process from start to finish.`,
+          }),
+          ` `,
+          `Engagement is also linked to`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `how much employees align with their workplace's values and goals,`,
+          }),
+          ` `,
+          `and`,
+          ` `,
+          (0, k.jsx)(`b`, {
+            className: `${A.bold}`,
+            children: `how much effort they're willing to put in to ensure the organization's success.`,
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`h2`, {
+        id: `second_header`,
+        className: `${A.h2}`,
+        children: [` `, `Areas of Worklife Scale`, ` `],
+      }),
+      (0, k.jsx)(`div`, {
+        className: `w-fit m-auto my-8`,
+        children: (0, k.jsx)(yi, {}),
+      }),
+      (0, k.jsx)(`p`, {
+        className: `${A.content_container}`,
+        children: `Maslach's research resulted in the identification of six key domains in worklife, as situational predictors of burnout. The key idea is that finding a good fit between the person and their job is essential. This model identifies areas of work that can impact a person's job satisfaction and engagement, or lead to burnout.`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container}`,
+        children: Ii.map((e) => (0, k.jsx)(Pi, { ...e }, e.label)),
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container}`,
+        children: (0, k.jsxs)(`p`, {
+          children: [
+            `While it may be difficult to get all worklife dimensions in perfect shape, it is neither necessary. These areas should be considered entry points for creating a better workplace. The organization can still be a good place to work even if it does not excel in all aspects. However, to prevent burnout, certain dimensions must be strong and well functioning.`,
+            ` `,
+          ],
+        }),
+      }),
+      (0, k.jsx)(`h2`, {
+        id: `third_header`,
+        className: `${A.h2}`,
+        children: `Personal Characteristics`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `w-fit m-auto mb-8`,
+        children: (0, k.jsx)(vi, {}),
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsx)(`p`, {
+            children: `We have established that the work environment plays an important role in the development of burnout. However, certain personal characteristics have also been found to correlate with burnout.`,
+          }),
+          ` `,
+          (0, k.jsx)(`br`, {}),
+          ` `,
+          (0, k.jsxs)(`p`, {
+            children: [
+              ` `,
+              `Age is one of those variables, as`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `younger employees `,
+              }),
+              ` tend to have higher rates of burnout compared to those over 30 or 40 years old. Gender has not been identified as a strong predictor of burnout, but males tend to score slightly higher on cynicism, while females tend to score higher on exhaustion. In terms of personality traits, individuals with `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: `Type A behavior `,
+              }),
+              ` `,
+              `(competitive, impatient and aggressive) tend to have higher rates of burnout, and`,
+              ` `,
+              (0, k.jsx)(`b`, {
+                className: `${A.bold}`,
+                children: ` people high on neuroticism, `,
+              }),
+              `which is a trait from the Big Five personality dimensions, has also been closely linked to burnout. A person's home life is also important in their susceptibility to burnout. As those experiencing stress in their personal life are more vulnerable to developing burnout.`,
+            ],
+          }),
+        ],
+      }),
+      (0, k.jsx)(`h2`, {
+        id: `fourth_header`,
+        className: `${A.h2}`,
+        children: `Job demands in tech`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container}`,
+        children: (0, k.jsx)(`p`, {
+          children: `Nicole Forsgren, Jez Humble, and Gene Kim, Kim is known for authoring The Phoenix Project, conducted a study on over 2000 organizations worldwide to identify the practices that result in high-performing tech organizations. The results of their research is compiled into the book Accelerate, which highlights the impact of Lean Software and DevOps on tech organizations.`,
+        }),
+      }),
+      (0, k.jsxs)(`h3`, {
+        id: `fourth_header_sub_1`,
+        className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
+        children: [`Lean Management Practices`, ` `],
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}`,
+        children: [
+          (0, k.jsxs)(`p`, {
+            children: [
+              `According to the authors, Lean management practices have a strong positive influence on software delivery performance and team culture, while also reducing burnout and promoting a more generative culture. Practices such as`,
+              ` `,
+              (0, k.jsxs)(`b`, {
+                className: `${A.bold}`,
+                children: [
+                  `limiting Work In Process, implementing visual management, providing feedback from production, and implementing lightweight change approval processes`,
+                  ` `,
+                ],
+              }),
+              ` `,
+              `were found to contribute to these positive outcomes.`,
+            ],
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsx)(`p`, {
+            children: `The core principles of Lean management involve granting employees the necessary time and resources to improve their work and creating an environment that supports experimentation, failure and learning, and which allows employees to make decisions that impact their jobs.`,
+          }),
+        ],
+      }),
+      (0, k.jsxs)(`h3`, {
+        id: `fourth_header_sub_1`,
+        className: `${A.sub_header_container} mt-8 mb-4 text-2xl`,
+        children: [`Making work sustainable`, ` `],
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container} mb-4`,
+        children: (0, k.jsx)(`p`, {
+          children: `Factors within organizations that strongly correlate with high levels of burnout were identified in the research, with suggestions for how to address these problems.`,
+        }),
+      }),
+      (0, k.jsx)(`h3`, {
+        className: `${A.sub_header_container}`,
+        children: `Organizational culture`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container} mb-4`,
+        children: (0, k.jsx)(`p`, {
+          children: `Organizational culture was found to predict software delivery performance and organizational performance. A power oriented culture, characterized by low cooperation, nontransparence and blaming have employees with strong feelings of burnout. Managers can counteract by creating a blame free environment, learn from failures and communicating shared sense of purpose, in that way transforming the culture into a generative one.`,
+        }),
+      }),
+      (0, k.jsx)(`h3`, {
+        className: `${A.sub_header_container}`,
+        children: `Deployments`,
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `${A.content_container}  mb-4`,
+        children: [
+          (0, k.jsx)(`p`, {
+            children: `A high correlation was found between deployment pain, which contributes to feelings of stress and lack of control, and poor IT performance, organizational performance and organizational culture. Systems should be designed to be deployed easily, be able to detect and tolerate failure and have loosely coupled architectures, so that it’s components can be updated easily. They should also be able to automatically reproduce the state of production systems from information in version control.`,
+          }),
+          (0, k.jsx)(`br`, {}),
+          (0, k.jsx)(`p`, {
+            children: `A 2020 survey of more than 500 software developers in North America examining the state of Big Code, which refers to the dramatic growth in the volume and complexity of code, found that 88% of teams admitted that evry release caused some anxiety. When asked about the emotions that code releases make them feel, there was a 50/50 response of satisfaction vs fear or anxiety.`,
+          }),
+        ],
+      }),
+      (0, k.jsx)(`h3`, {
+        className: `${A.sub_header_container}`,
+        children: `Leaders`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container} mb-4`,
+        children: (0, k.jsx)(`p`, {
+          children: `Teams with effective leaders reported lower levels of burnout. These leaders are known for limiting work in process and removing roadblocks that hinders the team's progress.`,
+        }),
+      }),
+      (0, k.jsx)(`h3`, {
+        className: `${A.sub_header_container}`,
+        children: `Skills Development`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container} mb-4`,
+        children: (0, k.jsx)(`p`, {
+          children: `Organizations that prioritize the development of their teams' skills and abilities have better outcomes. Invest in training and providing adequate support and resources for acquiring new skills, are vital for the succesull adoption of DevOps practices that improve software delivery and performance.`,
+        }),
+      }),
+      (0, k.jsx)(`h3`, {
+        className: `${A.sub_header_container}`,
+        children: `Organizational performance`,
+      }),
+      (0, k.jsx)(`div`, {
+        className: `${A.content_container}`,
+        children: (0, k.jsx)(`p`, {
+          children: `Research shows that the implementation of Lean management and continuous delivery practices has a positive impact on software delivery performance, leading to an improvement in overall organizational performance.`,
+        }),
+      }),
+      (0, k.jsxs)(`div`, {
+        className: `w-fit m-auto my-8 self-center text-center`,
+        children: [
+          (0, k.jsx)(`h3`, {
+            className: `text-neutral-200 font-bold capitalize leading-8 text-xl`,
+            children: `Test what you have learned`,
+          }),
+          (0, k.jsx)(Rn, {
+            to: `burnout-in-tech/intro`,
+            children: (0, k.jsx)(Ni, {}),
+          }),
+        ],
+      }),
+      (0, k.jsx)(Ei, { openModal: t }),
+    ],
+  })
+}
+function Ri() {
+  return (0, k.jsx)(`div`, {
+    children: (0, k.jsxs)(Rn, {
+      to: `burnout-in-tech`,
+      children: [
+        (0, k.jsx)(li, {}),
+        (0, k.jsx)(`p`, { children: `Learn More` }),
+      ],
     }),
-  zi = ({ text: e, href: t }) =>
-    (0, k.jsx)(`a`, {
+  })
+}
+var zi = ({ text: e, href: t }) =>
+    (0, k.jsx)(Rn, {
       className: `border-neutral-50 border-solid border-2 py-2 px-4 rounded-md text-neutral-50`,
-      href: t,
+      to: t,
       children: e,
     }),
   Bi = () =>
