@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Parallax } from "react-scroll-parallax"
 
 import {
@@ -577,9 +578,9 @@ export default function Burnout() {
         </h3>
         {/* Prortype:
          "https://www.figma.com/proto/0aR0EDHOKOrSddx8CSUwLp/Untitled?type=design&node-id=204-146&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A146" */}
-        <a href="burnout-in-tech/intro" rel="noreferrer">
+        <Link to="burnout-in-tech/intro">
           <PlayIcon />
-        </a>
+        </Link>
       </div>
 
       <Footer openModal={openModal} />
