@@ -13,7 +13,6 @@ import {
   JobPersonSVG,
   AwsSVG,
 } from "../assets/"
-
 import Footer from "../components/Footer"
 import Modal, { useModal } from "../components/Modal"
 import Navigation from "../components/Navigation"
@@ -32,11 +31,11 @@ const styles = {
     "sm:mx-auto w-fit mx-4 md:w-2/4 text-neutral-200 font-bold capitalize leading-8",
 }
 
-const Burnout = () => {
+export default function Burnout() {
   const { open, openModal, closeModal } = useModal()
 
   return (
-    <>
+    <div className="burnout">
       <Modal open={open} onClose={closeModal} />
       <header className="flex h-screen relative justify-center">
         <Parallax speed={2}>
@@ -584,7 +583,6 @@ const Burnout = () => {
       </div>
 
       <Footer openModal={openModal} />
-    </>
+    </div>
   )
 }
-export default Burnout
