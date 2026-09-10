@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/phajsi/burnout-spa#readme",
   "engines": {
-    "node": ">=24.18.1",
+    "node": ">=24.21.0",
     "pnpm": "11.17.0"
   },
   "dependencies": {
@@ -29,7 +29,7 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
-    "@types/node": "^24.13.3",
+    "@types/node": "^24.13.4",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.0.5",
