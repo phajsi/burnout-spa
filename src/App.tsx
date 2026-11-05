@@ -1,6 +1,8 @@
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom"
 import Burnout from "./pages/Burnout"
 import Home from "./pages/Home"
+import PersonalLayout from "./components/PersonalLayout"
+import PersonalCollection from "./pages/PersonalCollection"
 import SceneIntro from "./pages/SceneIntro"
 import Scene1 from "./pages/Scene1"
 
@@ -14,8 +16,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route index element={<Home />}></Route>
+        <Route element={<PersonalLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/blog"
+            element={<PersonalCollection collection="blog" />}
+          />
+          <Route
+            path="/travel"
+            element={<PersonalCollection collection="travel" />}
+          />
+        </Route>
         <Route element={<BurnoutLayout />}>
           <Route path="burnout-in-tech" element={<Burnout />}></Route>
           <Route path="burnout-in-tech/intro" element={<SceneIntro />}></Route>
