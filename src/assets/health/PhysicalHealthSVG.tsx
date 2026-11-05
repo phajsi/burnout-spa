@@ -17,7 +17,7 @@ const PhysicalHealthSVG = () => {
         stroke="#ECFEFF"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default PhysicalHealthSVG;
+export default PhysicalHealthSVG

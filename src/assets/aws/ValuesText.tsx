@@ -41,6 +41,6 @@ const ValuesText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default ValuesText;
+  )
+}
+export default ValuesText

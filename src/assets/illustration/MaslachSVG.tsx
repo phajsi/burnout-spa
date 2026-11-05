@@ -18,7 +18,7 @@ const MaslachSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default MaslachSVG;
+export default MaslachSVG

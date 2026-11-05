@@ -62,7 +62,7 @@ const PlayIcon = () => {
         </defs>
       </svg>
     </button>
-  );
-};
+  )
+}
 
-export default PlayIcon;
+export default PlayIcon

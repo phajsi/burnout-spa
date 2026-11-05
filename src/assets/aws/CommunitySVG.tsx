@@ -35,6 +35,6 @@ const CommunitySVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default CommunitySVG;
+  )
+}
+export default CommunitySVG

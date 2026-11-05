@@ -40,6 +40,6 @@ const CommunityText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default CommunityText;
+  )
+}
+export default CommunityText

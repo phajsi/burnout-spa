@@ -73,6 +73,6 @@ const ControlSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default ControlSVG;
+  )
+}
+export default ControlSVG

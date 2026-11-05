@@ -36,7 +36,7 @@ const FreudenbergSVG = () => {
         stroke="#ECFEFF"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default FreudenbergSVG;
+export default FreudenbergSVG

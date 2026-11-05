@@ -1,12 +1,12 @@
 type Props = {
-  relates: string;
-  link: string;
-  title: string;
-  author: string;
-  year: string;
-};
+  relates: string
+  link: string
+  title: string
+  author: string
+  year: string
+}
 
-const ModalSesction = (props: Props) => {
+const ModalSection = (props: Props) => {
   return (
     <p className="text-base leading-relaxed text-cyan-100">
       <b>{props.relates}</b>
@@ -17,7 +17,7 @@ const ModalSesction = (props: Props) => {
       </a>{" "}
       by {props.author} ({props.year})
     </p>
-  );
-};
+  )
+}
 
-export default ModalSesction;
+export default ModalSection

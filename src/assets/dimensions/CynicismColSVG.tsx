@@ -90,7 +90,7 @@ const CynicismColSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default CynicismColSVG;
+export default CynicismColSVG

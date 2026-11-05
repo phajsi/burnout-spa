@@ -60,7 +60,7 @@ const ExhaustionColSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default ExhaustionColSVG;
+export default ExhaustionColSVG

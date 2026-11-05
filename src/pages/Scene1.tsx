@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button from "../components/Button"
 
 const Scene1 = () => {
   return (
@@ -11,7 +11,7 @@ const Scene1 = () => {
         <Button text="Next" href="scene-2" />
       </div>
     </main>
-  );
-};
+  )
+}
 
-export default Scene1;
+export default Scene1

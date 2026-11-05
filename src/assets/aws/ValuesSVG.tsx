@@ -36,6 +36,6 @@ const ValuesSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
-export default ValuesSVG;
+  )
+}
+export default ValuesSVG

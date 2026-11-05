@@ -50,6 +50,6 @@ const FairnessText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default FairnessText;
+  )
+}
+export default FairnessText

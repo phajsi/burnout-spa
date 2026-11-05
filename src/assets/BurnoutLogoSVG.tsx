@@ -28,7 +28,7 @@ const BurnoutLogoSVG = () => {
         strokeWidth="12"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default BurnoutLogoSVG;
+export default BurnoutLogoSVG

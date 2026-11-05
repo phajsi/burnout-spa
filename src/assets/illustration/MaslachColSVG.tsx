@@ -20,7 +20,7 @@ const MaslachColSVG = () => {
         fill="#083344"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default MaslachColSVG;
+export default MaslachColSVG

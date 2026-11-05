@@ -14,7 +14,7 @@ const InefficacyColSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default InefficacyColSVG;
+export default InefficacyColSVG

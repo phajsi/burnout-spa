@@ -49,6 +49,6 @@ const WorkloadText = () => {
         fill="white"
       />
     </svg>
-  );
-};
-export default WorkloadText;
+  )
+}
+export default WorkloadText

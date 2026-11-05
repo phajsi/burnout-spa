@@ -21,7 +21,7 @@ const EngagedSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default EngagedSVG;
+export default EngagedSVG

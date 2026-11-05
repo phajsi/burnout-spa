@@ -60,7 +60,7 @@ const JobPersonSVG = () => {
         strokeLinecap="round"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default JobPersonSVG;
+export default JobPersonSVG

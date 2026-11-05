@@ -1,5 +1,7 @@
 # burnout-spa
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8805e07-5b99-4fff-b8d8-e7bfdbf407c8/deploy-status)](https://app.netlify.com/projects/celadon-wisp-aef7ab/deploys)
+
 Welcome to this spa for my own personal project's collections!
 
 ## Getting Started
@@ -83,10 +85,10 @@ pnpm run test:build
 
 ## Node & Package Managers
 
-Project expects Node >= 22.19.0 (see `.nvmrc` / `.node-version`). Using `fnm`:
+Project expects Node >= 22.23.1 (see `.nvmrc` / `.node-version`). Using `fnm`:
 
 ```
-fnm use 22.19.0
+fnm use 22.23.1
 ```
 
 ## Suggested Next Steps
